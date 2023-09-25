@@ -1,0 +1,1170 @@
+/******************************************************************************
+** Uses: CSS for the ACU-500 user interface.
+** Date: 2019-11-20
+******************************************************************************/
+
+/**************************************
+**
+** Colors
+**
+***************************************/
+:root
+{
+  --map-background: #dceaef;
+
+  --side-bar-background: white;
+  --side-bar-cell: #f9f9f9;
+  --side-bar-highlight: #d0d2d3;
+  --side-bar-text: #404040;
+  --icon-color: #50b4e7;
+
+  --charcoal: #404040;
+  --charcoal-text: white;
+
+  --interact-blue: #d0d2d3;
+  --interact-blue-text: white;
+
+  --lite-icon-color: white;
+  --lite-icon-text-color: #404040;
+  --lite-icon-highlight: #50b4e7; /* Blue */
+  --lite-icon-highlight-text: white;
+
+  --main-background-color: Gray;
+  --main-text-color: white;
+  --main-border-radius: 8px 8px 8px 8px;
+  --button-background:
+    linear-gradient(
+      to bottom,
+      rgba( 69, 72, 77, 0.25 ) 0%,
+      rgba(  0,  0,  0, 0.25 ) 100%
+    );
+}
+
+/**************************************
+**
+** Major tags
+**
+***************************************/
+
+/* Make the page take the entire usable area. */
+html, body
+{
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  /* Kiosk mode doesn't want scroll bars */
+  overflow: hidden;
+}
+
+body
+{
+  background-color: var( --map-background );
+}
+
+/*
+** The <main> tag is where the user interface is displayed.  It takes
+** the entire view area.
+*/
+main
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+** The <nav> is used to place main screen navigation icons.
+** Note that these icons are positioned absolutely on the screen.  Thus the
+** holding tag <nav> doesn't have a position.
+*/
+nav
+{
+}
+
+/*
+** By default hide the sections in navigation.
+*/
+aside
+{
+  display: none;
+  height: 100%;
+}
+
+/*
+** The <main> area is sectioned into 3 panels using the <section> tag.
+** These are the settings applied to all 3 panels.
+*/
+main section
+{
+  height: 100%;
+}
+
+/*
+** Font for majority of user interface.
+*/
+main, nav
+{
+  font-family: Arial, sans-serif;
+}
+
+/*
+** The footer is used to house all error and loading elements.
+*/
+footer
+{
+}
+
+/*
+** Currently buttons are only used for debugging.
+** Regular buttons are SVG files in an <object> tag.
+*/
+button
+{
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 5px 10px;
+
+  color: hsl( 0, 0%, 25% );
+  border: thin solid hsl( 0, 0%, 75% );
+
+  background-color: white;
+  cursor: pointer;
+}
+
+button:disabled
+{
+  color: dimgray;
+  border-color: lightgray;
+  cursor: not-allowed;
+}
+
+/*
+** Disable text selection in SVG.
+*/
+svg text
+{
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/**************************************
+**
+** Tabs.
+**
+**************************************/
+.tabs
+{
+  margin-bottom: 0;
+}
+
+.tabs ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li
+{
+  background-color: var( --main-background-color );
+  color: white;
+
+  display: inline-block;
+  border: 2px solid var( --main-background-color );
+  border-style: solid solid hidden solid;
+
+  border-radius: var( --main-border-radius );
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+  padding: 2px 0.5em 2px 0.5em;
+  margin-right: 4px;
+  margin-bottom: -2px;
+  margin-top: 4px;
+  font-size: small;
+  line-height: 18px;
+
+  cursor: pointer;
+}
+
+.tabs ul:not(:first-child)
+{
+  background-color: var( --main-background-color );
+  border-radius: 0 2px 0 0;
+}
+
+.tabs ul:not(:first-child) li
+{
+  background-color: DarkGray;
+}
+
+.tabs li:hover
+{
+  background-color: LightGray !important;
+  color: black;
+}
+
+.tabs li.activeTab, li.activeTab:hover
+{
+  background-color: white !important;
+  color: black;
+}
+
+.tab
+{
+  border: 2px dashed var( --main-background-color );
+  border-style: solid solid solid solid;
+  border-radius: var( --main-border-radius );
+  border-radius: 0 0 2px 2px;
+  padding: 4px;
+  margin-top: 0;
+  background-color: white;
+  height: calc( 100% - 50px );
+  display: none;
+}
+
+/**************************************
+**
+** Navigation and menus.
+**
+***************************************/
+
+/*
+**
+** Navigation buttons.
+** Applied to SVG <object> tags that provide navigation buttons.
+**
+*/
+.navigation
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+
+  border-radius: 30px;
+  padding: 5px;
+  margin: initial;
+  margin-right: 15px;
+}
+
+.navigation:hover
+{
+}
+
+/*
+** Placement of individual navigation buttons.
+*/
+
+#navigationMenu, #closeConfigurationButton
+{
+  position: absolute;
+  top: 42px;
+  right: 32px;
+}
+
+#navigationButtons
+{
+  float: left;
+  height: 55px;
+  display: none;
+}
+
+#mapButton
+{
+  position: absolute;
+  padding: 5px;
+  top: 41px;
+  left: 41px;
+}
+
+#tagListButton
+{
+  position: absolute;
+  top: 117px;
+  right: 32px;
+}
+
+/*
+** Area were view buttons are placed.
+*/
+#viewButtonsDiv
+{
+  position: absolute;
+  bottom: 37px;
+
+  /* Centered at bottom of screen. */
+  left: 25%;
+  width: 50%;
+
+  text-align: center;
+}
+
+/*
+** Style for each view selection button.
+*/
+.viewDiv
+{
+  box-sizing: border-box;
+  display: inline-block;
+
+  margin-right: 10px;
+  line-height: 24px;
+
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+
+  font-size: small;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+
+  background-color: var( --charcoal );
+  color: var( --charcoal-text );
+}
+
+.viewDiv:hover
+{
+  background-color: var( --lite-icon-highlight );
+  color: var( --lite-icon-highlight-text );
+}
+
+/**************************************
+**
+** Panel setup.
+**
+** The tree panels are left, main and right.  The left and right panels have
+** a fixed size, where the center panel takes the remaining space.
+**
+***************************************/
+
+/* Fix position of left and right panel */
+#leftPanel, #rightPanel, main asside
+{
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: var( --side-bar-background );
+  color: var( --side-bar-text );
+
+  display: none;
+}
+
+/* Headings in panels. */
+#leftPanel h2, #rightPanel h2, main asside h2
+{
+  font-size: 22px;
+  padding-bottom: 8px;
+  margin: 18px 15px;
+  border-bottom: thin solid #bbbbbb;
+}
+
+
+#leftPanel article:hover, #rightPanel article:hover
+{
+  background-color: var( --interact-blue );
+}
+
+/*
+**
+** Left panel.
+** This panel houses the alarms list and map legend.
+**
+*/
+
+#leftPanel, main asside
+{
+  width: 270px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#leftSubPanel
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 90px 5px 80px 5px;
+  height: calc( 100% - 90px - 80px );
+  overflow: hidden;
+}
+
+/* This <div> iss designed to take any remaining space in #leftSubPanel above
+** #alarmDiv.
+*/
+#leftPanelLeftover
+{
+  flex-grow: 1;
+}
+
+#alarmDiv
+{
+  flex: 0 1 auto;
+  transition: all 2s;
+}
+
+#alarmSubDiv
+{
+  overflow: auto;
+  max-height: 100%;
+
+  /* Enable flex so alarms can be sorted by severity. */
+  display: flex;
+  flex-direction: column;
+}
+
+#alarmDiv, #alarmSubDiv
+{
+  width: 100%;
+}
+
+.alarmListing
+{
+  margin-bottom: 2px;
+  background-color: var( --side-bar-cell );
+  height: 100px;
+  padding: 10px 5px;
+  width: calc( 100% - 10px );
+  display: flex;
+  flex-direction: row;
+}
+
+.alarmActive1
+{
+  box-sizing: border-box;
+  border: thick solid red;
+  border-radius: 10px;
+  background-color: rgba( 255, 0, 0, 0.25 );
+}
+
+.alarmDivShared
+{
+  max-height: 50%;
+}
+
+.alarmDivFull
+{
+  max-height: 100%;
+}
+
+#alarmSubDiv svg
+{
+  margin-top: 35px;
+}
+
+#alarmSubDiv img
+{
+  margin: 0;
+  width: 40px;
+  height: 100%;
+  float: left;
+}
+
+.alarmText
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.alarmTextInner
+{
+  margin: auto 0;
+  width: 100%;
+}
+
+#alarmSubDiv h3, #alarmSubDiv p
+{
+  margin: 0;
+}
+
+
+/*
+**
+** Right panel.
+**
+*/
+
+#rightPanel
+{
+  width: 220px;
+  margin-top: 160px;
+}
+
+
+#rightPanel h2
+{
+  text-align: center;
+  margin: 15px 15px;
+}
+
+#rightPanel h3
+{
+  font-size: small;
+  margin: 0;
+}
+
+#rightPanel p
+{
+  font-size: x-small;
+  margin: 0;
+}
+
+#rightPanel article
+{
+  background-color: var( --side-bar-cell );
+  border-left: 4px solid rgba( 0, 0, 0, 0 );
+  padding: 2px 5px 2px 5px;
+  height: 30px;
+  margin: 2px;
+  margin-left: 6px;
+}
+
+#rightPanel img
+{
+  width: 25px;
+  float: right;
+  height: 100%;
+}
+
+#activePatients
+{
+  height: calc( 100% - 160px - 130px );
+  overflow: auto;
+}
+
+#activePatients .alarmed
+{
+  background-color: red !important;
+  color: black;
+}
+
+#activePatients .tagActive
+{
+  border-left: 4px solid green;
+}
+
+/*
+**
+** Map
+**
+*/
+
+#map
+{
+  flex-grow: 1;
+  background-color: var( --map-background );
+
+  position: relative;
+}
+
+#floorPlanDiv
+{
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+#noMapDiv
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+#noMapDiv div
+{
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+}
+
+
+/*
+** Floor plan object takes the entire area of #floorPlanDiv.
+**/
+#floorPlan
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+/**************************************
+**
+** Auxiliary elements.
+**
+**************************************/
+
+#viewNameDiv
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY( -50% );
+
+  width: 100px;
+  text-align: center;
+
+  min-height: 20px;
+  line-height: 20px;
+  padding: 0 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: var( --charcoal );
+  color: var( --charcoal-text );
+}
+
+#viewNameInnerDiv
+{
+  position: relative;
+}
+
+#viewNameOuterDiv
+{
+  position: absolute;
+  top: 70px;
+  left: 123px;
+}
+
+#hospitalNameDiv
+{
+  position: absolute;
+  top: 55px;
+  left: 305px;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #dceaefe0;
+  border: thick solid #dceaef;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 15px;
+  border-radius: 15px;
+}
+
+#hopsitalLogo
+{
+  position: absolute;
+  bottom: 29px;
+  right: 25px;
+  width: 260px;
+  height: initial;
+}
+
+/* Popout windows for editing tags. */
+/* $$$DEBUG - Needed?  Why style it with 15px padding up top? */
+#tagEditPopout
+{
+  width: 100%;
+  height: 100%;
+  padding: 15px 0px 0px 0px;
+}
+
+/***************************************/
+
+
+
+/**************************************
+**
+** Debug elements.
+**
+*/
+
+#debugButtons
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.00;
+  display: None;
+}
+
+#debugButtons:hover
+{
+  opacity: 1.00;
+}
+
+#alarmButtons,
+#tagButtons,
+#debugButtons1,
+#debugButtons2
+{
+  display: None;
+}
+
+
+/**************************************
+**
+** Alarm indicator
+**
+*/
+#activeAlarmsDiv
+{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+#alarmBellImage
+{
+  position: absolute;
+  top : 0;
+  left: 0;
+}
+
+#bellIcon
+{
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+
+#alarmCount
+{
+  position: absolute;
+  border: thin solid white;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  top: -4px;
+  left: 35px;
+}
+
+/**************************************
+**
+** Map legend.
+**
+*/
+#mapLegendHeaderDiv
+{
+  flex: 0 0 auto;
+}
+
+#mapLegendDiv
+{
+  flex: 0 1 auto;
+  overflow: auto;
+
+  flex-direction: column;
+
+  background-color: var( --side-bar-cell );
+  display: flex;
+  transition: all 2s;
+}
+
+#legendSubDiv
+{
+  overflow: auto;
+  margin-left: 15px;
+}
+
+#legendTable
+{
+  border-collapse: collapse;
+  font-size: small;
+  width: 100%;
+}
+
+#legendTable td
+{
+  padding: 4px 4px 4px 0.25em;
+}
+
+#legendTable tr:hover
+{
+  background-color: var( --side-bar-highlight );
+}
+
+#mapLegendDiv .highlight
+{
+  background-color: var( --side-bar-highlight );;
+}
+
+#mapLegendDiv .alarmed
+{
+  background-color: red;
+}
+
+/**************************************
+**
+** Error indication.
+** These areas are located in the <footer> tag.
+**
+*/
+
+/*
+** Critical errors prevent the application from continuing to run.
+** They block the entire page and prevent further interaction.
+**
+*/
+
+/* Outer most <div> used to dim/disable the rest of page. */
+.criticalError
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba( 0, 0, 0, 0.85 );
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  display: none;
+}
+
+/* A framed <div> centered on screen to display error message. */
+.criticalError > div:first-of-type
+{
+  min-width: 400px;
+  min-height: 25%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px yellow;
+  padding: 0 1em;
+
+  background-color: black;
+  text-align: center;
+}
+
+/* Heading (used to announce error) */
+.criticalError div h2
+{
+  font-size: xx-large;
+  color: red;
+}
+
+/*
+** Runtime errors are mistakes in the implementation that prevent the
+** application from continuing.
+*/
+
+#runtimeErrorMain
+{
+  height: initial;
+  max-height: calc( 100% - 20px );
+  overflow: hidden;
+}
+
+#runtimeErrorDiv
+{
+  max-height: 10em;
+  overflow: auto;
+}
+
+#runtimeError p
+{
+  margin: 5px 0;
+}
+
+/*
+** The loading <div> is used disable interaction with the main screen until
+** the screen has finished loading and is ready to use.
+*/
+
+#loadingDiv
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba( 0, 0, 0, 0.85 );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+#loadingInnerDiv
+{
+  position: relative;
+  width: 50%;
+  height: 25%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px white;
+
+  background-color: gray;
+  text-align: center;
+  font-size: xx-large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loadingSpinner
+{
+  position: absolute;
+  left: 75px;
+  width:  50px;
+  height: 50px;
+  background-image: url( images/CuddlesIcon.svg );
+}
+
+@keyframes spin
+{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/**************************************
+**
+** View/view setup.
+**
+*/
+#viewButtonsOuter
+{
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  min-width: 10px;
+}
+
+#viewButtonsInner
+{
+  position: relative;
+  left: -50%;
+}
+
+#viewButtonsInner button
+{
+  display: inline-block;
+
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+#patientPicture
+{
+  display: inline-block;
+  line-height: 100px;
+  width: 100px;
+  height: 150px;
+  border: thin solid gray;
+  border-radius: 4px;
+}
+
+#helpTemplate_logo
+{
+  width: 400px;
+
+  display: block;
+  margin: auto;
+}
+
+/**************************************
+**
+** Help screen.
+**
+*/
+#helpTemplate_serverBuild, #helpTemplate_serverHash,
+#helpTemplate_clientBuild, #helpTemplate_clientHash
+{
+  font-size: x-small;
+}
+
+#helpTemplate_VersionsDiv
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#helpTemplate_serverVersionDiv, #helpTemplate_clientVersionDiv
+{
+  border: thin dotted gray;
+  margin: 2px;
+  padding: 4px;
+  flex-grow: 1;
+}
+
+span.versionError
+{
+  color: red;
+}
+
+
+
+#configuration
+{
+  width: 270px;
+  height: 100%;
+  margin: 4px 0 4px 4px;
+}
+
+/**************************************
+**
+** Configuration edit.
+**
+*/
+#configurationEdit select
+{
+  display: block;
+}
+
+#placementTab_Objects input[type=checkbox]
+{
+  display: initial;
+}
+
+#configuration button
+{
+  margin: 5px;
+  min-width: 50px;
+}
+
+#configurationEdit
+{
+  height: calc( 100% - 25px );
+}
+
+#configurationEdit select,
+#systemTab_FacilityName
+{
+  width: calc( 100% - 20px );
+}
+
+#viewRotationButtons
+{
+  text-align: center;
+}
+
+#viewRotationButtons button
+{
+  display: inline-block;
+  margin: 2px;
+  padding: 5px;
+  width: 55px;
+}
+
+button.bigButton
+{
+  display: block;
+  margin: 5px auto;
+  width: 75%;
+  height: 50px;
+}
+
+#receiverId
+{
+  width: 30px;
+}
+
+button.highlight
+{
+  background-color: var( --lite-icon-highlight );
+}
+
+/**************************************
+**
+** Frame for increment/decrement for a value.
+**
+*/
+
+#receiversTab_ReceiverTable, #areasTab_Areas, #controllersTab_Controllers
+{
+  width: 100%;
+  height: calc( 100% - 115px );
+}
+
+#controllersTab_Controllers
+{
+  width: 100%;
+  height: calc( 100% - 155px );
+}
+
+#placementTab_ReceiversDiv
+{
+  width: 100%;
+  height: calc( 100% - 270px );
+}
+
+#clientsTab_ViewsDiv
+{
+  width: 100%;
+  height: 305px;
+  background-color: var( --side-bar-highlight );
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+#configurationEdit .importExport h3
+{
+  margin: 0;
+}
+
+#configurationEdit .importExport
+{
+  margin: 4px;
+  padding: 4px;
+  border: thin solid gray;
+  border-radius: 5px;
+}
+
+
+
+/**************************************
+**
+** Frame for increment/decrement for a value.
+**
+*/
+div.UpDownFrame
+{
+  display: inline-block;
+}
+
+div.UpDownFrame button
+{
+  height: 25px;
+  width: 25px;
+  min-width: initial !important;
+  margin: 0 !important;
+}
+
+div.UpDownFrame input
+{
+  width: 20px;
+  height: 19px;
+  border: thin solid hsl( 0, 0%, 75% );
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0;
+}
+
+/**************************************
+**
+** Styles for embedded SVG files.
+**
+***************************************/
+
+/* When an icon on the map is highlighted. */
+.svgIconHighlight
+{
+  fill: #50b4e7;
+}

@@ -1,0 +1,126 @@
+
+<!-- Main screen alarm indication. -->
+<template id="alarmTemplate">
+  <article id="{id}" style="order: {severity};" class="alarmListing alarmActive{state}">
+    <img src="images/alarm{severityString}.svg" width="60" height="60" alt="" />
+
+    <div class="alarmText">
+      <div class="alarmTextInner">
+        <h3>{name}</h3>
+        <p>{patientName}</p>
+        <p>{roomNumber}</p>
+      </div>
+    </div>
+  </article>
+
+</template>
+
+
+<!-- Event details pop-up body. -->
+<template id="alarmDetailsTemplate">
+  <div id="alarmDetails_Body" style="display: flex; flex-direction: row; width: 100%;">
+    <div style="width: 75%;">
+
+      <div id="tagEdit" class="w2ui-form-box" style="width: 100%; height: 100%">
+        <div class="w2ui-page page-0" style="top: 30px; bottom: 58px;">
+          <div class="w2ui-column-container" style="display: flex;">
+            <div class="w2ui-column col-0">
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Event name</label>
+                <div style="padding-top: 7px;">
+                  {name}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Occurred At</label>
+                <div style="padding-top: 7px;">
+                  {occurredAt}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Event state</label>
+                <div id="alarmDetails_State" style="padding-top: 7px;">
+                  {stateText}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Receiver Number</label>
+                <div style="padding-top: 7px;">
+                  {receiver.number}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Receiver Description</label>
+                <div style="padding-top: 7px;">
+                  {receiver.description}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Tag Number</label>
+                <div style="padding-top: 7px;">
+                  {event.tag}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Patient Name</label>
+                <div style="padding-top: 7px;">
+                  {patient.formatDisplayName}
+                </div>
+              </div>
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Patient Room</label>
+                <div style="padding-top: 7px;">
+                  {patient.room}
+                </div>
+              </div>
+
+
+              <div class="w2ui-field w2ui-span6" style="">
+                <label>Notes</label>
+                <div>
+                  <textarea id="eventNotes" class="w2ui-input" style="min-width: 350px; height: 90px" tabindex="6" id="notes"></textarea>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 25%;">
+
+      <img
+        style="
+          display: block;
+          margin: 1em auto;
+          line-height: 100px;
+          width: 100px;
+          height: 150px;
+          border: thin solid lightgray;
+          border-radius: 5px;
+          box-shadow: 2px 2px 3px hsla(0, 0%, 5%,50%);
+        "
+        alt="Patient picture"
+        src="data:image/png;base64,{patient.photo}"
+      />
+    </div>
+  </div>
+</template>
+
+<!-- Event details pop-up buttons. -->
+<template id="alarmDetailButtonsTemplate">
+  <button id="alarmDetailButtons_Previous" class="w2ui-btn" >Previous</button>
+  <button id="alarmDetailButtons_Close" class="w2ui-btn">Close</button>
+  <button id="alarmDetailButtons_Acknowledge" class="w2ui-btn">Acknowledge</button>
+  <button id="alarmDetailButtons_Next" class="w2ui-btn" >Next</button>
+</template>

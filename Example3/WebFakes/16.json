@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 8 },
+  "notificationRequest": {
+    "name": "patients",
+    "echoBack": { "requestId": 7 }
+  }
+}

@@ -1,0 +1,33 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 31.19 31.19"
+>
+    <defs>
+        <style>
+          .cls-1{fill:#231f20;}
+          .cls-2{fill:#fff;}
+        </style>
+    </defs>
+
+    <!-- <rect class="cls-1" width="31.19" height="31.19" rx="5.59" /> -->
+    <rect fill="inherit" width="31.19" height="31.19" rx="5.59">
+        <animate
+          id="animationFill"
+          attributeName="fill"
+          values="yellow;cyan"
+          dur="1.0s"
+          calcMode="discrete"
+          begin="indefinite"
+          repeatCount="indefinite"
+        />
+    </rect>
+
+    <!-- Door -->
+    <rect class="cls-2" x="9.73" y="3.51" width="11.27" height="24.17" />
+
+
+    <!-- Handle -->
+    <rect class="cls-1" x="10.34" y="14.78" width="4.68" height="1.63" transform="translate(28.27 2.92) rotate(90)" />
+
+    <rect fill="none" stroke="black" stroke-width="2" x="1" y="1" width="29.19" height="29.19" rx="4.25" />
+</svg>

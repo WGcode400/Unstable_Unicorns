@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.11 71.11">
+    <defs>
+        <style>
+          .cls-1{fill:#50b4e7;}
+          .cls-1:hover{fill:#58595b;}
+          .cls-2{fill:#fff;}
+        </style>
+    </defs>
+    <g class="cls-1">
+      <circle cx="35.56" cy="35.56" r="35.56" />
+      <rect class="cls-2" x="22.43" y="25.41" width="26.26" height="3" />
+      <rect class="cls-2" x="22.43" y="34.97" width="26.26" height="3" />
+      <rect class="cls-2" x="22.43" y="44.53" width="26.26" height="3" />
+    </g>
+</svg>

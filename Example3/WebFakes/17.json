@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 9 },
+  "request": {
+    "name": "patients.readAll",
+    "parameters": []
+  }
+}

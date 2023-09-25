@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 6 },
+  "request": {
+    "name": "events.readAll",
+    "parameters": []
+  }
+}

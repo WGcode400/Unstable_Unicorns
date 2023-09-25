@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" lang="en">
+    <title>Tags Editing Test</title>
+    <link rel="stylesheet" href="js/vendor/w2ui.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="js/lowLevel/errorFunction.js"></script>
+    <script src="js/vendor/require.js"></script>
+    <script src="js/lowLevel/configuration.js"></script>
+
+    <script>
+      requirejs
+      (
+        [
+          "units/webSocketConnection",
+          "units/accutechAPI",
+
+          "screens/tagEdit",
+          "library/uuid4",
+          "debug/randomName",
+          "library/template",
+          "vendor/webSocketAPI",
+          "vendor/loremIpsum",
+          "vendor/w2ui",
+          "vendor/jquery-ui"
+        ],
+        function
+        (
+          webSocketConnection,
+          AccutechAPI,
+
+          TagEdit,
+          uuid4,
+          randomName,
+          Template,
+          WebSocketAPI,
+          LoremIpsum,
+          w2ui
+         )
+        {
+          var tagEdit
+          var babyImages
+
+          function updateFields( entry )
+          {
+            entry.middleInitial = entry.middle[ 0 ]
+          }
+
+          function shuffle( array )
+          {
+            for ( let index = array.length - 1; index > 0; index-- )
+            {
+              const randomIndex = Math.floor( Math.random() * index )
+              const temp           = array[ index ]
+              array[ index ]       = array[ randomIndex ]
+              array[ randomIndex ] = temp
+            }
+
+            return array
+          }
+
+          function shuffleEnumeration( count )
+          {
+            return shuffle( Array.from( Array( count ).keys() ) )
+          }
+
+          function generateNewList()
+          {
+            $( "button" ).prop( 'disabled', true )
+
+            console.log( "Generating" )
+
+            const tagIndexes = shuffleEnumeration( babyImages.length + 1 )
+
+            const lipsum = new LoremIpsum()
+            const records = []
+            for ( let id = 1; id <= 25; id += 1 )
+            {
+              const name = randomName.fullName()
+
+              const entry =
+              {
+                recid: id,
+                tag: tagIndexes[ id ] + 1,
+                first: name[ 0 ],
+                middle: name[ 1 ],
+                last: name[ 2 ],
+                room: Math.floor( Math.random() * 9000 + 1000 ),
+                addDate: randomName.date( new Date( 2019, 0, 1 ), new Date() ),
+                notes: lipsum.generate( 25 ),
+                photo: babyImages[ ( id - 1 ) % babyImages.length ]
+              }
+
+              updateFields( entry )
+              records.push( entry )
+            }
+
+            console.log( "Saving" )
+            // Request system configuration.
+            webSocketAPI.makeRequest
+            (
+              "database.setConfiguration",
+              [ "tags", records ],
+              function()
+              {
+                $( "button" ).prop( 'disabled', false )
+                console.log( "Displaying" )
+                displayTags()
+              }
+
+            )
+
+          }
+
+
+          //const WEBSOCKET_PORT = 8001
+          var webSocketAPI
+          var accutechAPI
+
+          function displayTags()
+          {
+            // Get the baby images.
+            webSocketAPI.makeRequest
+            (
+              "debugClass.getBabyImages",
+              [],
+              function( data )
+              {
+                babyImages = shuffle( data )
+                tagEdit = new TagEdit( accutechAPI )
+              }
+            )
+          }
+
+
+          // Establish WebSocket connection to server.
+          webSocketConnection
+          (
+            function( instance )
+            {
+              webSocketAPI = instance
+              accutechAPI = new AccutechAPI( webSocketAPI )
+              accutechAPI.loadFullConfiguration
+              (
+                "",
+                function( configuration )
+                {
+                  displayTags()
+                }
+              )
+            }
+          )
+
+          $( "#newListButton" ).click( generateNewList )
+          $( "#displayButton" ).click( displayTags )
+
+        },
+        requireJS_ErrorFunction
+      )
+    </script>
+
+  </head>
+
+  <body>
+    <div id="main" style="width: 100%; height: 425px;"></div>
+    <button id="newListButton">New Tags</button>
+    <button id="displayButton">Display</button>
+  </body>
+</html>

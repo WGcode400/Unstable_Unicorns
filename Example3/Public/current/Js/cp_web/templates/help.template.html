@@ -1,0 +1,28 @@
+<template id="helpTemplate">
+  <img id="helpTemplate_logo" src="images/CuddlesLogoAnimated.svg" alt="Logo" />
+  <div>
+    <div id="helpTemplate_VersionsDiv">
+
+      <div id="helpTemplate_serverVersionDiv">
+        <h2>Server Version</h2>
+        <p>Version:    <span id="helpTemplate_serverVersion"></span></p>
+        <p>Build date: <span id="helpTemplate_serverBuild"></span></p>
+        <p>Hash:       <span id="helpTemplate_serverHash"></span></p>
+      </div>
+
+      <div id="helpTemplate_clientVersionDiv">
+        <h2>Client Version</h2>
+        <p>Version:    <span id="helpTemplate_clientVersion"></span></p>
+        <p>Build date: <span id="helpTemplate_clientBuild"></span></p>
+        <p>Hash:       <span id="helpTemplate_clientHash"></span></p>
+        <button id="helpTemplate_recompute">Recompute</button>
+      </div>
+
+    </div>
+  </div>
+</template>
+
+<template id="helpTemplateButtons">
+  <button name="Reload" class="w2ui-btn">Reload</button>
+  <button name="Close" class="w2ui-btn">Close</button>
+</template>

@@ -1,0 +1,419 @@
+{
+  "_accutechAPI": {
+    "webSocketAPI": {
+      "requestHandlers": {},
+      "responseHandlers": {},
+      "responseTimeouts": {},
+      "requestId": 10,
+      "isFirstRequest": false,
+      "webSocket": {}
+    },
+    "errorHandlers": [],
+    "tags": {
+      "_webSocketAPI": {
+        "requestHandlers": {},
+        "responseHandlers": {},
+        "responseTimeouts": {},
+        "requestId": 10,
+        "isFirstRequest": false,
+        "webSocket": {}
+      },
+      "_source": "tags"
+    },
+    "events": {
+      "_webSocketAPI": {
+        "requestHandlers": {},
+        "responseHandlers": {},
+        "responseTimeouts": {},
+        "requestId": 10,
+        "isFirstRequest": false,
+        "webSocket": {}
+      },
+      "_source": "events"
+    },
+    "patients": {
+      "_webSocketAPI": {
+        "requestHandlers": {},
+        "responseHandlers": {},
+        "responseTimeouts": {},
+        "requestId": 10,
+        "isFirstRequest": false,
+        "webSocket": {}
+      },
+      "_source": "patients"
+    },
+    "facility": {
+      "_webSocketAPI": {
+        "requestHandlers": {},
+        "responseHandlers": {},
+        "responseTimeouts": {},
+        "requestId": 10,
+        "isFirstRequest": false,
+        "webSocket": {}
+      },
+      "_source": "facility"
+    }
+  },
+  "areas": {
+    "8edb4abf-fed6-4807-b1f0-cd33db1a7d59": {
+      "id": "8edb4abf-fed6-4807-b1f0-cd33db1a7d59",
+      "description": "Floor 1"
+    },
+    "87fad8fe-fac2-40b1-ba58-0d079a048dd9": {
+      "id": "87fad8fe-fac2-40b1-ba58-0d079a048dd9",
+      "description": "Floor 2"
+    },
+    "f21c880f-7cd6-4ddb-aeca-3d9e9d906c2c": {
+      "id": "f21c880f-7cd6-4ddb-aeca-3d9e9d906c2c",
+      "description": "Floor 3"
+    }
+  },
+  "controllers": {
+    "9539b9dd-a2be-47bb-979d-b32a5ea48484": {
+      "id": "9539b9dd-a2be-47bb-979d-b32a5ea48484",
+      "receiverIds": {
+        "0": "0103ffb0-1179-4f3d-a926-d05d9d0c4d25",
+        "1": "bbeb9238-b9a1-482a-9146-b0db993db170"
+      },
+      "areaId": "8edb4abf-fed6-4807-b1f0-cd33db1a7d59",
+      "description": "F1.Z1",
+      "address": 1,
+      "isDoor": 1,
+      "isTx": 1
+    },
+    "989b72de-abd4-4231-a746-4b1fab53fe61": {
+      "id": "989b72de-abd4-4231-a746-4b1fab53fe61",
+      "receiverIds": {
+        "0": "c5db9af7-dfeb-46ae-aa08-f16bf1f8d508"
+      },
+      "areaId": "8edb4abf-fed6-4807-b1f0-cd33db1a7d59",
+      "description": "F1.Z3",
+      "address": 4,
+      "isDoor": 1,
+      "isTx": 1
+    },
+    "a2b8ac7a-912d-4bc6-b220-c72c8ada4776": {
+      "id": "a2b8ac7a-912d-4bc6-b220-c72c8ada4776",
+      "receiverIds": {
+        "0": "000cb0db-c29b-4885-91bc-ad517030c6c0",
+        "1": "2b2efb6a-503e-40ef-bb15-93f6c0994f4e"
+      },
+      "areaId": "87fad8fe-fac2-40b1-ba58-0d079a048dd9",
+      "description": "F2.Z1",
+      "address": 5,
+      "isDoor": 1,
+      "isTx": 1
+    },
+    "764dfc3b-3834-4c20-a888-2c688e3797c3": {
+      "id": "764dfc3b-3834-4c20-a888-2c688e3797c3",
+      "receiverIds": {
+        "0": "2ecdc69b-8b73-44fe-8781-165f0b434eac"
+      },
+      "areaId": "87fad8fe-fac2-40b1-ba58-0d079a048dd9",
+      "description": "F2.Z2",
+      "address": 2,
+      "isDoor": 1,
+      "isTx": 1
+    },
+    "3e77342e-7c0d-4d0d-afa3-d9b9128330f1": {
+      "id": "3e77342e-7c0d-4d0d-afa3-d9b9128330f1",
+      "receiverIds": {
+        "0": "075fd5e4-f346-4fca-be8c-e210f90f2c5d",
+        "1": "9ec8fb20-c071-4e44-af47-645c269dda75"
+      },
+      "areaId": "f21c880f-7cd6-4ddb-aeca-3d9e9d906c2c",
+      "description": "F3.Z1",
+      "address": 3,
+      "isDoor": 1,
+      "isTx": 1
+    },
+    "69de4776-42b8-498b-8289-ba63c94e8362": {
+      "id": "69de4776-42b8-498b-8289-ba63c94e8362",
+      "receiverIds": {
+        "0": "6593b75b-8f98-4fa0-9a21-6a268e70eee7"
+      },
+      "areaId": "f21c880f-7cd6-4ddb-aeca-3d9e9d906c2c",
+      "description": "F3.Z2",
+      "address": 6,
+      "isDoor": 1,
+      "isTx": 1
+    }
+  },
+  "setup": {
+    "facilityName": "Test",
+    "defaultClient": "67339091-b8a8-4c70-811e-bd68130edc0a"
+  },
+  "receivers": {
+    "0103ffb0-1179-4f3d-a926-d05d9d0c4d25": {
+      "id": "0103ffb0-1179-4f3d-a926-d05d9d0c4d25",
+      "number": "1",
+      "description": "Floor 1, left door",
+      "type": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "controllerId": "9539b9dd-a2be-47bb-979d-b32a5ea48484",
+      "channel": 0
+    },
+    "bbeb9238-b9a1-482a-9146-b0db993db170": {
+      "id": "bbeb9238-b9a1-482a-9146-b0db993db170",
+      "number": "2",
+      "description": "Floor 1, receiver 1",
+      "type": "beacon",
+      "controllerId": "9539b9dd-a2be-47bb-979d-b32a5ea48484",
+      "channel": 1
+    },
+    "c5db9af7-dfeb-46ae-aa08-f16bf1f8d508": {
+      "id": "c5db9af7-dfeb-46ae-aa08-f16bf1f8d508",
+      "number": "3",
+      "description": "Floor 1, right door",
+      "type": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "controllerId": "989b72de-abd4-4231-a746-4b1fab53fe61",
+      "channel": 0
+    },
+    "000cb0db-c29b-4885-91bc-ad517030c6c0": {
+      "id": "000cb0db-c29b-4885-91bc-ad517030c6c0",
+      "number": "4",
+      "description": "Floor 2, left door",
+      "type": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "controllerId": "a2b8ac7a-912d-4bc6-b220-c72c8ada4776",
+      "channel": 0
+    },
+    "2ecdc69b-8b73-44fe-8781-165f0b434eac": {
+      "id": "2ecdc69b-8b73-44fe-8781-165f0b434eac",
+      "number": "5",
+      "description": "Floor 2, bottom door",
+      "type": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "controllerId": "764dfc3b-3834-4c20-a888-2c688e3797c3",
+      "channel": 0
+    },
+    "2b2efb6a-503e-40ef-bb15-93f6c0994f4e": {
+      "id": "2b2efb6a-503e-40ef-bb15-93f6c0994f4e",
+      "number": "6",
+      "description": "Floor 2, receiver",
+      "type": "beacon",
+      "controllerId": "a2b8ac7a-912d-4bc6-b220-c72c8ada4776",
+      "channel": 1
+    },
+    "075fd5e4-f346-4fca-be8c-e210f90f2c5d": {
+      "id": "075fd5e4-f346-4fca-be8c-e210f90f2c5d",
+      "number": "7",
+      "description": "Floor 3, bottom door",
+      "type": "doubleDoor",
+      "controllerId": "3e77342e-7c0d-4d0d-afa3-d9b9128330f1",
+      "channel": 0
+    },
+    "6593b75b-8f98-4fa0-9a21-6a268e70eee7": {
+      "id": "6593b75b-8f98-4fa0-9a21-6a268e70eee7",
+      "number": "8",
+      "description": "Floor 3, top door",
+      "type": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "controllerId": "69de4776-42b8-498b-8289-ba63c94e8362",
+      "channel": 0
+    },
+    "9ec8fb20-c071-4e44-af47-645c269dda75": {
+      "id": "9ec8fb20-c071-4e44-af47-645c269dda75",
+      "number": "9",
+      "description": "Floor 3, receiver",
+      "type": "beacon",
+      "controllerId": "3e77342e-7c0d-4d0d-afa3-d9b9128330f1",
+      "channel": 1
+    }
+  },
+  "iconTypes": {
+    "beacon": {
+      "id": "beacon",
+      "icon": "beaconIcon",
+      "description": "Receiver"
+    },
+    "stairs": {
+      "id": "stairs",
+      "icon": "stairsIcon",
+      "description": "Stair access"
+    },
+    "zoneType1": {
+      "id": "zoneType1",
+      "icon": "zoneType1Icon",
+      "description": "Nurse station"
+    },
+    "doubleDoor": {
+      "id": "doubleDoor",
+      "icon": "doubleDoorIcon",
+      "description": "Double doors"
+    },
+    "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3": {
+      "id": "3adaeecf-dd74-4f62-a9f7-e168eaf3fef3",
+      "description": "Single door",
+      "icon": "bb25a830-9598-404c-a622-fa1276f83d38"
+    }
+  },
+  "maps": {
+    "bdeeec0e-a95b-413a-b4af-469c93863cb0": {
+      "id": "bdeeec0e-a95b-413a-b4af-469c93863cb0",
+      "name": "Overview",
+      "image": "69b252c4-dda1-4ade-905d-83feeb71b103",
+      "iconSize": 40,
+      "fontSize": 40,
+      "receivers": {
+        "0103ffb0-1179-4f3d-a926-d05d9d0c4d25": {
+          "id": "0103ffb0-1179-4f3d-a926-d05d9d0c4d25",
+          "xCenter": 253.79322814941406,
+          "yCenter": 141.1142578125,
+          "labelRadius": 62.77268702426984,
+          "labelAngle": 0.7888646976074647
+        },
+        "bbeb9238-b9a1-482a-9146-b0db993db170": {
+          "id": "bbeb9238-b9a1-482a-9146-b0db993db170",
+          "xCenter": 397.94781494140625,
+          "yCenter": 307.6026306152344,
+          "labelRadius": 71.85605769808191,
+          "labelAngle": 0.9637100144803112
+        },
+        "c5db9af7-dfeb-46ae-aa08-f16bf1f8d508": {
+          "id": "c5db9af7-dfeb-46ae-aa08-f16bf1f8d508",
+          "xCenter": 793.8652954101562,
+          "yCenter": 346.1792297363281,
+          "labelRadius": 61.68461451363897,
+          "labelAngle": 0.10092348029819634
+        },
+        "000cb0db-c29b-4885-91bc-ad517030c6c0": {
+          "id": "000cb0db-c29b-4885-91bc-ad517030c6c0",
+          "xCenter": 893.352294921875,
+          "yCenter": 451.7572021484375,
+          "labelRadius": 38.61261958741431,
+          "labelAngle": 0.32397882989201887
+        },
+        "2ecdc69b-8b73-44fe-8781-165f0b434eac": {
+          "id": "2ecdc69b-8b73-44fe-8781-165f0b434eac",
+          "xCenter": 988.778564453125,
+          "yCenter": 599.9724731445312,
+          "labelRadius": 61.31767729956838,
+          "labelAngle": 0.768353706459439
+        },
+        "2b2efb6a-503e-40ef-bb15-93f6c0994f4e": {
+          "id": "2b2efb6a-503e-40ef-bb15-93f6c0994f4e",
+          "xCenter": 1305.5125732421875,
+          "yCenter": 139.0839080810547,
+          "labelRadius": 70.93370731433754,
+          "labelAngle": 0.9537986849882184
+        },
+        "075fd5e4-f346-4fca-be8c-e210f90f2c5d": {
+          "id": "075fd5e4-f346-4fca-be8c-e210f90f2c5d",
+          "xCenter": 448.7064514160156,
+          "yCenter": 839.5533447265625,
+          "labelRadius": 46.56210276236123,
+          "labelAngle": 0.2044442032979049
+        },
+        "6593b75b-8f98-4fa0-9a21-6a268e70eee7": {
+          "id": "6593b75b-8f98-4fa0-9a21-6a268e70eee7",
+          "xCenter": 503.52581787109375,
+          "yCenter": 620.2759399414062,
+          "labelRadius": 45.257845612566314,
+          "labelAngle": 0.19557411061792015
+        },
+        "9ec8fb20-c071-4e44-af47-645c269dda75": {
+          "id": "9ec8fb20-c071-4e44-af47-645c269dda75",
+          "xCenter": 844.6239624023438,
+          "yCenter": 602.0028076171875,
+          "labelRadius": 63.33495724935848,
+          "labelAngle": 0.7677666419067254
+        }
+      }
+    },
+    "fdb36681-c0f2-4f0e-9113-c2a37ace63e6": {
+      "id": "fdb36681-c0f2-4f0e-9113-c2a37ace63e6",
+      "name": "Floor 1",
+      "image": "82b29d78-912a-4053-9e12-e9c42a797075",
+      "iconSize": 20,
+      "fontSize": 20,
+      "receivers": {}
+    },
+    "4a96afa6-0d70-45e2-adb2-83a676179547": {
+      "id": "4a96afa6-0d70-45e2-adb2-83a676179547",
+      "name": "Floor 2",
+      "image": "21b7b677-5c24-4967-aa5b-db7fcd8e0437",
+      "iconSize": 20,
+      "fontSize": 20,
+      "receivers": {}
+    },
+    "9770038e-00b9-43c3-85af-465bf1ff31d5": {
+      "id": "9770038e-00b9-43c3-85af-465bf1ff31d5",
+      "name": "Floor 3",
+      "image": "69b5eafb-610f-4f1e-bd10-578c98d3cebf",
+      "iconSize": 20,
+      "fontSize": 20,
+      "receivers": {}
+    }
+  },
+  "views": {
+    "2dc9ef10-695a-44fa-bd66-c75dede01dd3": {
+      "xOffset": -79.08421136474612,
+      "yOffset": -104.17767410278327,
+      "scale": 1.3310000000000002,
+      "rotation": 0,
+      "mapId": "fdb36681-c0f2-4f0e-9113-c2a37ace63e6",
+      "id": "2dc9ef10-695a-44fa-bd66-c75dede01dd3",
+      "label": "Floor 1"
+    },
+    "d9ebf83a-f4ce-42ea-afc6-f4565320d6dd": {
+      "xOffset": -66.69792388916022,
+      "yOffset": -86.41055877685557,
+      "scale": 1.2100000000000002,
+      "rotation": 0,
+      "mapId": "4a96afa6-0d70-45e2-adb2-83a676179547",
+      "id": "d9ebf83a-f4ce-42ea-afc6-f4565320d6dd",
+      "label": "Floor 2"
+    },
+    "bf9cc2b9-50b6-4e6b-9e40-df80e213b5cd": {
+      "xOffset": 4.543975830078125,
+      "yOffset": 37.923129272460926,
+      "scale": 0.9,
+      "rotation": 0,
+      "mapId": "9770038e-00b9-43c3-85af-465bf1ff31d5",
+      "id": "bf9cc2b9-50b6-4e6b-9e40-df80e213b5cd",
+      "label": "Floor 3"
+    },
+    "05cfe9cd-74be-4e61-bf1d-cf45ae2af61e": {
+      "xOffset": -166.73973259887714,
+      "yOffset": -92.60440577697773,
+      "scale": 1.1979000000000002,
+      "rotation": 0,
+      "mapId": "bdeeec0e-a95b-413a-b4af-469c93863cb0",
+      "id": "05cfe9cd-74be-4e61-bf1d-cf45ae2af61e",
+      "label": "Overview"
+    }
+  },
+  "clientViews": {
+    "67339091-b8a8-4c70-811e-bd68130edc0a": {
+      "id": "67339091-b8a8-4c70-811e-bd68130edc0a",
+      "name": "Default",
+      "views": [
+        "05cfe9cd-74be-4e61-bf1d-cf45ae2af61e"
+      ]
+    },
+    "6330ad12-f207-4a00-ac54-b6df04b6a2f2": {
+      "id": "6330ad12-f207-4a00-ac54-b6df04b6a2f2",
+      "name": "Nurse station 1",
+      "views": [
+        "2dc9ef10-695a-44fa-bd66-c75dede01dd3"
+      ]
+    }
+  },
+  "svgFiles": {
+    "69b252c4-dda1-4ade-905d-83feeb71b103": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 1583.67 936\" xml:space=\"preserve\">\n\n  <style type=\"text/css\">\n  \t.st1{fill:#dceaef;}\n  \t.st20{fill:#eae8ea;stroke:#000000;stroke-width:6;}\n  \t.st21{fill:#dceaef;stroke:#000000;stroke-width:6;}\n  \t.st22{fill:#eae8ea;}\n\n  </style>\n\n  <g id=\"zoomArea\">\n    <g>\n    \t<polygon class=\"st20\" points=\"809.06,373.45 291.23,373.45 291.24,152.02 219.39,152.02 219.39,75.17 809.06,75.17  \"/>\n    \t<rect x=\"291.03\" y=\"373.21\" class=\"st20\" width=\"247.43\" height=\"262.1\"/>\n    \t<rect x=\"538.46\" y=\"373.21\" class=\"st20\" width=\"269.54\" height=\"261.88\"/>\n    \t<polygon class=\"st20\" points=\"880.27,630.57 930.86,630.57 930.86,582.28 1408.71,582.28 1408.71,75.25 879.42,75.25  \"/>\n    \t<rect x=\"880.69\" y=\"75.76\" class=\"st20\" width=\"184.08\" height=\"103.77\"/>\n    \t<polygon class=\"st20\" points=\"880.66,801.08 507.39,801.08 507.39,834.62 380.28,834.62 380.37,801.08 290.14,801.08    290.14,635.09 809.46,635.09 808.81,75.2 880.66,75.2  \"/>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"228.39\" y1=\"151.94\" x2=\"242.7\" y2=\"151.94\"/>\n    \t\t<line class=\"st21\" x1=\"269.65\" y1=\"151.94\" x2=\"286.18\" y2=\"151.94\"/>\n    \t\t<polygon class=\"st1\" points=\"243.05,122.42 269.78,146.61 269.78,161.48 242.94,161.48   \"/>\n    \t\t<path class=\"st21\" d=\"M238.86,118.75c1.4-0.26,3.08-0.31,4.54-0.28c15.72,0.28,29.75,17.53,29.9,36.92\"/>\n    \t\t<line class=\"st21\" x1=\"240.06\" y1=\"114.89\" x2=\"240.06\" y2=\"155.5\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"880.28\" y1=\"76\" x2=\"880.28\" y2=\"90.46\"/>\n    \t\t<line class=\"st21\" x1=\"880.28\" y1=\"117.69\" x2=\"880.28\" y2=\"134.4\"/>\n    \t\t<polygon class=\"st22\" points=\"909.5,90.82 885.56,117.83 870.84,117.83 870.84,90.7   \"/>\n    \t\t<path class=\"st20\" d=\"M913.13,86.58c0.26,1.41,0.3,3.11,0.28,4.58c-0.28,15.89-17.35,30.06-36.54,30.21\"/>\n    \t\t<line class=\"st21\" x1=\"916.95\" y1=\"87.79\" x2=\"876.76\" y2=\"87.79\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"880.66\" y1=\"476.35\" x2=\"880.66\" y2=\"461.89\"/>\n    \t\t<line class=\"st21\" x1=\"880.66\" y1=\"434.67\" x2=\"880.66\" y2=\"417.96\"/>\n    \t\t<polygon class=\"st22\" points=\"909.87,461.54 885.93,434.53 871.21,434.53 871.21,461.66   \"/>\n    \t\t<path class=\"st20\" d=\"M913.5,465.78c0.26-1.41,0.3-3.11,0.28-4.58c-0.28-15.89-17.35-30.06-36.54-30.21\"/>\n    \t\t<line class=\"st21\" x1=\"917.32\" y1=\"464.56\" x2=\"877.13\" y2=\"464.56\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"807.96\" y1=\"615.54\" x2=\"807.96\" y2=\"601.08\"/>\n    \t\t<line class=\"st21\" x1=\"807.96\" y1=\"573.85\" x2=\"807.96\" y2=\"557.14\"/>\n    \t\t<polygon class=\"st22\" points=\"778.75,600.72 802.69,573.71 817.41,573.71 817.41,600.84   \"/>\n    \t\t<path class=\"st20\" d=\"M775.12,604.96c-0.26-1.41-0.3-3.11-0.28-4.58c0.28-15.89,17.35-30.06,36.54-30.21\"/>\n    \t\t<line class=\"st21\" x1=\"771.3\" y1=\"603.75\" x2=\"811.49\" y2=\"603.75\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"808.88\" y1=\"378.4\" x2=\"808.88\" y2=\"363.94\"/>\n    \t\t<line class=\"st21\" x1=\"808.88\" y1=\"336.71\" x2=\"808.88\" y2=\"320\"/>\n    \t\t<polygon class=\"st22\" points=\"779.66,363.58 803.6,336.57 818.32,336.57 818.32,363.7   \"/>\n    \t\t<path class=\"st20\" d=\"M776.04,367.82c-0.26-1.41-0.3-3.11-0.28-4.58c0.28-15.89,17.35-30.06,36.54-30.21\"/>\n    \t\t<line class=\"st21\" x1=\"772.22\" y1=\"366.61\" x2=\"812.41\" y2=\"366.61\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"528.67\" y1=\"635.32\" x2=\"514.36\" y2=\"635.32\"/>\n    \t\t<line class=\"st21\" x1=\"487.41\" y1=\"635.32\" x2=\"470.87\" y2=\"635.32\"/>\n    \t\t<polygon class=\"st22\" points=\"514,605.79 487.27,629.99 487.27,644.86 514.12,644.86   \"/>\n    \t\t<path class=\"st20\" d=\"M518.2,602.13c-1.4-0.26-3.08-0.31-4.54-0.28c-15.72,0.28-29.75,17.53-29.9,36.92\"/>\n    \t\t<line class=\"st21\" x1=\"517\" y1=\"598.27\" x2=\"517\" y2=\"638.88\"/>\n    \t</g>\n    \t<g>\n    \t\t<line class=\"st21\" x1=\"956.54\" y1=\"582.06\" x2=\"970.85\" y2=\"582.06\"/>\n    \t\t<line class=\"st21\" x1=\"997.8\" y1=\"582.06\" x2=\"1014.33\" y2=\"582.06\"/>\n    \t\t<polygon class=\"st22\" points=\"971.2,611.58 997.94,587.39 997.94,572.52 971.09,572.52   \"/>\n    \t\t<path class=\"st20\" d=\"M967.01,615.25c1.4,0.26,3.08,0.31,4.54,0.28c15.72-0.28,29.75-17.53,29.9-36.92\"/>\n    \t\t<line class=\"st21\" x1=\"968.21\" y1=\"619.1\" x2=\"968.21\" y2=\"578.5\"/>\n    \t</g>\n    \t<g>\n    \t\t<g>\n    \t\t\t<line class=\"st21\" x1=\"488.3\" y1=\"834.58\" x2=\"473.99\" y2=\"834.58\"/>\n    \t\t\t<polygon class=\"st22\" points=\"473.63,868.28 446.9,841.41 446.9,824.89 473.75,824.89    \"/>\n    \t\t\t<path class=\"st20\" d=\"M477.83,867.76c-1.4,0.26-3.08,0.31-4.54,0.28c-15.72-0.28-29.75-17.53-29.9-36.92\"/>\n    \t\t\t<line class=\"st21\" x1=\"476.63\" y1=\"871.62\" x2=\"476.63\" y2=\"831.02\"/>\n    \t\t</g>\n    \t\t<g>\n    \t\t\t<line class=\"st21\" x1=\"398.58\" y1=\"834.58\" x2=\"412.89\" y2=\"834.58\"/>\n    \t\t\t<polygon class=\"st22\" points=\"413.24,868.5 439.97,841.49 439.97,824.88 413.13,824.88    \"/>\n    \t\t\t<path class=\"st20\" d=\"M409.05,867.76c1.4,0.26,3.08,0.31,4.54,0.28c15.72-0.28,29.75-17.53,29.9-36.92\"/>\n    \t\t\t<line class=\"st21\" x1=\"410.25\" y1=\"871.62\" x2=\"410.25\" y2=\"831.02\"/>\n    \t\t</g>\n    \t</g>\n\n    </g>\n  </g>\n</svg>",
+    "82b29d78-912a-4053-9e12-e9c42a797075": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 612 792\" style=\"enable-background:new 0 0 612 792;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#eae8ea;stroke:#000000;stroke-width:6;}\n\t.st1{fill:#dceaef;stroke:#000000;stroke-width:6;}\n\t.st2{fill:#dceaef;}\n\t.st3{fill:#dceaef;}\n</style>\n<g id=\"zoomArea\">\n\t<polygon class=\"st0\" points=\"592.43,544.74 74.61,544.74 74.61,323.3 2.76,323.3 2.76,246.46 592.43,246.46  \"/>\n\n\t<!-- Top left door -->\n\t<g>\n\t\t<line class=\"st1\" x1=\"11.76\" y1=\"323.23\" x2=\"26.07\" y2=\"323.23\"/>\n\t\t<line class=\"st1\" x1=\"53.02\" y1=\"323.23\" x2=\"69.55\" y2=\"323.23\"/>\n\t\t<polygon class=\"st2\" points=\"26.42,293.71 53.16,317.9 53.16,332.77 26.31,332.77   \"/>\n\t\t<path class=\"st1\" d=\"M22.23,290.04c1.4-0.26,3.08-0.31,4.54-0.28c15.72,0.28,29.75,17.53,29.9,36.92\"/>\n\t\t<line class=\"st1\" x1=\"23.43\" y1=\"286.18\" x2=\"23.43\" y2=\"326.79\"/>\n\t</g>\n\n\t<!-- Bottom right door -->\n\t<g>\n\t\t<line class=\"st1\" x1=\"592.43\" y1=\"544.74\" x2=\"592.43\" y2=\"530.28\"/>\n\t\t<line class=\"st1\" x1=\"592.43\" y1=\"503.05\" x2=\"592.43\" y2=\"486.34\"/>\n\t\t<polygon class=\"st3\" points=\"563.22,529.92 587.16,502.91 601.88,502.91 601.88,530.04   \"/>\n\t\t<path class=\"st0\" d=\"M559.59,534.16c-0.26-1.41-0.3-3.11-0.28-4.58c0.28-15.89,17.35-30.06,36.54-30.21\"/>\n\t\t<line class=\"st1\" x1=\"555.77\" y1=\"532.95\" x2=\"595.96\" y2=\"532.95\"/>\n\t</g>\n</g>\n</svg>",
+    "21b7b677-5c24-4967-aa5b-db7fcd8e0437": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 612 792\" style=\"enable-background:new 0 0 612 792;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\n\t.st5{fill:#eae8ea;stroke:#000000;stroke-width:6;}\n\t.st6{fill:#dceaef;stroke:#000000;stroke-width:6;}\n\t.st7{fill:#dceaef;}\n\n</style>\n<g id=\"zoomArea\">\n\t<polygon class=\"st5\" points=\"48.63,673.26 99.22,673.26 99.22,624.97 577.08,624.97 577.08,117.94 47.78,117.94  \"/>\n\t<rect x=\"49.06\" y=\"118.45\" class=\"st5\" width=\"184.08\" height=\"103.77\"/>\n\t<g>\n\t\t<line class=\"st6\" x1=\"48.65\" y1=\"118.69\" x2=\"48.65\" y2=\"133.15\"/>\n\t\t<line class=\"st6\" x1=\"48.65\" y1=\"160.37\" x2=\"48.65\" y2=\"177.08\"/>\n\t\t<polygon class=\"st7\" points=\"77.86,133.5 53.92,160.51 39.2,160.51 39.2,133.39   \"/>\n\t\t<path class=\"st5\" d=\"M81.49,129.26c0.26,1.41,0.3,3.11,0.28,4.58c-0.28,15.89-17.35,30.06-36.54,30.21\"/>\n\t\t<line class=\"st6\" x1=\"85.31\" y1=\"130.48\" x2=\"45.12\" y2=\"130.48\"/>\n\t</g>\n\t<g>\n\t\t<line class=\"st6\" x1=\"49.02\" y1=\"519.04\" x2=\"49.02\" y2=\"504.58\"/>\n\t\t<line class=\"st6\" x1=\"49.02\" y1=\"477.36\" x2=\"49.02\" y2=\"460.64\"/>\n\t\t<polygon class=\"st7\" points=\"78.24,504.22 54.3,477.22 39.58,477.22 39.58,504.34   \"/>\n\t\t<path class=\"st5\" d=\"M81.87,508.47c0.26-1.41,0.3-3.11,0.28-4.58c-0.28-15.89-17.35-30.06-36.54-30.21\"/>\n\t\t<line class=\"st6\" x1=\"85.68\" y1=\"507.25\" x2=\"45.5\" y2=\"507.25\"/>\n\t</g>\n\t<g>\n\t\t<line class=\"st6\" x1=\"124.91\" y1=\"624.75\" x2=\"139.22\" y2=\"624.75\"/>\n\t\t<line class=\"st6\" x1=\"166.16\" y1=\"624.75\" x2=\"182.7\" y2=\"624.75\"/>\n\t\t<polygon class=\"st7\" points=\"139.57,654.27 166.3,630.08 166.3,615.2 139.45,615.2   \"/>\n\t\t<path class=\"st5\" d=\"M135.37,657.93c1.4,0.26,3.08,0.31,4.54,0.28c15.72-0.28,29.75-17.53,29.9-36.92\"/>\n\t\t<line class=\"st6\" x1=\"136.57\" y1=\"661.79\" x2=\"136.57\" y2=\"621.18\"/>\n\t</g>\n</g>\n</svg>",
+    "69b5eafb-610f-4f1e-bd10-578c98d3cebf": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 612 792\" style=\"enable-background:new 0 0 612 792;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#eae8ea;stroke:#000000;stroke-width:6;}\n\t.st1{fill:#dceaef;stroke:#000000;stroke-width:6;}\n\t.st2{fill:#dceaef;}\n</style>\n<g id=\"zoomArea\">\n\t<rect x=\"8.11\" y=\"296.9\" class=\"st0\" width=\"247.43\" height=\"262.1\"/>\n\t<rect x=\"255.54\" y=\"296.9\" class=\"st0\" width=\"269.54\" height=\"261.88\"/>\n\t<polygon class=\"st0\" points=\"597.74,724.77 224.47,724.77 224.47,758.31 97.36,758.31 97.45,724.77 7.22,724.77 7.22,558.78   526.54,558.78 525.89,-1.11 597.74,-1.11  \"/>\n\t<g>\n\t\t<line class=\"st1\" x1=\"525.04\" y1=\"539.22\" x2=\"525.04\" y2=\"524.77\"/>\n\t\t<line class=\"st1\" x1=\"525.04\" y1=\"497.54\" x2=\"525.04\" y2=\"480.83\"/>\n\t\t<polygon class=\"st2\" points=\"495.83,524.41 519.77,497.4 534.49,497.4 534.49,524.53   \"/>\n\t\t<path class=\"st0\" d=\"M492.2,528.65c-0.26-1.41-0.3-3.11-0.28-4.58c0.28-15.89,17.35-30.06,36.54-30.21\"/>\n\t\t<line class=\"st1\" x1=\"488.38\" y1=\"527.44\" x2=\"528.57\" y2=\"527.44\"/>\n\t</g>\n\t<g>\n\t\t<line class=\"st1\" x1=\"245.75\" y1=\"559.01\" x2=\"231.44\" y2=\"559.01\"/>\n\t\t<line class=\"st1\" x1=\"204.49\" y1=\"559.01\" x2=\"187.95\" y2=\"559.01\"/>\n\t\t<polygon class=\"st2\" points=\"231.08,529.48 204.35,553.67 204.35,568.55 231.2,568.55   \"/>\n\t\t<path class=\"st0\" d=\"M235.28,525.82c-1.4-0.26-3.08-0.31-4.54-0.28c-15.72,0.28-29.75,17.53-29.9,36.92\"/>\n\t\t<line class=\"st1\" x1=\"234.08\" y1=\"521.96\" x2=\"234.08\" y2=\"562.57\"/>\n\t</g>\n\t<g>\n\t\t<g>\n\t\t\t<line class=\"st1\" x1=\"205.38\" y1=\"758.27\" x2=\"191.07\" y2=\"758.27\"/>\n\t\t\t<polygon class=\"st2\" points=\"190.71,791.97 163.98,765.1 163.98,748.58 190.83,748.58    \"/>\n\t\t\t<path class=\"st0\" d=\"M194.91,791.45c-1.4,0.26-3.08,0.31-4.54,0.28c-15.72-0.28-29.75-17.53-29.9-36.92\"/>\n\t\t\t<line class=\"st1\" x1=\"193.71\" y1=\"795.31\" x2=\"193.71\" y2=\"754.7\"/>\n\t\t</g>\n\t\t<g>\n\t\t\t<line class=\"st1\" x1=\"115.66\" y1=\"758.27\" x2=\"129.97\" y2=\"758.27\"/>\n\t\t\t<polygon class=\"st2\" points=\"130.32,792.19 157.05,765.18 157.05,748.57 130.21,748.57    \"/>\n\t\t\t<path class=\"st0\" d=\"M126.13,791.45c1.4,0.26,3.08,0.31,4.54,0.28c15.72-0.28,29.75-17.53,29.9-36.92\"/>\n\t\t\t<line class=\"st1\" x1=\"127.33\" y1=\"795.31\" x2=\"127.33\" y2=\"754.7\"/>\n\t\t</g>\n\t</g>\n</g>\n</svg>",
+    "beaconIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <rect x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n    <circle fill=\"white\" cx=\"15.59\" cy=\"15.59\" r=\"12.88\">\n      <animate\n        id=\"animationStroke\"\n        attributeName=\"fill\"\n        values=\"black;white\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n    </circle>\n\n    <path d=\"M15.6,29.47A13.88,13.88,0,1,1,29.47,15.6,13.89,13.89,0,0,1,15.6,29.47Zm0-25.75A11.88,11.88,0,1,0,27.47,15.6,11.88,11.88,0,0,0,15.6,3.72Z\" />\n\n    <g>\n      <path d=\"M13.4,25.06a.77.77,0,0,1-.25,0,9.75,9.75,0,0,1-7-6.94,1,1,0,0,1,1.94-.51,7.75,7.75,0,0,0,5.54,5.52,1,1,0,0,1-.25,2Z\" />\n      <path d=\"M17.88,25a1,1,0,0,1-.26-2A7.76,7.76,0,0,0,20.41,9.5a1,1,0,1,1,1.24-1.56A9.75,9.75,0,0,1,18.14,25,.78.78,0,0,1,17.88,25Z\" />\n      <path d=\"M7.09,14.57l-.23,0a1,1,0,0,1-.75-1.21A9.78,9.78,0,0,1,17.12,6a1,1,0,1,1-.31,2A7.78,7.78,0,0,0,8.06,13.8,1,1,0,0,1,7.09,14.57Z\" />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"rotate\"\n\n        from=\"0 15.595 15.595\"\n        to=\"360 15.595 15.595\"\n\n        begin=\"indefinite\"\n        dur=\"5s\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <g>\n      <path d=\"M19.94,12.2a3,3,0,0,0-4.34.6,3,3,0,0,0-4.33-.6c-1.36,1-.89,3.27.6,5.06a23.82,23.82,0,0,0,3.73,3.41,24.26,24.26,0,0,0,3.74-3.41C20.82,15.47,21.29,13.24,19.94,12.2Z\" />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"translate\"\n        values=\"\n          -7.7975 -7.7975;\n          0 0 ;\n          -7.7975 -7.7975;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0\"\n\n        begin=\"indefinite\"\n        dur=\"1.0s\"\n        repeatCount=\"indefinite\"\n      />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"scale\"\n        additive=\"sum\"\n        values=\"\n          1.5;\n          1;\n          1.5;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1\"\n\n        begin=\"indefinite\"\n        dur=\"1.0s\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <animate\n      id=\"animationFill\"\n      attributeName=\"fill\"\n      values=\"red;black\"\n      dur=\"1.0s\"\n      calcMode=\"discrete\"\n      begin=\"indefinite\"\n      repeatCount=\"indefinite\"\n    />\n\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n  </g>\n</svg>\n",
+    "stairsIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <rect x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n    <g fill=\"white\">\n      <polygon points=\"4.16 4.39 4.16 9.53 12.03 14.22 18.54 14.22 18.54 8.33 11.35 8.33 11.35 4.39 4.16 4.39\" />\n      <polygon points=\"20.38 13.1 20.38 16.15 13.18 16.15 13.18 20.47 3.72 20.47 3.72 26.8 9.37 26.8 23.07 19.28 27.85 19.28 27.85 13.1 20.38 13.1\" />\n      <animate\n        id=\"animationStroke\"\n        attributeName=\"fill\"\n        values=\"black;white\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n    </g>\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n\n    <animate\n      id=\"animationFill\"\n      attributeName=\"fill\"\n      values=\"red;black\"\n      dur=\"1.0s\"\n      calcMode=\"discrete\"\n      begin=\"indefinite\"\n      repeatCount=\"indefinite\"\n    />\n\n  </g>\n</svg>",
+    "zoneType1Icon": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"-1 -1 22 22\"\n  version=\"1.1\"\n>\n  <defs>\n    <filter id=\"blurFilter\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n      <feGaussianBlur stdDeviation=\"0.5\" />\n    </filter>\n  </defs>\n  <g id=\"layer1\">\n    <rect\n       style=\"fill:inherit;fill-opacity:1;stroke:black;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n       id=\"box\"\n       width=\"20\"\n       height=\"20\"\n       x=\"0\"\n       y=\"0\"\n       rx=\"5\"\n    />\n    <g id=\"labelGroup\">\n      <text\n         y=\"17.5\"\n         x=\"3\"\n         style=\"font-style:normal;font-weight:normal;font-size:6mm;fill:white;\"\n      >B</text>\n\n      <text\n         y=\"17.75\"\n         x=\"3.25\"\n         id=\"blur\"\n         style=\"font-style:normal;font-weight:normal;font-size:6mm;fill:white;filter:url(#blurFilter)\"\n      >B</text>\n\n    </g>\n  </g>\n</svg>\n",
+    "doubleDoorIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <g>\n      <rect fill=\"inherit\" x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n\n\n      <rect fill=\"white\" x=\"3.51\" y=\"3.51\" width=\"24.17\" height=\"24.17\">\n        <animate\n          id=\"animationStroke\"\n          attributeName=\"fill\"\n          values=\"black;white\"\n          dur=\"1.0s\"\n          calcMode=\"discrete\"\n          begin=\"0s\"\n          repeatCount=\"indefinite\"\n        />\n\n      </rect>\n\n      <polygon fill=\"inherit\" points=\"3.51 3.51 8.36 7.27 8.36 22.01 3.51 27.68 14.77 28.68 14.77 2.51 3.51 3.51\" />\n      <rect fill=\"inherit\" x=\"3.11\" y=\"14.83\" width=\"24.94\" height=\"1.73\" transform=\"translate(31.18 0.01) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"17.14\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(35.08 -3.89) rotate(90)\" />\n\n      <animate\n        attributeName=\"visibility\"\n        values=\"visible;visible;visible;hidden\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        repeatCount=\"indefinite\"\n        begin=\"indefinite\"\n      />\n\n      <animate\n        id=\"animationFill\"\n        attributeName=\"fill\"\n        values=\"red;black\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <g>\n      <!--<rect fill=\"green\" width=\"31.19\" height=\"31.19\" rx=\"5.59\" />-->\n      <rect fill=\"inherit\" x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n\n      <rect fill=\"white\" x=\"3.51\" y=\"3.51\" width=\"24.17\" height=\"24.17\" />\n      <rect fill=\"inherit\" x=\"3.11\" y=\"14.78\" width=\"24.94\" height=\"1.63\" transform=\"translate(31.18 0.01) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"9.31\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(27.24 3.94) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"17.14\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(35.08 -3.89) rotate(90)\" />\n\n      <animate\n        attributeName=\"visibility\"\n        values=\"hidden;hidden;hidden;visible\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        repeatCount=\"indefinite\"\n        begin=\"indefinite\"\n      />\n\n    </g>\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n  </g>\n\n</svg>",
+    "bb25a830-9598-404c-a622-fa1276f83d38": "<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 31.19 31.19\"><defs><style>.cls-1{fill:#231f20;}.cls-2{fill:#fff;}</style></defs><title>200110_CuddlesApp_Icons_Update</title><rect class=\"cls-1\" width=\"31.19\" height=\"31.19\" rx=\"5.59\"/><rect class=\"cls-2\" x=\"9.73\" y=\"3.51\" width=\"11.27\" height=\"24.17\"/><rect class=\"cls-1\" x=\"10.34\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(28.27 2.92) rotate(90)\"/></svg>"
+  },
+  "topologyTimestamp": 1624025701.069,
+  "deltaSets": {
+    "facility": {}
+  },
+  "facility": {
+    "0": {
+      "topologyTimestamp": 0
+    }
+  }
+}

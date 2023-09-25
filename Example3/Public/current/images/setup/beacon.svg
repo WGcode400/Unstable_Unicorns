@@ -1,0 +1,109 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 31.19 31.19"
+>
+  <g>
+    <rect x="1" y="1" width="29.19" height="29.19" rx="5.59" />
+    <circle fill="white" cx="15.59" cy="15.59" r="12.88">
+      <animate
+        id="animationStroke"
+        attributeName="fill"
+        values="black;white"
+        dur="1.0s"
+        calcMode="discrete"
+        begin="indefinite"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <path d="M15.6,29.47A13.88,13.88,0,1,1,29.47,15.6,13.89,13.89,0,0,1,15.6,29.47Zm0-25.75A11.88,11.88,0,1,0,27.47,15.6,11.88,11.88,0,0,0,15.6,3.72Z" />
+
+    <g>
+      <path d="M13.4,25.06a.77.77,0,0,1-.25,0,9.75,9.75,0,0,1-7-6.94,1,1,0,0,1,1.94-.51,7.75,7.75,0,0,0,5.54,5.52,1,1,0,0,1-.25,2Z" />
+      <path d="M17.88,25a1,1,0,0,1-.26-2A7.76,7.76,0,0,0,20.41,9.5a1,1,0,1,1,1.24-1.56A9.75,9.75,0,0,1,18.14,25,.78.78,0,0,1,17.88,25Z" />
+      <path d="M7.09,14.57l-.23,0a1,1,0,0,1-.75-1.21A9.78,9.78,0,0,1,17.12,6a1,1,0,1,1-.31,2A7.78,7.78,0,0,0,8.06,13.8,1,1,0,0,1,7.09,14.57Z" />
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+
+        from="0 15.595 15.595"
+        to="360 15.595 15.595"
+
+        begin="indefinite"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+
+    </g>
+
+    <g>
+      <path d="M19.94,12.2a3,3,0,0,0-4.34.6,3,3,0,0,0-4.33-.6c-1.36,1-.89,3.27.6,5.06a23.82,23.82,0,0,0,3.73,3.41,24.26,24.26,0,0,0,3.74-3.41C20.82,15.47,21.29,13.24,19.94,12.2Z" />
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="
+          -7.7975 -7.7975;
+          0 0 ;
+          -7.7975 -7.7975;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0;
+          0 0"
+
+        begin="indefinite"
+        dur="1.0s"
+        repeatCount="indefinite"
+      />
+
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        additive="sum"
+        values="
+          1.5;
+          1;
+          1.5;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1;
+          1"
+
+        begin="indefinite"
+        dur="1.0s"
+        repeatCount="indefinite"
+      />
+
+    </g>
+
+    <animate
+      id="animationFill"
+      attributeName="fill"
+      values="red;black"
+      dur="1.0s"
+      calcMode="discrete"
+      begin="indefinite"
+      repeatCount="indefinite"
+    />
+
+
+    <rect fill="none" stroke="black" stroke-width="2" x="1.5" y="1.5" width="28.19" height="28.19" rx="4.25" />
+  </g>
+</svg>

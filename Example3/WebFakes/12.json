@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 2 },
+  "notificationRequest": {
+    "name": "tags",
+    "echoBack": { "requestId": 1 }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="20"
+  height="20"
+  viewBox="-1 -1 22 22"
+  version="1.1"
+>
+  <defs>
+    <filter id="blurFilter" x="0" y="0" width="1" height="1">
+      <feGaussianBlur stdDeviation="0.5" />
+    </filter>
+  </defs>
+  <g id="layer1">
+    <rect
+       style="fill:inherit;fill-opacity:1;stroke:black;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="box"
+       width="20"
+       height="20"
+       x="0"
+       y="0"
+       rx="5"
+    />
+    <g id="labelGroup">
+      <text
+         y="17.5"
+         x="3"
+         style="font-style:normal;font-weight:normal;font-size:6mm;fill:white;"
+      >B</text>
+
+      <text
+         y="17.75"
+         x="3.25"
+         id="blur"
+         style="font-style:normal;font-weight:normal;font-size:6mm;fill:white;filter:url(#blurFilter)"
+      >B</text>
+
+    </g>
+  </g>
+</svg>

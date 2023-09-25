@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" lang="en">
+    <title>ACU-500</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="js/vendor/w2ui.css">
+
+    <!-- Inline styles are only for this page. -->
+    <style>
+    </style>
+
+    <script src="js/lowLevel/errorFunction.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/require.js"></script>
+    <script src="js/lowLevel/configuration.js"></script>
+
+    <script>
+
+      // Start application.
+      requirejs
+      (
+        [ 'application' ],
+        null,
+        requireJS_ErrorFunction
+      )
+
+    </script>
+
+  </head>
+  <body>
+
+    <main>
+      <!--
+        Left panel used for topology configuration.
+      -->
+      <aside id="configuration">
+      </aside>
+
+      <!--
+        Left side panel.
+        Only displayed when there are alarms or the map legend is enabled.
+      -->
+      <section id="leftPanel">
+        <div id="leftSubPanel">
+
+          <!--
+            Heading to map legend.
+          -->
+          <div id="mapLegendHeaderDiv">
+            <h2>Map Legend</h2>
+          </div>
+
+          <!--
+            Map legend.
+          -->
+          <div id="mapLegendDiv">
+            <div id="legendSubDiv">
+              <table id="legendTable">
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!--
+            Empty div to grow if area above alarms needs to be filled.
+            Happens if legend is small or isn't enabled.
+          -->
+          <div id="leftPanelLeftover"></div>
+
+          <!--
+            Events/alarms display area.
+          -->
+          <div id="alarmDiv">
+            <div id="alarmSubDiv">
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--
+        Center map area.
+      -->
+      <section id="map">
+        <div id="noMapDiv"><div>No map available.</div></div>
+        <div id="floorPlanDiv"></div>
+        <img id="hopsitalLogo" src="images/cuddlesLogoBW.svg" alt="Logo" />
+      </section>
+
+      <!--
+        Right panel used for infant tags.
+      -->
+      <section id="rightPanel">
+        <h2>Active Infants</h2>
+        <div id="activePatients"></div>
+      </section>
+
+    </main>
+
+    <!--
+      Close button used for topology configuration.  Normally hidden.
+    -->
+    <nav id="configurationNavigation">
+      <object class="navigation" id="closeConfigurationButton" type="image/svg+xml" data="/images/close.svg">Menu</object>
+    </nav>
+
+    <!--
+      Primary navigation buttons.
+    -->
+    <nav id="mainNavigation">
+
+      <!--
+        Hospital name.
+      -->
+      <div id="hospitalNameDiv"></div>
+
+      <!--
+        Name of view.
+      -->
+      <div id="viewNameOuterDiv">
+        <div id="viewNameInnerDiv">
+          <div id="viewNameDiv">
+            (Unavailable)
+          </div>
+        </div>
+      </div>
+
+      <!--
+        Legend toggle button.
+      -->
+      <object id="mapButton" class="navigation" type="image/svg+xml" data="/images/legend.svg">
+        Legend
+      </object>
+
+      <!--
+        View select buttons.
+      -->
+      <div id="viewButtonsDiv">
+      </div>
+
+      <!--
+        Main menu buttons.
+      -->
+      <div id="navigationMenu">
+        <object class="navigation" id="menuButton" type="image/svg+xml" data="/images/menu.svg">Menu</object>
+        <div id="navigationButtons">
+          <object id="tagsButton"      class="navigation" type="image/svg+xml" data="/images/tag.svg"      >Tags      </object>
+          <object id="transferButton"  class="navigation" type="image/svg+xml" data="/images/transfer.svg" >Transfers </object>
+          <object id="userButton"      class="navigation" type="image/svg+xml" data="/images/user.svg"     >User      </object>
+          <object id="reportsButton"   class="navigation" type="image/svg+xml" data="/images/reports.svg"  >Reports"  </object>
+          <object id="setupButton"     class="navigation" type="image/svg+xml" data="/images/setup.svg"    >Setup     </object>
+          <object id="configureButton" class="navigation" type="image/svg+xml" data="/images/blocks.svg"   >Configure </object>
+          <object id="helpButton"      class="navigation" type="image/svg+xml" data="/images/help.svg"     >Help      </object>
+        </div>
+      </div>
+
+      <!--
+        Toggle tags list.
+      -->
+      <object id="tagListButton" class="navigation" type="image/svg+xml" data="/images/tagList.svg">Tag List</object>
+
+      <!--
+        Event notification and total count.
+      -->
+      <div id="activeAlarmsDiv">
+        <div id="bellIcon">
+          <object
+            id="alarmBellImage"
+            type="image/svg+xml"
+            data="/images/bell.svg"
+          >
+            Alarm bell
+          </object>
+
+          <div id="alarmCount">0</div>
+        </div>
+      </div>
+
+      <!--
+        Buttons for debugging purposes.  Subject to change.  Always hidden
+        for production.
+      -->
+      <div id="debugButtons">
+        <div id="alarmButtons">
+          <button id="debug_SetAlarm">Set Alarm</button>
+          <button id="debug_ClearAlarms">Clear All</button>
+          <button id="debug_AckAlarms">Ack. All</button>
+        </div>
+        <div id="tagButtons">
+          <div>
+            <button id="debug_ImportTags">Import tags</button>
+            <button id="debug_ExportTags">Export tags</button>
+            <button id="debug_FlushTags">Flush tags</button>
+          </div>
+          <div>
+            <button id="debug_TagEnables">Tags enables</button>
+            <button id="debug_TagDump">Tags dump</button>
+          </div>
+        </div>
+        <div id="debugButtons1">
+          <button id="reload">Reload</button>
+          <button id="debug_ButtonA">A</button>
+          <button id="debug_ButtonB">B</button>
+          <button id="debug_ButtonC">C</button>
+          <button id="debug_ButtonD">D</button>
+        </div>
+        <div id="debugButtons2">
+          <button id="debug_ButtonE">E</button>
+          <button id="debug_ButtonF">F</button>
+          <button id="debug_ButtonG">G</button>
+          <button id="debug_ButtonH">H</button>
+          <button id="debug_ButtonI">I</button>
+          <button id="debug_ButtonJ">J</button>
+        </div>
+      </div>
+
+    </nav>
+
+    <!--
+      Everything in the foot is normally not displayed.  This area is reserved
+      for full-screen messages that override the default page functionality.
+    -->
+    <footer>
+      <!--
+        Page loading indicator.
+      -->
+      <div id="loadingDiv">
+        <div id="loadingInnerDiv">
+          <div id="loadingSpinner"></div>
+          Loading...
+        </div>
+      </div>
+
+      <!--
+        Dropped communications to server indicator.
+      -->
+      <div class="criticalError" id="serverError">
+        <div>
+          <h2>&lt;&Lt;&Ll;&nbsp;Communication&nbsp;Error&nbsp;&Gg;&gg;&gt;</h2>
+          <p>Unable able to communicate to server.</p>
+        </div>
+      </div>
+
+      <!--
+        Run-time error.
+      -->
+      <div class="criticalError" id="runtimeError">
+        <div id="runtimeErrorMain">
+          <h2>Runtime error</h2>
+          <div id="runtimeErrorDiv">
+            <p id="runtimeError_Message"></p>
+            <p id="runtimeError_Location"></p>
+          </div>
+          <button onclick="location.reload()">Reload</button>
+        </div>
+      </div>
+
+      <!--
+        This is an empty SVG that has one element used for synchronizing
+        animation.
+      -->
+      <svg id="animationSyncSVG" xmlns="http://www.w3.org/2000/svg" >
+        <animate
+          id="animationSync"
+          dur="1.0s"
+          begin="0s"
+          repeatCount="indefinite"
+        />
+      </svg>
+
+    </footer>
+
+  </body>
+</html>

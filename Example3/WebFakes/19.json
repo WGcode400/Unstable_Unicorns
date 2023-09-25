@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 12 },
+  "request": {
+    "name": "facility.readAll",
+    "parameters": []
+  }
+}

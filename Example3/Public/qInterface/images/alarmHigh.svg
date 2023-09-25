@@ -1,0 +1,42 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="23.315 23.315 46.63 46.63"
+>
+    <defs>
+        <style>
+          .linear-gradient-class{ fill:url(#linear-gradient); }
+          .radial-gradient-class{ fill:url(#radial-gradient); }
+          .radial-gradient-class2{ fill:url(#radial-gradient2); }
+        </style>
+
+        <linearGradient id="linear-gradient" x1="46.51" y1="54.28" x2="46.76" y2="37.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="0.09" stop-color="#f7f7f7" />
+            <stop offset="0.22" stop-color="#e1e1e1" />
+            <stop offset="0.38" stop-color="#bdbdbd" />
+            <stop offset="0.57" stop-color="#8a8a8a" />
+            <stop offset="0.78" stop-color="#4a4a4a" />
+            <stop offset="1" />
+        </linearGradient>
+
+        <radialGradient id="radial-gradient" cx="46.63" cy="46.04" r="9.01" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ec1c24" />
+            <stop offset="0.17" stop-color="#e41b24" />
+            <stop offset="0.44" stop-color="#ce1a24" />
+            <stop offset="0.77" stop-color="#aa1724" />
+            <stop offset="1" stop-color="#8c1524" />
+        </radialGradient>
+
+        <radialGradient id="radial-gradient2" cx="46.63" cy="46.04" r="25" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ff00005F" />
+            <stop offset="0.75" stop-color="#ff000010" />
+            <stop offset="1" stop-color="#ff000000" />
+        </radialGradient>
+    </defs>
+
+    <circle class="radial-gradient-class2" cx="46.63" cy="46.04" r="25" />
+    <path class="linear-gradient-class" d="M46.63,54.42A8.39,8.39,0,1,1,55,46,8.4,8.4,0,0,1,46.63,54.42Zm0-13.77A5.39,5.39,0,1,0,52,46,5.39,5.39,0,0,0,46.63,40.65Z" />
+    <circle class="radial-gradient-class" cx="46.63" cy="46.04" r="6.89" />
+
+</svg>

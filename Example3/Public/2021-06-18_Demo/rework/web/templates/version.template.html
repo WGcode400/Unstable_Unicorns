@@ -1,0 +1,27 @@
+<template id="versionTemplate">
+  <div>
+    <div id="versionsDiv">
+
+      <div id="versionTemplate_serverVersionDiv">
+        <h2>Server Version</h2>
+        <p>Version:    <span id="versionTemplate_serverVersion"></span></p>
+        <p>Build date: <span id="versionTemplate_serverBuild"></span></p>
+        <p>Hash:       <span id="versionTemplate_serverHash"></span></p>
+      </div>
+
+      <div id="versionTemplate_clientVersionDiv">
+        <h2>Client Version</h2>
+        <p>Version:    <span id="versionTemplate_clientVersion"></span></p>
+        <p>Build date: <span id="versionTemplate_clientBuild"></span></p>
+        <p>Hash:       <span id="versionTemplate_clientHash"></span></p>
+        <button id="versionTemplate_recompute">Recompute</button>
+      </div>
+
+    </div>
+  </div>
+</template>
+
+<template id="versionTemplateButtons">
+  <button name="Reload" class="w2ui-btn">Reload</button>
+  <button name="Close" class="w2ui-btn">Close</button>
+</template>

@@ -1,0 +1,43 @@
+//Requests 11-21
+//Responses 0-10
+{
+  "echoBack": { "requestId": 0 },
+  "requests": {
+    "areas": {
+      "name": "database.getConfiguration",
+      "parameters": "areas"
+    },
+    "controllers": {
+      "name": "database.getConfiguration",
+      "parameters": "controllers"
+    },
+    "setup": {
+      "name": "database.getConfiguration",
+      "parameters": "setup"
+    },
+    "receivers": {
+      "name": "database.getConfiguration",
+      "parameters": "receivers"
+    },
+    "iconTypes": {
+      "name": "database.getConfiguration",
+      "parameters": "iconTypes"
+    },
+    "maps": {
+      "name": "database.getConfiguration",
+      "parameters": "maps"
+    },
+    "views": {
+      "name": "database.getConfiguration",
+      "parameters": "views"
+    },
+    "clientViews": {
+      "name": "database.getConfiguration",
+      "parameters": "clientViews"
+    },
+    "topologyTimestamp": {
+      "name": "database.getConfiguration",
+      "parameters": "topologyTimestamp"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 71.11 71.11"
+>
+    <defs>
+        <style>
+          #all  #backgrond
+          {
+            fill:#50b4e7;
+          }
+
+          #all:hover #backgrond
+          {
+            fill:#58595b;
+          }
+
+          .st2{stroke:#000000;stroke-width:1.25;stroke-miterlimit:10;}
+          .st3{font-family:'MyriadPro-Regular';}
+          .st4{font-size:18px;}
+
+          .cls-2{ fill:white; }
+        </style>
+    </defs>
+
+    <g id="all">
+    <circle id="backgrond" class="cls-1" cx="36.09" cy="35.56" r="35.56">
+      <animate
+        attributeName="fill"
+        values="red;black"
+        dur="1.0s"
+        calcMode="discrete"
+        repeatCount="indefinite"
+        begin="indefinite"
+      />
+
+    </circle>
+
+    <g>
+      <!-- Bell -->
+      <path class="cls-2" d="M54.88,51.19H17.31V40.4h1.5a2.94,2.94,0,0,0,2.94-2.93V31.38a14.34,14.34,0,0,1,8.7-13.18,5.65,5.65,0,0,1,11.29,0,14.34,14.34,0,0,1,8.7,13.18v6.09a2.94,2.94,0,0,0,2.94,2.93h1.5Zm-34.57-3H51.88v-5a5.94,5.94,0,0,1-4.44-5.74V31.38A11.34,11.34,0,0,0,39.7,20.63l-1.21-.4L38.7,19a2,2,0,0,0,0-.42,2.66,2.66,0,1,0-5.31,0,2,2,0,0,0,.05.43l.2,1.26-1.2.4a11.34,11.34,0,0,0-7.74,10.75v6.09a5.94,5.94,0,0,1-4.44,5.74Z" />  
+
+      <!-- Reflection -->
+      <path class="cls-2" d="M31.55,32h-3A7.56,7.56,0,0,1,33,25.16l1.23,2.74A4.55,4.55,0,0,0,31.55,32Z" />
+        
+      <!-- Clear Text -->
+      <text transform="matrix(1.1033 0 0 1 3.585 40.4502)" class="st2 st3 st4">CLEAR</text>
+        
+      <!-- Clapper  -->
+      <path class="cls-2" d="M36.09,58.7a7.59,7.59,0,0,1-7.16-10l2.84,1a4.57,4.57,0,1,0,8.89,1.48,4.47,4.47,0,0,0-.22-1.41l2.86-.92a7.59,7.59,0,0,1-7.21,9.9Z" />
+
+      <!-- Ring the bell by rotating the group -->
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+
+        values  ="0 35.555 10 ; -15 35.555 10 ; 0 35.555 10  ; 15 35.555 10 ; 0 35.555 10;"
+        keyTimes="0.00    ; 0.25      ;     0.50 ; 0.75     ; 1;"
+
+        dur="0.20s"
+        repeatCount="indefinite"
+        begin="indefinite"
+      />
+
+    </g>
+    </g>
+
+</svg>

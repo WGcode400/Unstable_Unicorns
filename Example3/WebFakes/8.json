@@ -1,0 +1,7 @@
+{
+  "echoBack": { "requestId": 12 },
+  "response": {
+    "data": { "1": { "id": "1" } },
+    "error": null
+  }
+}

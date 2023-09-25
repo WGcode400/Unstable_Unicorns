@@ -1,0 +1,10 @@
+﻿{
+  "request": {
+    "name": "mapIconNotification",
+    "parameters": {
+      "notificationId": "4d884ba2-e1aa-46ad-8785-429869994466",
+      "parameters": "cded6efe-d598-479e-bee8-396909cf1e4e"
+    },
+    "requestId": "89fd2733-4ded-4022-8bd1-7fcbb5765095"
+  }
+}

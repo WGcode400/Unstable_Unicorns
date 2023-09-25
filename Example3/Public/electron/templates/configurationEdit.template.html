@@ -1,0 +1,229 @@
+<template id="configurationEditTemplate">
+  <div id="configurationEdit">
+    <div class="tabs">
+      <ul>
+        <li data-tab-name="assetsTab"   >Assets</li>
+        <li data-tab-name="placementTab">Place</li>
+        <li data-tab-name="viewsTab"    >Views</li>
+        <li data-tab-name="controllersTab">Controllers</li>
+      </ul>
+      <ul>
+        <li data-tab-name="systemTab" >System</li>
+        <li data-tab-name="clientsTab">Clients</li>
+        <li data-tab-name="areasTab"  >Areas</li>
+        <li data-tab-name="receiversTab"  >Recv.</li>
+      </ul>
+
+    </div>
+
+    <div class="tab" id="areasTab" >
+      <h2>Control Areas</h2>
+
+      <button id="areasTab_Add">Add Area</button>
+      <button id="areasTab_Remove">Remove Area</button>
+
+      <div id="areasTab_Areas">
+      </div>
+    </div>
+
+    <div class="tab" id="controllersTab" >
+      <h2>Controllers</h2>
+
+      <button id="controllersTab_Add">Add</button>
+      <button id="controllersTab_Remove">Remove</button>
+
+      <div id="controllersTab_Controllers">
+      </div>
+
+      <div class="importExport">
+        <button id="controllersTab_Import">Import</button>
+        <button id="controllersTab_Export">Export</button>
+        <button id="controllersTab_Flush">Flush</button>
+      </div>
+
+    </div>
+
+    <div class="tab" id="receiversTab" >
+      <button id="receiversTab_AddReceiver">Add Receiver</button>
+      <button id="receiversTab_RemoveReceiver">Remove Receiver</button>
+
+      <div id="receiversTab_ReceiverTable">
+      </div>
+
+      <div class="importExport">
+        <h3>All Receivers</h3>
+        <button id="receiversTab_Import">Import</button>
+        <button id="receiversTab_Export">Export</button>
+        <button id="receiversTab_Flush">Flush</button>
+      </div>
+    </div>
+
+    <div class="tab" id="assetsTab">
+      <h2>Assets</h2>
+
+      <div>
+        <label for="assetsTab_ReceiverIcons">Receiver icons</label>
+        <select id="assetsTab_ReceiverIcons"></select>
+        <button id="assetsTab_AddReceiverIcon">Add</button>
+        <button id="assetsTab_RemoveReceiverIcon">Remove</button>
+        <button id="assetsTab_ModifyReceiverIcon">Modify</button>
+        <div id="assetTab_selectedIcon">
+        </div>
+      </div>
+
+      <div>
+        <label for="assetsTab_AudioFiles">Audio files</label>
+        <select id="assetsTab_AudioFiles" disabled="disabled"></select>
+        <button id="assetsTab_AddAudioFile" disabled="disabled">Add</button>
+        <button id="assetsTab_RemoveAudioFile" disabled="disabled">Remove</button>
+      </div>
+
+      <div class="importExport">
+        <h3>All Assets</h3>
+        <button id="assetsTab_Export">Export</button>
+        <button id="assetsTab_Import">Import</button>
+        <input type="file" id="assetsTab_File" style="display: none" />
+        <button id="assetsTab_Flush">Flush</button>
+      </div>
+    </div>
+
+    <div class="tab" id="placementTab">
+      <h2>Receiver placement</h2>
+
+      <div id="placementTab_Objects">
+
+        <label for="placementTab_MapSelection">Map selection</label>
+        <select id="placementTab_MapSelection"></select>
+
+        <button class="bigButton" id="placementTab_SaveButton">Save</button>
+
+        <div id="placementTab_IconFrame" class="UpDownFrame">
+          <label for="placementTab_PixelSize">Icon size</label>
+          <button>+</button>
+          <input type="text" value="" id="placementTab_IconSize" />
+          <button>-</button>
+        </div>
+
+        <div id="placementTab_FontFrame" class="UpDownFrame">
+          <label for="placementTab_FontSize">Font size</label>
+          <button>+</button>
+          <input type="text" value="" id="placementTab_FontSize" />
+          <button>-</button>
+        </div>
+
+        <button id="placementTab_RevertButton">Revert</button>
+        <button id="placementTab_ResetViewButton">Reset zoom</button>
+        <button id="placementTab_UnselectButton">Unselect</button>
+        <button id="placementTab_RemoveButton">Remove</button>
+
+      </div>
+
+      <div id="placementTab_ReceiversDiv">
+      </div>
+
+    </div>
+
+    <div class="tab" id="viewsTab" >
+      <h2>View Creation</h2>
+
+      <div>
+        <label for="viewsTab_ViewSelect">View to edit</label>
+        <select id="viewsTab_ViewSelect"></select>
+
+        <button id="viewsTab_AddViewButton">Add</button>
+        <button id="viewsTab_RemoveViewButton">Remove</button>
+        <button id="viewsTab_RenameViewButton">Rename</button>
+        <button id="viewsTab_SaveViewsButton" class="bigButton">Save</button>
+      </div>
+
+      <div>
+        <h3>Map Management</h3>
+        <label for="viewsTab_MapSelect">Map for view</label>
+        <select id="viewsTab_MapSelect"></select>
+
+        <button id="viewsTab_AddMapButton">Add</button>
+        <button id="viewsTab_RemoveMapButton">Remove</button>
+        <button id="viewsTab_RenameMapButton">Rename</button>
+
+        <div id="viewRotationButtons">
+          <button id="viewsTab_Rotate_0"  >0&deg;</button>
+          <button id="viewsTab_Rotate_90L">&#8630; 90&deg;</button>
+          <button id="viewsTab_Rotate_90R">&#8631; 90&deg;</button>
+          <button id="viewsTab_Rotate_180">&#8634; 180&deg;</button>
+        </div>
+
+      </div>
+
+      <div>
+        <h3>Flushing</h3>
+        <button id="viewsTab_FlushMaps">Flush Map</button>
+        <button id="viewsTab_FlushViews">Flush Views</button>
+      </div>
+
+    </div>
+
+    <div class="tab" id="clientsTab" >
+      <h2>Client Views</h2>
+
+      <label for="clientsTab_ClientSelect">Client to edit</label>
+      <select id="clientsTab_ClientSelect"></select>
+
+      <div>
+        <button id="clientsTab_AddClient">Add client</button>
+        <button id="clientsTab_RemoveClient">Remove</button>
+        <button id="clientsTab_RenameClient">Rename</button>
+      </div>
+      <div>
+        <button id="clientsTab_Add">Add view</button>
+        <button id="clientsTab_Remove">Remove view</button>
+      </div>
+      <div>
+        <button id="clientsTab_Save">Save</button>
+        <button id="clientsTab_Revert">Revert changes</button>
+      </div>
+
+      <div id="clientsTab_ViewsDiv">
+      </div>
+
+      <div>
+        <label for="clientsTab_ClientURL">Client URL:</label>
+        <input type="text" readonly="readonly" value="" id="clientsTab_ClientURL" />
+        <button id="clientsTab_Copy">Copy URL</button>
+        <button id="clientsTab_Open">Open</button>
+      </div>
+
+    </div>
+
+    <div class="tab" id="systemTab" >
+      <h2>System Setup</h2>
+
+      <div>
+        <label for="systemTab_FacilityName">Facility name:</label>
+        <input type="text" value="" id="systemTab_FacilityName" />
+      </div>
+      <label for="systemTab_DefaultClient">Default client</label>
+      <select id="systemTab_DefaultClient"></select>
+      <button id="systemTab_SaveButton" class="bigButton">Save</button>
+
+      <div class="importExport" id="systemTab_FullSystemDiv">
+        <h3>Full System</h3>
+        <button id="systemTab_ImportButton">Import</button>
+        <button id="systemTab_ExportButton">Export</button>
+        <button id="systemTab_FlushButton">Flush</button>
+      </div>
+
+      <button id="systemTab_CommitButton" class="bigButton">Commit Topology</button>
+
+    </div>
+
+  </div>
+
+</template>
+
+<template id="configurationEditAreaTemplate">
+      <!--
+        Left panel used for topology configuration.
+      -->
+      <aside id="configuration">
+      </aside>
+</template>

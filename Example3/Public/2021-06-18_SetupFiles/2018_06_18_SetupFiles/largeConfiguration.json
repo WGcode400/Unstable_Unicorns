@@ -1,0 +1,1729 @@
+{
+  "areas": {
+    "areaA": {
+      "id": "areaA",
+      "description": "Area A"
+    },
+    "areaB": {
+      "id": "areaB",
+      "description": "Area B"
+    }
+  },
+  "controllers": {
+    "Z1": {
+      "id": "Z1",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 1,
+      "description": "Z1",
+      "receiverIds": {
+        "0": "Z1.R0",
+        "1": "Z1.R1",
+        "2": "Z1.R2",
+        "3": "Z1.R3",
+        "4": "Z1.R4"
+      }
+    },
+    "Z2": {
+      "id": "Z2",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 2,
+      "description": "Z2",
+      "receiverIds": {
+        "0": "Z2.R0"
+      }
+    },
+    "Z3": {
+      "id": "Z3",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 3,
+      "description": "Z3",
+      "receiverIds": {
+        "0": "Z3.R0",
+        "1": "Z3.R1",
+        "2": "Z3.R2",
+        "3": "Z3.R3",
+        "4": "Z3.R4",
+        "5": "Z3.R5"
+      }
+    },
+    "Z4": {
+      "id": "Z4",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 4,
+      "description": "Z4",
+      "receiverIds": {
+        "0": "Z4.R0"
+      }
+    },
+    "Z5": {
+      "id": "Z5",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 5,
+      "description": "Z5",
+      "receiverIds": {
+        "0": "Z5.R0"
+      }
+    },
+    "Z6": {
+      "id": "Z6",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 6,
+      "description": "Z6",
+      "receiverIds": {
+        "0": "Z6.R0",
+        "1": "Z6.R1",
+        "2": "Z6.R2",
+        "3": "Z6.R3",
+        "4": "Z6.R4",
+        "5": "Z6.R5"
+      }
+    },
+    "Z7": {
+      "id": "Z7",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 7,
+      "description": "Z7",
+      "receiverIds": {
+        "0": "Z7.R0"
+      }
+    },
+    "Z8": {
+      "id": "Z8",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 8,
+      "description": "Z8",
+      "receiverIds": {
+        "0": "Z8.R0",
+        "1": "Z8.R1",
+        "2": "Z8.R2",
+        "3": "Z8.R3",
+        "4": "Z8.R4"
+      }
+    },
+    "Z9": {
+      "id": "Z9",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 9,
+      "description": "Z9",
+      "receiverIds": {
+        "0": "Z9.R0",
+        "1": "Z9.R1",
+        "2": "Z9.R2",
+        "3": "Z9.R3",
+        "4": "Z9.R4",
+        "5": "Z9.R5"
+      }
+    },
+    "Z10": {
+      "id": "Z10",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 10,
+      "description": "Z10",
+      "receiverIds": {
+        "0": "Z10.R0",
+        "1": "Z10.R1",
+        "2": "Z10.R2",
+        "3": "Z10.R3",
+        "4": "Z10.R4"
+      }
+    },
+    "Z11": {
+      "id": "Z11",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 11,
+      "description": "Z11",
+      "receiverIds": {
+        "0": "Z11.R0"
+      }
+    },
+    "Z12": {
+      "id": "Z12",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 12,
+      "description": "Z12",
+      "receiverIds": {
+        "0": "Z12.R0",
+        "1": "Z12.R1",
+        "2": "Z12.R2",
+        "3": "Z12.R3",
+        "4": "Z12.R4"
+      }
+    },
+    "Z13": {
+      "id": "Z13",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 13,
+      "description": "Z13",
+      "receiverIds": {
+        "0": "Z13.R0",
+        "2": "Z13.R2"
+      }
+    },
+    "Z14": {
+      "id": "Z14",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 14,
+      "description": "Z14",
+      "receiverIds": {
+        "0": "Z14.R0",
+        "3": "Z14.R3",
+        "4": "Z14.R4"
+      }
+    },
+    "Z15": {
+      "id": "Z15",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 15,
+      "description": "Z15",
+      "receiverIds": {
+        "0": "Z15.R0",
+        "1": "Z15.R1",
+        "2": "Z15.R2",
+        "3": "Z15.R3",
+        "4": "Z15.R4"
+      }
+    },
+    "Z16": {
+      "id": "Z16",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 16,
+      "description": "Z16",
+      "receiverIds": {
+        "0": "Z16.R0"
+      }
+    },
+    "Z17": {
+      "id": "Z17",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 17,
+      "description": "Z17",
+      "receiverIds": {
+        "0": "Z17.R0",
+        "1": "Z17.R1",
+        "2": "Z17.R2"
+      }
+    },
+    "Z18": {
+      "id": "Z18",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 18,
+      "description": "Z18",
+      "receiverIds": {
+        "0": "Z18.R0",
+        "1": "Z18.R1",
+        "2": "Z18.R2",
+        "3": "Z18.R3",
+        "4": "Z18.R4"
+      }
+    },
+    "Z19": {
+      "id": "Z19",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 19,
+      "description": "Z19",
+      "receiverIds": {
+        "0": "Z19.R0"
+      }
+    },
+    "Z20": {
+      "id": "Z20",
+      "isTx": false,
+      "areaId": "areaA",
+      "isDoor": false,
+      "address": 20,
+      "description": "Z20",
+      "receiverIds": {
+        "0": "Z20.R0",
+        "1": "Z20.R1",
+        "3": "Z20.R3",
+        "4": "Z20.R4",
+        "5": "Z20.R5",
+        "6": "Z20.R6",
+        "7": "Z20.R7",
+        "8": "Z20.R8"
+      }
+    },
+    "Z21": {
+      "id": "Z21",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 21,
+      "description": "Z21",
+      "receiverIds": {
+        "0": "Z21.R0"
+      }
+    },
+    "Z22": {
+      "id": "Z22",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 22,
+      "description": "Z22",
+      "receiverIds": {
+        "0": "Z22.R0"
+      }
+    },
+    "Z23": {
+      "id": "Z23",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 23,
+      "description": "Z23",
+      "receiverIds": {
+        "0": "Z23.R0"
+      }
+    },
+    "Z24": {
+      "id": "Z24",
+      "isTx": true,
+      "areaId": "areaA",
+      "isDoor": true,
+      "address": 24,
+      "description": "Z24",
+      "receiverIds": {
+        "0": "Z24.R0"
+      }
+    },
+    "Z30": {
+      "id": "Z30",
+      "isTx": true,
+      "areaId": "areaB",
+      "isDoor": true,
+      "address": 30,
+      "description": "Z30",
+      "receiverIds": {
+        "0": "Z30.R0",
+        "1": "Z30.R1"
+      }
+    },
+    "Z32": {
+      "id": "Z32",
+      "isTx": false,
+      "areaId": "areaB",
+      "isDoor": false,
+      "address": 32,
+      "description": "Z32",
+      "receiverIds": {
+        "0": "Z32.R0"
+      }
+    },
+    "Z34": {
+      "id": "Z34",
+      "isTx": true,
+      "areaId": "areaB",
+      "isDoor": true,
+      "address": 34,
+      "description": "Z34",
+      "receiverIds": {
+        "0": "Z34.R0",
+        "1": "Z34.R1"
+      }
+    },
+    "Z35": {
+      "id": "Z35",
+      "isTx": true,
+      "areaId": "areaB",
+      "isDoor": true,
+      "address": 35,
+      "description": "Z35",
+      "receiverIds": {
+        "0": "Z35.R0"
+      }
+    },
+    "Z36": {
+      "id": "Z36",
+      "isTx": true,
+      "areaId": "areaB",
+      "isDoor": true,
+      "address": 36,
+      "description": "Z36",
+      "receiverIds": {
+        "0": "Z36.R0"
+      }
+    }
+  },
+  "setup": {
+    "facilityName": "General Hospital Upstate Anytown Pediatrics Division",
+    "defaultClient": "clientId1"
+  },
+  "zones": {
+    "Z1.R0": {
+      "id": "Z1.R0",
+      "type": "doubleDoor",
+      "number": 74,
+      "channel": 0,
+      "description": "North Doctors Exit Door 44",
+      "controllerId": "Z1"
+    },
+    "Z1.R1": {
+      "id": "Z1.R1",
+      "type": "beacon",
+      "number": 75,
+      "channel": 1,
+      "description": "POD C Nurse Station Antenna",
+      "controllerId": "Z1"
+    },
+    "Z1.R2": {
+      "id": "Z1.R2",
+      "type": "beacon",
+      "number": 32,
+      "channel": 2,
+      "description": "L&D Pod A Physicians' Entrance",
+      "controllerId": "Z1"
+    },
+    "Z1.R3": {
+      "id": "Z1.R3",
+      "type": "beacon",
+      "number": 46,
+      "channel": 3,
+      "description": "L&D Pod A-1",
+      "controllerId": "Z1"
+    },
+    "Z1.R4": {
+      "id": "Z1.R4",
+      "type": "beacon",
+      "number": 48,
+      "channel": 4,
+      "description": "L&D Pod A-4",
+      "controllerId": "Z1"
+    },
+    "Z2.R0": {
+      "id": "Z2.R0",
+      "type": "doubleDoor",
+      "number": 76,
+      "channel": 0,
+      "description": "South Doctors Exit Door 43",
+      "controllerId": "Z2"
+    },
+    "Z3.R0": {
+      "id": "Z3.R0",
+      "type": "doubleDoor",
+      "number": 36,
+      "channel": 0,
+      "description": "Triage L&D Entrance",
+      "controllerId": "Z3"
+    },
+    "Z3.R1": {
+      "id": "Z3.R1",
+      "type": "beacon",
+      "number": 54,
+      "channel": 1,
+      "description": "OR Entrance at L&D",
+      "controllerId": "Z3"
+    },
+    "Z3.R2": {
+      "id": "Z3.R2",
+      "type": "beacon",
+      "number": 55,
+      "channel": 2,
+      "description": "OR Hallway Room #2",
+      "controllerId": "Z3"
+    },
+    "Z3.R3": {
+      "id": "Z3.R3",
+      "type": "beacon",
+      "number": 53,
+      "channel": 3,
+      "description": "NICU Hallway at L&D",
+      "controllerId": "Z3"
+    },
+    "Z3.R4": {
+      "id": "Z3.R4",
+      "type": "beacon",
+      "number": 49,
+      "channel": 4,
+      "description": "L&D Pod A-3",
+      "controllerId": "Z3"
+    },
+    "Z3.R5": {
+      "id": "Z3.R5",
+      "type": "beacon",
+      "number": 47,
+      "channel": 5,
+      "description": "L&D Pod A-2",
+      "controllerId": "Z3"
+    },
+    "Z4.R0": {
+      "id": "Z4.R0",
+      "type": "stairs",
+      "number": 37,
+      "channel": 0,
+      "description": "NICU Hallway Stairwell Entrance",
+      "controllerId": "Z4"
+    },
+    "Z5.R0": {
+      "id": "Z5.R0",
+      "type": "doubleDoor",
+      "number": 33,
+      "channel": 0,
+      "description": "NICU Fire Exit",
+      "controllerId": "Z5"
+    },
+    "Z6.R0": {
+      "id": "Z6.R0",
+      "type": "stairs",
+      "number": 34,
+      "channel": 0,
+      "description": "NICU Stairwell",
+      "controllerId": "Z6"
+    },
+    "Z6.R1": {
+      "id": "Z6.R1",
+      "type": "beacon",
+      "number": 39,
+      "channel": 1,
+      "description": "Recovery / NICU Hallway",
+      "controllerId": "Z6"
+    },
+    "Z6.R2": {
+      "id": "Z6.R2",
+      "type": "beacon",
+      "number": 38,
+      "channel": 2,
+      "description": "NICU Hallway",
+      "controllerId": "Z6"
+    },
+    "Z6.R3": {
+      "id": "Z6.R3",
+      "type": "beacon",
+      "number": 50,
+      "channel": 3,
+      "description": "NICU One",
+      "controllerId": "Z6"
+    },
+    "Z6.R4": {
+      "id": "Z6.R4",
+      "type": "beacon",
+      "number": 52,
+      "channel": 4,
+      "description": "NICU Three",
+      "controllerId": "Z6"
+    },
+    "Z6.R5": {
+      "id": "Z6.R5",
+      "type": "beacon",
+      "number": 51,
+      "channel": 5,
+      "description": "NICU Two",
+      "controllerId": "Z6"
+    },
+    "Z7.R0": {
+      "id": "Z7.R0",
+      "type": "doubleDoor",
+      "number": 35,
+      "channel": 0,
+      "description": "Radiology Hallway Exit Door",
+      "controllerId": "Z7"
+    },
+    "Z8.R0": {
+      "id": "Z8.R0",
+      "type": "doubleDoor",
+      "number": 13,
+      "channel": 0,
+      "description": "Engineering Exit",
+      "controllerId": "Z8"
+    },
+    "Z8.R1": {
+      "id": "Z8.R1",
+      "type": "beacon",
+      "number": 10,
+      "channel": 1,
+      "description": "Main Hallway / Nursery 2",
+      "controllerId": "Z8"
+    },
+    "Z8.R2": {
+      "id": "Z8.R2",
+      "type": "beacon",
+      "number": 31,
+      "channel": 2,
+      "description": "Nursery Public Hallway",
+      "controllerId": "Z8"
+    },
+    "Z8.R3": {
+      "id": "Z8.R3",
+      "type": "beacon",
+      "number": 73,
+      "channel": 3,
+      "description": "Materials Management",
+      "controllerId": "Z8"
+    },
+    "Z8.R4": {
+      "id": "Z8.R4",
+      "type": "doubleDoor",
+      "number": 72,
+      "channel": 4,
+      "description": "Kitchen Loading Dock",
+      "controllerId": "Z8"
+    },
+    "Z9.R0": {
+      "id": "Z9.R0",
+      "type": "doubleDoor",
+      "number": 65,
+      "channel": 0,
+      "description": "Recovery Outpatient Door",
+      "controllerId": "Z9"
+    },
+    "Z9.R1": {
+      "id": "Z9.R1",
+      "type": "doubleDoor",
+      "number": 64,
+      "channel": 1,
+      "description": "Radiology Outpatient Door",
+      "controllerId": "Z9"
+    },
+    "Z9.R2": {
+      "id": "Z9.R2",
+      "type": "beacon",
+      "number": 41,
+      "channel": 2,
+      "description": "Radiology Hallway",
+      "controllerId": "Z9"
+    },
+    "Z9.R3": {
+      "id": "Z9.R3",
+      "type": "beacon",
+      "number": 66,
+      "channel": 3,
+      "description": "Recovery 1",
+      "controllerId": "Z9"
+    },
+    "Z9.R4": {
+      "id": "Z9.R4",
+      "type": "doubleDoor",
+      "number": 67,
+      "channel": 4,
+      "description": "Pre-Op Outpatient Entrance",
+      "controllerId": "Z9"
+    },
+    "Z9.R5": {
+      "id": "Z9.R5",
+      "type": "doubleDoor",
+      "number": 71,
+      "channel": 5,
+      "description": "Housekeeping Entrance",
+      "controllerId": "Z9"
+    },
+    "Z10.R0": {
+      "id": "Z10.R0",
+      "type": "stairs",
+      "number": 9,
+      "channel": 0,
+      "description": "Public Elevator Hallway Stairwell Entrance",
+      "controllerId": "Z10"
+    },
+    "Z10.R1": {
+      "id": "Z10.R1",
+      "type": "beacon",
+      "number": 24,
+      "channel": 1,
+      "description": "Postpartum Pod A-4",
+      "controllerId": "Z10"
+    },
+    "Z10.R2": {
+      "id": "Z10.R2",
+      "type": "beacon",
+      "number": 25,
+      "channel": 2,
+      "description": "Postpartum Pod A-3",
+      "controllerId": "Z10"
+    },
+    "Z10.R3": {
+      "id": "Z10.R3",
+      "type": "beacon",
+      "number": 22,
+      "channel": 3,
+      "description": "Postpartum Pod A-1",
+      "controllerId": "Z10"
+    },
+    "Z10.R4": {
+      "id": "Z10.R4",
+      "type": "beacon",
+      "number": 23,
+      "channel": 4,
+      "description": "Postpartum Pod A-2",
+      "controllerId": "Z10"
+    },
+    "Z11.R0": {
+      "id": "Z11.R0",
+      "type": "doubleDoor",
+      "number": 11,
+      "channel": 0,
+      "description": "Postpartum Pod A and B Employee Lounge",
+      "controllerId": "Z11"
+    },
+    "Z12.R0": {
+      "id": "Z12.R0",
+      "type": "stairs",
+      "number": 12,
+      "channel": 0,
+      "description": "Postpartum Pod B Stairwell",
+      "controllerId": "Z12"
+    },
+    "Z12.R1": {
+      "id": "Z12.R1",
+      "type": "beacon",
+      "number": 27,
+      "channel": 1,
+      "description": "Postpartum Pod B-2",
+      "controllerId": "Z12"
+    },
+    "Z12.R2": {
+      "id": "Z12.R2",
+      "type": "beacon",
+      "number": 26,
+      "channel": 2,
+      "description": "Postpartum Pod B-1",
+      "controllerId": "Z12"
+    },
+    "Z12.R3": {
+      "id": "Z12.R3",
+      "type": "beacon",
+      "number": 29,
+      "channel": 3,
+      "description": "Postpartum Pod B-3",
+      "controllerId": "Z12"
+    },
+    "Z12.R4": {
+      "id": "Z12.R4",
+      "type": "beacon",
+      "number": 28,
+      "channel": 4,
+      "description": "Postpartum Pod B-4",
+      "controllerId": "Z12"
+    },
+    "Z13.R0": {
+      "id": "Z13.R0",
+      "type": "doubleDoor",
+      "number": 7,
+      "channel": 0,
+      "description": "Postpartum Atrium Fire Exit",
+      "controllerId": "Z13"
+    },
+    "Z13.R2": {
+      "id": "Z13.R2",
+      "type": "beacon",
+      "number": 30,
+      "channel": 2,
+      "description": "Main Entrance North Family Waiting",
+      "controllerId": "Z13"
+    },
+    "Z14.R0": {
+      "id": "Z14.R0",
+      "type": "doubleDoor",
+      "number": 8,
+      "channel": 0,
+      "description": "Postpartum Atrium Fire Exit 2",
+      "controllerId": "Z14"
+    },
+    "Z14.R3": {
+      "id": "Z14.R3",
+      "type": "beacon",
+      "number": 14,
+      "channel": 3,
+      "description": "Postpartum Pod D-1",
+      "controllerId": "Z14"
+    },
+    "Z14.R4": {
+      "id": "Z14.R4",
+      "type": "beacon",
+      "number": 15,
+      "channel": 4,
+      "description": "Postpartum Pod D-2",
+      "controllerId": "Z14"
+    },
+    "Z15.R0": {
+      "id": "Z15.R0",
+      "type": "doubleDoor",
+      "number": 6,
+      "channel": 0,
+      "description": "Postpartum Pod C Fire Exit",
+      "controllerId": "Z15"
+    },
+    "Z15.R1": {
+      "id": "Z15.R1",
+      "type": "beacon",
+      "number": 19,
+      "channel": 1,
+      "description": "Postpartum Pod C-2",
+      "controllerId": "Z15"
+    },
+    "Z15.R2": {
+      "id": "Z15.R2",
+      "type": "beacon",
+      "number": 18,
+      "channel": 2,
+      "description": "Postpartum Pod C-1",
+      "controllerId": "Z15"
+    },
+    "Z15.R3": {
+      "id": "Z15.R3",
+      "type": "beacon",
+      "number": 21,
+      "channel": 3,
+      "description": "Postpartum Pod C-3",
+      "controllerId": "Z15"
+    },
+    "Z15.R4": {
+      "id": "Z15.R4",
+      "type": "beacon",
+      "number": 20,
+      "channel": 4,
+      "description": "Postpartum Pod C-4",
+      "controllerId": "Z15"
+    },
+    "Z16.R0": {
+      "id": "Z16.R0",
+      "type": "doubleDoor",
+      "number": 5,
+      "channel": 0,
+      "description": "Postpartum Pod C and D Employee Lounge",
+      "controllerId": "Z16"
+    },
+    "Z17.R0": {
+      "id": "Z17.R0",
+      "type": "doubleDoor",
+      "number": 4,
+      "channel": 0,
+      "description": "Atrium Entrance / Administration Hallway",
+      "controllerId": "Z17"
+    },
+    "Z17.R1": {
+      "id": "Z17.R1",
+      "type": "beacon",
+      "number": 16,
+      "channel": 1,
+      "description": "Postpartum Pod D-4",
+      "controllerId": "Z17"
+    },
+    "Z17.R2": {
+      "id": "Z17.R2",
+      "type": "beacon",
+      "number": 17,
+      "channel": 2,
+      "description": "Postpartum Pod D-3",
+      "controllerId": "Z17"
+    },
+    "Z18.R0": {
+      "id": "Z18.R0",
+      "type": "doubleDoor",
+      "number": 1,
+      "channel": 0,
+      "description": "Main Entrance North",
+      "controllerId": "Z18"
+    },
+    "Z18.R1": {
+      "id": "Z18.R1",
+      "type": "beacon",
+      "number": 57,
+      "channel": 1,
+      "description": "L&D Pod B-2",
+      "controllerId": "Z18"
+    },
+    "Z18.R2": {
+      "id": "Z18.R2",
+      "type": "beacon",
+      "number": 56,
+      "channel": 2,
+      "description": "L&D Pod B-1",
+      "controllerId": "Z18"
+    },
+    "Z18.R3": {
+      "id": "Z18.R3",
+      "type": "beacon",
+      "number": 59,
+      "channel": 3,
+      "description": "L&D Pod B-3",
+      "controllerId": "Z18"
+    },
+    "Z18.R4": {
+      "id": "Z18.R4",
+      "type": "beacon",
+      "number": 58,
+      "channel": 4,
+      "description": "L&D Pod B-4",
+      "controllerId": "Z18"
+    },
+    "Z19.R0": {
+      "id": "Z19.R0",
+      "type": "doubleDoor",
+      "number": 2,
+      "channel": 0,
+      "description": "Administrative Hallway Entrance",
+      "controllerId": "Z19"
+    },
+    "Z20.R0": {
+      "id": "Z20.R0",
+      "type": "beacon",
+      "number": 63,
+      "channel": 0,
+      "description": "Nursery Staff Hallway",
+      "controllerId": "Z20"
+    },
+    "Z20.R1": {
+      "id": "Z20.R1",
+      "type": "beacon",
+      "number": 3,
+      "channel": 1,
+      "description": "Main Hallway / Nursery 1",
+      "controllerId": "Z20"
+    },
+    "Z20.R3": {
+      "id": "Z20.R3",
+      "type": "beacon",
+      "number": 62,
+      "channel": 3,
+      "description": "Surgeons' Lounge",
+      "controllerId": "Z20"
+    },
+    "Z20.R4": {
+      "id": "Z20.R4",
+      "type": "beacon",
+      "number": 61,
+      "channel": 4,
+      "description": "OR Nurses' Station",
+      "controllerId": "Z20"
+    },
+    "Z20.R5": {
+      "id": "Z20.R5",
+      "type": "beacon",
+      "number": 60,
+      "channel": 5,
+      "description": "OR Room #4",
+      "controllerId": "Z20"
+    },
+    "Z20.R6": {
+      "id": "Z20.R6",
+      "type": "beacon",
+      "number": 44,
+      "channel": 6,
+      "description": "OR Pre-Op Entrance",
+      "controllerId": "Z20"
+    },
+    "Z20.R7": {
+      "id": "Z20.R7",
+      "type": "beacon",
+      "number": 42,
+      "channel": 7,
+      "description": "Recovery Dictation",
+      "controllerId": "Z20"
+    },
+    "Z20.R8": {
+      "id": "Z20.R8",
+      "type": "beacon",
+      "number": 68,
+      "channel": 8,
+      "description": "Pre-Op Nurse Station",
+      "controllerId": "Z20"
+    },
+    "Z21.R0": {
+      "id": "Z21.R0",
+      "type": "doubleDoor",
+      "number": 45,
+      "channel": 0,
+      "description": "Materials Management Entrance",
+      "controllerId": "Z21"
+    },
+    "Z22.R0": {
+      "id": "Z22.R0",
+      "type": "doubleDoor",
+      "number": 40,
+      "channel": 0,
+      "description": "Nursery Room #3 Entrance",
+      "controllerId": "Z22"
+    },
+    "Z23.R0": {
+      "id": "Z23.R0",
+      "type": "doubleDoor",
+      "number": 43,
+      "channel": 0,
+      "description": "Dining/Nursery Hallway Entrance",
+      "controllerId": "Z23"
+    },
+    "Z24.R0": {
+      "id": "Z24.R0",
+      "type": "doubleDoor",
+      "number": 70,
+      "channel": 0,
+      "description": "Housekeeping Exit Door",
+      "controllerId": "Z24"
+    },
+    "Z30.R0": {
+      "id": "Z30.R0",
+      "type": "doubleDoor",
+      "number": 104,
+      "channel": 0,
+      "description": "West door",
+      "controllerId": "Z30"
+    },
+    "Z30.R1": {
+      "id": "Z30.R1",
+      "type": "beacon",
+      "number": 101,
+      "channel": 1,
+      "description": "West hall",
+      "controllerId": "Z30"
+    },
+    "Z32.R0": {
+      "id": "Z32.R0",
+      "type": "zoneType1",
+      "number": 103,
+      "channel": 0,
+      "description": "Nurse sensor",
+      "controllerId": "Z32"
+    },
+    "Z34.R0": {
+      "id": "Z34.R0",
+      "type": "doubleDoor",
+      "number": 105,
+      "channel": 0,
+      "description": "East door",
+      "controllerId": "Z34"
+    },
+    "Z34.R1": {
+      "id": "Z34.R1",
+      "type": "beacon",
+      "number": 102,
+      "channel": 1,
+      "description": "East hall",
+      "controllerId": "Z34"
+    },
+    "Z35.R0": {
+      "id": "Z35.R0",
+      "type": "doubleDoor",
+      "number": 107,
+      "channel": 0,
+      "description": "Front East door",
+      "controllerId": "Z35"
+    },
+    "Z36.R0": {
+      "id": "Z36.R0",
+      "type": "doubleDoor",
+      "number": 106,
+      "channel": 0,
+      "description": "Front West door",
+      "controllerId": "Z36"
+    }
+  },
+  "zoneTypes": {
+    "beacon": {
+      "id": "beacon",
+      "icon": "beaconIcon",
+      "description": "Receiver"
+    },
+    "stairs": {
+      "id": "stairs",
+      "icon": "stairsIcon",
+      "description": "Stair access"
+    },
+    "zoneType1": {
+      "id": "zoneType1",
+      "icon": "zoneType1Icon",
+      "description": "Nurse station"
+    },
+    "doubleDoor": {
+      "id": "doubleDoor",
+      "icon": "doubleDoorIcon",
+      "description": "Double doors"
+    }
+  },
+  "maps": {
+    "mapA": {
+      "id": "mapA",
+      "area": "areaA",
+      "name": "Woman's Hospital at Renaissance",
+      "image": "womansHospitalMap",
+      "zones": {
+        "Z1.R0": {
+          "id": "Z1.R0",
+          "xCenter": 316.85,
+          "yCenter": 126.35,
+          "labelAngle": 0.817,
+          "labelRadius": 31.42
+        },
+        "Z1.R1": {
+          "id": "Z1.R1",
+          "xCenter": 315.22,
+          "yCenter": 211.13,
+          "labelAngle": 0.967,
+          "labelRadius": 36.61
+        },
+        "Z1.R2": {
+          "id": "Z1.R2",
+          "xCenter": 388.22,
+          "yCenter": 211.63,
+          "labelAngle": 0.566,
+          "labelRadius": 17.788
+        },
+        "Z1.R3": {
+          "id": "Z1.R3",
+          "xCenter": 457.58,
+          "yCenter": 180.76,
+          "labelAngle": 0.18,
+          "labelRadius": 18.79
+        },
+        "Z1.R4": {
+          "id": "Z1.R4",
+          "xCenter": 457.58,
+          "yCenter": 244.87,
+          "labelAngle": 0.789,
+          "labelRadius": 33.142
+        },
+        "Z2.R0": {
+          "id": "Z2.R0",
+          "xCenter": 316.35,
+          "yCenter": 298.51,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z3.R0": {
+          "id": "Z3.R0",
+          "xCenter": 618.58,
+          "yCenter": 153.93,
+          "labelAngle": 0.543,
+          "labelRadius": 21.104
+        },
+        "Z3.R1": {
+          "id": "Z3.R1",
+          "xCenter": 694.09,
+          "yCenter": 240.84,
+          "labelAngle": 0.975,
+          "labelRadius": 43.875
+        },
+        "Z3.R2": {
+          "id": "Z3.R2",
+          "xCenter": 694.09,
+          "yCenter": 327.75,
+          "labelAngle": 0.939,
+          "labelRadius": 46.725
+        },
+        "Z3.R3": {
+          "id": "Z3.R3",
+          "xCenter": 618.58,
+          "yCenter": 240.84,
+          "labelAngle": 0.933,
+          "labelRadius": 37.401
+        },
+        "Z3.R4": {
+          "id": "Z3.R4",
+          "xCenter": 509.82,
+          "yCenter": 244.87,
+          "labelAngle": 0.829,
+          "labelRadius": 36.615
+        },
+        "Z3.R5": {
+          "id": "Z3.R5",
+          "xCenter": 509.82,
+          "yCenter": 180.76,
+          "labelAngle": 0.123,
+          "labelRadius": 24.4
+        },
+        "Z4.R0": {
+          "id": "Z4.R0",
+          "xCenter": 610.74,
+          "yCenter": 312.79,
+          "labelAngle": 0.075,
+          "labelRadius": 28.17
+        },
+        "Z5.R0": {
+          "id": "Z5.R0",
+          "xCenter": 394.18,
+          "yCenter": 335.35,
+          "labelAngle": 0.442,
+          "labelRadius": 17.093
+        },
+        "Z6.R0": {
+          "id": "Z6.R0",
+          "xCenter": 385.16,
+          "yCenter": 483.04,
+          "labelAngle": 0.987,
+          "labelRadius": 62.227
+        },
+        "Z6.R1": {
+          "id": "Z6.R1",
+          "xCenter": 538.57,
+          "yCenter": 548.92,
+          "labelAngle": 0.568,
+          "labelRadius": 16.658
+        },
+        "Z6.R2": {
+          "id": "Z6.R2",
+          "xCenter": 611.96,
+          "yCenter": 468.58,
+          "labelAngle": 0.974,
+          "labelRadius": 40.834
+        },
+        "Z6.R3": {
+          "id": "Z6.R3",
+          "xCenter": 394.18,
+          "yCenter": 407.3,
+          "labelAngle": 0.65,
+          "labelRadius": 19.824
+        },
+        "Z6.R4": {
+          "id": "Z6.R4",
+          "xCenter": 478.24,
+          "yCenter": 459.3,
+          "labelAngle": 0.564,
+          "labelRadius": 17.341
+        },
+        "Z6.R5": {
+          "id": "Z6.R5",
+          "xCenter": 508.16,
+          "yCenter": 365.27,
+          "labelAngle": 0.945,
+          "labelRadius": 42.106
+        },
+        "Z7.R0": {
+          "id": "Z7.R0",
+          "xCenter": 401.76,
+          "yCenter": 582.54,
+          "labelAngle": 0.874,
+          "labelRadius": 43.729
+        },
+        "Z8.R0": {
+          "id": "Z8.R0",
+          "xCenter": 1027.72,
+          "yCenter": 670.87,
+          "labelAngle": 0.143,
+          "labelRadius": 20.833
+        },
+        "Z8.R1": {
+          "id": "Z8.R1",
+          "xCenter": 900.98,
+          "yCenter": 624.86,
+          "labelAngle": 0.854,
+          "labelRadius": 38.537
+        },
+        "Z8.R2": {
+          "id": "Z8.R2",
+          "xCenter": 915.87,
+          "yCenter": 528.64,
+          "labelAngle": 0.964,
+          "labelRadius": 44.77
+        },
+        "Z8.R3": {
+          "id": "Z8.R3",
+          "xCenter": 958.07,
+          "yCenter": 752.97,
+          "labelAngle": 0.815,
+          "labelRadius": 32.028
+        },
+        "Z8.R4": {
+          "id": "Z8.R4",
+          "xCenter": 881.47,
+          "yCenter": 799.75,
+          "labelAngle": 0.966,
+          "labelRadius": 37.78
+        },
+        "Z9.R0": {
+          "id": "Z9.R0",
+          "xCenter": 457.68,
+          "yCenter": 778.85,
+          "labelAngle": 0.676,
+          "labelRadius": 20.298
+        },
+        "Z9.R1": {
+          "id": "Z9.R1",
+          "xCenter": 411.71,
+          "yCenter": 738.87,
+          "labelAngle": 0.916,
+          "labelRadius": 42.931
+        },
+        "Z9.R2": {
+          "id": "Z9.R2",
+          "xCenter": 411.13,
+          "yCenter": 652.54,
+          "labelAngle": 0.975,
+          "labelRadius": 37.475
+        },
+        "Z9.R3": {
+          "id": "Z9.R3",
+          "xCenter": 560.23,
+          "yCenter": 752.97,
+          "labelAngle": 0.576,
+          "labelRadius": 13.552
+        },
+        "Z9.R4": {
+          "id": "Z9.R4",
+          "xCenter": 593.83,
+          "yCenter": 842,
+          "labelAngle": 0.725,
+          "labelRadius": 29.675
+        },
+        "Z9.R5": {
+          "id": "Z9.R5",
+          "xCenter": 783.07,
+          "yCenter": 893.07,
+          "labelAngle": 0.645,
+          "labelRadius": 29.372
+        },
+        "Z10.R0": {
+          "id": "Z10.R0",
+          "xCenter": 997.56,
+          "yCenter": 475.21,
+          "labelAngle": 0.02,
+          "labelRadius": 37.492
+        },
+        "Z10.R1": {
+          "id": "Z10.R1",
+          "xCenter": 1101.57,
+          "yCenter": 495.39,
+          "labelAngle": 0.769,
+          "labelRadius": 31.902
+        },
+        "Z10.R2": {
+          "id": "Z10.R2",
+          "xCenter": 1153.81,
+          "yCenter": 495.39,
+          "labelAngle": 0.837,
+          "labelRadius": 37.154
+        },
+        "Z10.R3": {
+          "id": "Z10.R3",
+          "xCenter": 1101.57,
+          "yCenter": 431.28,
+          "labelAngle": 0.204,
+          "labelRadius": 13.036
+        },
+        "Z10.R4": {
+          "id": "Z10.R4",
+          "xCenter": 1153.81,
+          "yCenter": 431.28,
+          "labelAngle": 0.091,
+          "labelRadius": 23.08
+        },
+        "Z11.R0": {
+          "id": "Z11.R0",
+          "xCenter": 1276.58,
+          "yCenter": 468.3,
+          "labelAngle": 0.762,
+          "labelRadius": 33.461
+        },
+        "Z12.R0": {
+          "id": "Z12.R0",
+          "xCenter": 1490.52,
+          "yCenter": 462.86,
+          "labelAngle": 0.364,
+          "labelRadius": 29.099
+        },
+        "Z12.R1": {
+          "id": "Z12.R1",
+          "xCenter": 1434.01,
+          "yCenter": 431.28,
+          "labelAngle": 0.096,
+          "labelRadius": 22.092
+        },
+        "Z12.R2": {
+          "id": "Z12.R2",
+          "xCenter": 1381.77,
+          "yCenter": 431.28,
+          "labelAngle": 0.218,
+          "labelRadius": 12.746
+        },
+        "Z12.R3": {
+          "id": "Z12.R3",
+          "xCenter": 1434.01,
+          "yCenter": 495.39,
+          "labelAngle": 0.833,
+          "labelRadius": 36.549
+        },
+        "Z12.R4": {
+          "id": "Z12.R4",
+          "xCenter": 1381.77,
+          "yCenter": 495.39,
+          "labelAngle": 0.763,
+          "labelRadius": 31.784
+        },
+        "Z13.R0": {
+          "id": "Z13.R0",
+          "xCenter": 1261.85,
+          "yCenter": 349.59,
+          "labelAngle": 0.96,
+          "labelRadius": 30.98
+        },
+        "Z13.R2": {
+          "id": "Z13.R2",
+          "xCenter": 919.2,
+          "yCenter": 309.94,
+          "labelAngle": 0.64,
+          "labelRadius": 23.222
+        },
+        "Z14.R0": {
+          "id": "Z14.R0",
+          "xCenter": 1288.92,
+          "yCenter": 349.59,
+          "labelAngle": 0.57,
+          "labelRadius": 18.159
+        },
+        "Z14.R3": {
+          "id": "Z14.R3",
+          "xCenter": 1101.57,
+          "yCenter": 204.27,
+          "labelAngle": 0.211,
+          "labelRadius": 15.325
+        },
+        "Z14.R4": {
+          "id": "Z14.R4",
+          "xCenter": 1153.81,
+          "yCenter": 204.27,
+          "labelAngle": 0.104,
+          "labelRadius": 24.446
+        },
+        "Z15.R0": {
+          "id": "Z15.R0",
+          "xCenter": 1490.52,
+          "yCenter": 236.33,
+          "labelAngle": 0.563,
+          "labelRadius": 20.645
+        },
+        "Z15.R1": {
+          "id": "Z15.R1",
+          "xCenter": 1434.01,
+          "yCenter": 204.27,
+          "labelAngle": 0.109,
+          "labelRadius": 23.515
+        },
+        "Z15.R2": {
+          "id": "Z15.R2",
+          "xCenter": 1381.77,
+          "yCenter": 204.27,
+          "labelAngle": 0.223,
+          "labelRadius": 15.08
+        },
+        "Z15.R3": {
+          "id": "Z15.R3",
+          "xCenter": 1434.01,
+          "yCenter": 268.38,
+          "labelAngle": 0.839,
+          "labelRadius": 34.512
+        },
+        "Z15.R4": {
+          "id": "Z15.R4",
+          "xCenter": 1381.77,
+          "yCenter": 268.38,
+          "labelAngle": 0.764,
+          "labelRadius": 29.419
+        },
+        "Z16.R0": {
+          "id": "Z16.R0",
+          "xCenter": 1275.83,
+          "yCenter": 228.58,
+          "labelAngle": 0.33,
+          "labelRadius": 16.77
+        },
+        "Z17.R0": {
+          "id": "Z17.R0",
+          "xCenter": 1031.04,
+          "yCenter": 255.56,
+          "labelAngle": 0.824,
+          "labelRadius": 46.891
+        },
+        "Z17.R1": {
+          "id": "Z17.R1",
+          "xCenter": 1101.57,
+          "yCenter": 268.38,
+          "labelAngle": 0.77,
+          "labelRadius": 29.546
+        },
+        "Z17.R2": {
+          "id": "Z17.R2",
+          "xCenter": 1153.81,
+          "yCenter": 268.38,
+          "labelAngle": 0.843,
+          "labelRadius": 35.153
+        },
+        "Z18.R0": {
+          "id": "Z18.R0",
+          "xCenter": 919.2,
+          "yCenter": 183.61,
+          "labelAngle": 0.045,
+          "labelRadius": 30.956
+        },
+        "Z18.R1": {
+          "id": "Z18.R1",
+          "xCenter": 836.09,
+          "yCenter": 180.76,
+          "labelAngle": 0.121,
+          "labelRadius": 24.745
+        },
+        "Z18.R2": {
+          "id": "Z18.R2",
+          "xCenter": 783.85,
+          "yCenter": 180.76,
+          "labelAngle": 0.176,
+          "labelRadius": 18.999
+        },
+        "Z18.R3": {
+          "id": "Z18.R3",
+          "xCenter": 836.09,
+          "yCenter": 244.87,
+          "labelAngle": 0.831,
+          "labelRadius": 36.846
+        },
+        "Z18.R4": {
+          "id": "Z18.R4",
+          "xCenter": 783.85,
+          "yCenter": 244.87,
+          "labelAngle": 0.791,
+          "labelRadius": 33.261
+        },
+        "Z19.R0": {
+          "id": "Z19.R0",
+          "xCenter": 1008.01,
+          "yCenter": 224.45,
+          "labelAngle": 0.233,
+          "labelRadius": 17.331
+        },
+        "Z20.R0": {
+          "id": "Z20.R0",
+          "xCenter": 829.44,
+          "yCenter": 528.64,
+          "labelAngle": 0.023,
+          "labelRadius": 35.451
+        },
+        "Z20.R1": {
+          "id": "Z20.R1",
+          "xCenter": 916.33,
+          "yCenter": 422.76,
+          "labelAngle": 0.777,
+          "labelRadius": 33.909
+        },
+        "Z20.R3": {
+          "id": "Z20.R3",
+          "xCenter": 691.24,
+          "yCenter": 572.8,
+          "labelAngle": 0.961,
+          "labelRadius": 40.105
+        },
+        "Z20.R4": {
+          "id": "Z20.R4",
+          "xCenter": 697.65,
+          "yCenter": 467.37,
+          "labelAngle": 0.971,
+          "labelRadius": 43.838
+        },
+        "Z20.R5": {
+          "id": "Z20.R5",
+          "xCenter": 748.94,
+          "yCenter": 372.39,
+          "labelAngle": 0.813,
+          "labelRadius": 31.243
+        },
+        "Z20.R6": {
+          "id": "Z20.R6",
+          "xCenter": 696.19,
+          "yCenter": 668.77,
+          "labelAngle": 0.818,
+          "labelRadius": 31.906
+        },
+        "Z20.R7": {
+          "id": "Z20.R7",
+          "xCenter": 516.19,
+          "yCenter": 652.54,
+          "labelAngle": 0.82,
+          "labelRadius": 31.467
+        },
+        "Z20.R8": {
+          "id": "Z20.R8",
+          "xCenter": 696.19,
+          "yCenter": 803.96,
+          "labelAngle": 0.117,
+          "labelRadius": 21.799
+        },
+        "Z21.R0": {
+          "id": "Z21.R0",
+          "xCenter": 989.24,
+          "yCenter": 685.57,
+          "labelAngle": 0.934,
+          "labelRadius": 43.449
+        },
+        "Z22.R0": {
+          "id": "Z22.R0",
+          "xCenter": 828.97,
+          "yCenter": 380.7,
+          "labelAngle": 0.9,
+          "labelRadius": 39.29
+        },
+        "Z23.R0": {
+          "id": "Z23.R0",
+          "xCenter": 821.84,
+          "yCenter": 617.21,
+          "labelAngle": 0.024,
+          "labelRadius": 35.486
+        },
+        "Z24.R0": {
+          "id": "Z24.R0",
+          "xCenter": 771.66,
+          "yCenter": 869.99,
+          "labelAngle": 0.982,
+          "labelRadius": 58.295
+        }
+      },
+      "fontSize": 20,
+      "iconSize": 20
+    },
+    "mapB": {
+      "id": "mapB",
+      "area": "areaB",
+      "name": "Black River Memorial Hospital",
+      "image": "blackRiverFallsMap",
+      "zones": {
+        "Z30.R0": {
+          "id": "Z30.R0",
+          "xCenter": 64.96,
+          "yCenter": 68,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z30.R1": {
+          "id": "Z30.R1",
+          "xCenter": 280.4,
+          "yCenter": 85.25,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z32.R0": {
+          "id": "Z32.R0",
+          "xCenter": 544.7,
+          "yCenter": 52.1,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z34.R0": {
+          "id": "Z34.R0",
+          "xCenter": 938.25,
+          "yCenter": 68,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z34.R1": {
+          "id": "Z34.R1",
+          "xCenter": 768.18,
+          "yCenter": 85.25,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z35.R0": {
+          "id": "Z35.R0",
+          "xCenter": 437.99,
+          "yCenter": 170.01,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        },
+        "Z36.R0": {
+          "id": "Z36.R0",
+          "xCenter": 615.87,
+          "yCenter": 174.32,
+          "labelAngle": 0.139,
+          "labelRadius": 19.709
+        }
+      },
+      "fontSize": 20,
+      "iconSize": 20
+    }
+  },
+  "orientations": {
+    "view1": {
+      "id": "view1",
+      "label": "Main floor",
+      "mapId": "mapA",
+      "scale": 1,
+      "xOffset": 0,
+      "yOffset": 0,
+      "rotation": 0
+    },
+    "view2": {
+      "id": "view2",
+      "label": "Main floor - West wing",
+      "mapId": "mapA",
+      "scale": 1.9379719860697036,
+      "xOffset": -498.2390564678734,
+      "yOffset": -1538.0950605097564,
+      "rotation": 90
+    },
+    "view3": {
+      "id": "view3",
+      "label": "Building 2",
+      "mapId": "mapB",
+      "scale": 1,
+      "xOffset": 0,
+      "yOffset": 0,
+      "rotation": 0
+    }
+  },
+  "clientViews": {
+    "clientId1": {
+      "id": "clientId1",
+      "name": "Nurse desk 1",
+      "views": [
+        "view1",
+        "view2",
+        "view3"
+      ]
+    },
+    "clientId2": {
+      "id": "clientId2",
+      "name": "Nurse desk 2",
+      "views": [
+        "view1"
+      ]
+    },
+    "clientId3": {
+      "id": "clientId3",
+      "name": "Security station",
+      "views": [
+        "view3",
+        "view1"
+      ]
+    }
+  },
+  "svgFiles": {
+    "womansHospitalMap": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg\n  version=\"1.1\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n  x=\"0px\"\n  y=\"0px\"\n  width=\"1800\"\n  height=\"1080\"\n  viewBox=\"0 0 1800 1080\"\n  xml:space=\"preserve\"\n>\n\n  <style type=\"text/css\">\n\n    #floorPlanGroup\n    {\n      stroke: black;\n      stroke-width:2;\n    }\n\n    .st0, .st1 { fill: #eae8ea; } /* Rooms.  */\n    .st2 { fill: none; } /* Some complex rooms */\n\n    /*.st0 { fill:#4584ba; }  Old rooms color. */\n    /*.st1 { fill: #DDD; }  Stairs old */\n\n    .legendText\n    {\n      font-family : 'Tahoma-Bold';\n      fill:black;\n      font-size: 20px;\n    }\n\n    #zoneIndicators\n    {\n      fill: black;\n    }\n\n    /*\n    .floorErrorClass\n    {\n      animation-name: floorError;\n      animation-duration: 1s;\n      animation-timing-function: step-start;\n      animation-iteration-count: infinite;\n    }\n\n    @keyframes floorError\n    {\n      0%   { stroke: red; }\n      50%  { stroke: black; }\n      100% { stroke: red; }\n    }\n\n    #alarmsGroupHigh,\n    #alarmsGroupMedium,\n    #alarmsGroupLow\n    {\n      animation-timing-function: step-start;\n      animation-iteration-count: infinite;\n    }\n\n    #alarmsGroupHigh\n    {\n      animation-duration: 0.5s;\n      animation-name: alarmHigh;\n    }\n\n    #alarmsGroupMedium\n    {\n      animation-duration: 1s;\n      animation-name: alarmMedium;\n    }\n\n    #alarmsGroupLow\n    {\n      animation-duration: 1s;\n      animation-name: alarmLow;\n    }\n\n    @keyframes alarmHigh\n    {\n      0%   { fill: red; }\n      50%  { fill: black; }\n      100% { fill: red; }\n    }\n\n    @keyframes alarmMedium\n    {\n      0%   { fill: yellow; }\n      50%  { fill: black; }\n      100% { fill: yellow; }\n    }\n\n    @keyframes alarmLow\n    {\n      0%   { fill: cyan; }\n      50%  { fill: black; }\n      100% { fill: cyan; }\n    }\n    */\n\n    /*\n    ** .error\n    ** {\n    **   animation-name: zoneError;\n    ** }\n    **\n    ** @keyframes zoneError\n    ** {\n    **   0%   { fill: red; }\n    **   50%  { fill: black; }\n    **   100% { fill: red; }\n    ** }\n    */\n\n    .highlight\n    {\n      fill: #50b4e7;\n    }\n\n  </style>\n\n  <g id=\"zoomArea\">\n    <g id=\"floorPlanGroup\">\n      <rect x=\"358.57\" y=\"323.23\" class=\"st0\" width=\"29.44\" height=\"152.45\"/>\n      <rect x=\"358.57\" y=\"533.14\" class=\"st0\" width=\"29.44\" height=\"23.75\"/>\n      <rect x=\"358.57\" y=\"573.99\" class=\"st0\" width=\"44.17\" height=\"249.53\"/>\n      <rect x=\"358.57\" y=\"475.68\" class=\"st1\" width=\"24.22\" height=\"57.47\"/>\n      <rect x=\"382.79\" y=\"490.4\" class=\"st0\" width=\"5.22\" height=\"42.74\"/>\n      <rect x=\"514.34\" y=\"323.23\" class=\"st0\" width=\"29.44\" height=\"126.33\"/>\n      <rect x=\"585.1\" y=\"375.47\" class=\"st0\" width=\"25.17\" height=\"28.97\"/>\n      <rect x=\"589.37\" y=\"362.17\" class=\"st0\" width=\"20.9\" height=\"13.3\"/>\n      <rect x=\"585.38\" y=\"303.76\" class=\"st1\" width=\"24.89\" height=\"58.42\"/>\n      <rect x=\"568.48\" y=\"362.17\" class=\"st0\" width=\"20.9\" height=\"13.3\"/>\n      <rect x=\"559.93\" y=\"375.47\" class=\"st0\" width=\"25.17\" height=\"28.97\"/>\n      <rect x=\"543.78\" y=\"323.23\" class=\"st0\" width=\"16.15\" height=\"32.77\"/>\n      <rect x=\"255.07\" y=\"197.85\" class=\"st0\" width=\"23.75\" height=\"22.8\"/>\n      <rect x=\"252.51\" y=\"164.55\" class=\"st0\" width=\"26.31\" height=\"9.83\"/>\n      <rect x=\"278.82\" y=\"164.55\" class=\"st0\" width=\"20.94\" height=\"5.17\"/>\n      <rect x=\"299.76\" y=\"164.55\" class=\"st0\" width=\"8\" height=\"18.87\"/>\n      <rect x=\"231.32\" y=\"197.85\" class=\"st0\" width=\"23.75\" height=\"22.8\"/>\n      <rect x=\"231.32\" y=\"164.55\" class=\"st0\" width=\"21.19\" height=\"18.86\"/>\n      <rect x=\"231.32\" y=\"183.41\" class=\"st0\" width=\"9.25\" height=\"14.43\"/>\n      <rect x=\"325.73\" y=\"164.55\" class=\"st0\" width=\"52.66\" height=\"38.29\"/>\n      <rect x=\"325.73\" y=\"125.85\" class=\"st0\" width=\"52.66\" height=\"38.7\"/>\n      <rect x=\"325.73\" y=\"259.46\" class=\"st0\" width=\"52.66\" height=\"38.39\"/>\n      <rect x=\"325.73\" y=\"220.65\" class=\"st0\" width=\"52.66\" height=\"38.81\"/>\n      <rect x=\"255.07\" y=\"125.85\" class=\"st0\" width=\"52.66\" height=\"38.7\"/>\n      <rect x=\"255.07\" y=\"259.46\" class=\"st0\" width=\"52.66\" height=\"38.39\"/>\n      <rect x=\"255.07\" y=\"220.65\" class=\"st0\" width=\"52.66\" height=\"38.81\"/>\n      <rect x=\"628.79\" y=\"259.12\" class=\"st0\" width=\"56.99\" height=\"170.97\"/>\n      <rect x=\"628.79\" y=\"220.65\" class=\"st0\" width=\"56.99\" height=\"38.47\"/>\n      <rect x=\"585.34\" y=\"220.65\" class=\"st0\" width=\"24.93\" height=\"83.35\"/>\n      <rect x=\"585.34\" y=\"118.3\" class=\"st0\" width=\"24.93\" height=\"84.54\"/>\n      <rect x=\"728.17\" y=\"381.29\" class=\"st0\" width=\"61.98\" height=\"169.9\"/>\n      <rect x=\"707.29\" y=\"530.53\" class=\"st0\" width=\"20.88\" height=\"20.66\"/>\n      <rect x=\"790.15\" y=\"478.17\" class=\"st0\" width=\"33.84\" height=\"73.02\"/>\n      <rect x=\"809.74\" y=\"551.19\" class=\"st0\" width=\"14.25\" height=\"14.96\"/>\n      <rect x=\"827.19\" y=\"587.52\" class=\"st0\" width=\"57.7\" height=\"28.14\"/>\n      <rect x=\"790.15\" y=\"429.73\" class=\"st0\" width=\"22.08\" height=\"48.44\"/>\n      <polygon class=\"st0\" points=\"873.14,381.29 790.15,381.29 790.15,429.73 830.75,429.73 830.75,418.33 873.14,418.33 \"/>\n      <rect x=\"812.23\" y=\"429.73\" class=\"st0\" width=\"18.52\" height=\"35.62\"/>\n      <rect x=\"830.75\" y=\"441.84\" class=\"st0\" width=\"24.93\" height=\"23.51\"/>\n      <rect x=\"830.75\" y=\"418.33\" class=\"st0\" width=\"24.93\" height=\"23.51\"/>\n      <rect x=\"835.74\" y=\"478.17\" class=\"st0\" width=\"19.95\" height=\"109.35\"/>\n      <polygon class=\"st0\" points=\"884.89,407.29 884.89,437.21 867.44,437.21 867.44,478.17 855.68,478.17 855.68,515.21 903.41,515.21  903.41,407.29 \"/>\n      <rect x=\"707.29\" y=\"486.72\" class=\"st0\" width=\"20.88\" height=\"43.81\"/>\n      <polygon class=\"st0\" points=\"710.53,449.68 728.17,449.68 728.17,381.29 703.24,381.29 703.24,442.38 \"/>\n      <rect x=\"399.88\" y=\"337\" class=\"st0\" width=\"47.02\" height=\"112.55\"/>\n      <rect x=\"405.58\" y=\"468.08\" class=\"st0\" width=\"19.47\" height=\"33.72\"/>\n      <rect x=\"425.05\" y=\"468.08\" class=\"st0\" width=\"19.47\" height=\"33.72\"/>\n      <rect x=\"470.17\" y=\"468.08\" class=\"st0\" width=\"28.49\" height=\"33.72\"/>\n      <polygon class=\"st0\" points=\"536.66,490.06 536.66,468.08 498.67,468.08 498.67,501.8 524.93,501.8 \"/>\n      <rect x=\"405.58\" y=\"501.8\" class=\"st0\" width=\"73.14\" height=\"33.72\"/>\n      <rect x=\"478.72\" y=\"501.8\" class=\"st0\" width=\"33.24\" height=\"33.72\"/>\n      <rect x=\"511.96\" y=\"512.72\" class=\"st0\" width=\"33.24\" height=\"22.79\"/>\n      <rect x=\"545.21\" y=\"512.72\" class=\"st0\" width=\"58.89\" height=\"22.79\"/>\n      <polygon class=\"st0\" points=\"628.58,449.32 621.79,456.11 621.79,479.24 643.63,479.24 643.63,449.32 \"/>\n      <polygon class=\"st0\" points=\"689.58,543.71 621.79,543.71 621.79,499.42 621.79,479.24 689.58,479.24 \"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"351.25\" x2=\"388.01\" y2=\"351.25\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"339.85\" x2=\"543.78\" y2=\"339.85\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"367.4\" x2=\"543.78\" y2=\"367.4\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"381.64\" x2=\"543.78\" y2=\"381.64\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"403.49\" x2=\"543.78\" y2=\"403.49\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"419.64\" x2=\"543.78\" y2=\"419.64\"/>\n      <line class=\"st0\" x1=\"514.34\" y1=\"435.31\" x2=\"543.78\" y2=\"435.31\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"373.57\" x2=\"388.01\" y2=\"373.57\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"385.44\" x2=\"388.01\" y2=\"385.44\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"409.66\" x2=\"388.01\" y2=\"409.66\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"431.99\" x2=\"388.01\" y2=\"431.99\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"449.56\" x2=\"388.01\" y2=\"449.56\"/>\n      <line class=\"st0\" x1=\"399.88\" y1=\"449.56\" x2=\"446.9\" y2=\"449.56\"/>\n      <line class=\"st0\" x1=\"399.88\" y1=\"361.22\" x2=\"446.9\" y2=\"361.22\"/>\n      <line class=\"st0\" x1=\"399.88\" y1=\"383.55\" x2=\"446.9\" y2=\"383.55\"/>\n      <line class=\"st0\" x1=\"399.88\" y1=\"404.92\" x2=\"446.9\" y2=\"404.92\"/>\n      <line class=\"st0\" x1=\"399.88\" y1=\"426.76\" x2=\"446.9\" y2=\"426.76\"/>\n      <rect x=\"455.45\" y=\"337\" class=\"st0\" width=\"47.02\" height=\"112.55\"/>\n      <line class=\"st2\" x1=\"455.45\" y1=\"449.56\" x2=\"502.47\" y2=\"449.56\"/>\n      <line class=\"st0\" x1=\"455.45\" y1=\"361.22\" x2=\"502.47\" y2=\"361.22\"/>\n      <line class=\"st0\" x1=\"455.45\" y1=\"383.55\" x2=\"502.47\" y2=\"383.55\"/>\n      <line class=\"st0\" x1=\"455.45\" y1=\"404.92\" x2=\"502.47\" y2=\"404.92\"/>\n      <line class=\"st0\" x1=\"455.45\" y1=\"426.76\" x2=\"502.47\" y2=\"426.76\"/>\n      <line class=\"st0\" x1=\"388.01\" y1=\"337\" x2=\"514.34\" y2=\"337\"/>\n      <line class=\"st2\" x1=\"479.19\" y1=\"512.72\" x2=\"511.96\" y2=\"512.72\"/>\n      <line class=\"st0\" x1=\"495.34\" y1=\"512.72\" x2=\"495.34\" y2=\"535.52\"/>\n      <line class=\"st0\" x1=\"557.08\" y1=\"461.43\" x2=\"603.15\" y2=\"461.43\"/>\n      <line class=\"st0\" x1=\"577.5\" y1=\"434.36\" x2=\"577.5\" y2=\"491.83\"/>\n      <line class=\"st0\" x1=\"628.79\" y1=\"303.29\" x2=\"685.78\" y2=\"303.29\"/>\n      <line class=\"st0\" x1=\"628.79\" y1=\"323.23\" x2=\"685.78\" y2=\"323.23\"/>\n      <line class=\"st0\" x1=\"628.79\" y1=\"366.45\" x2=\"685.78\" y2=\"366.45\"/>\n      <line class=\"st0\" x1=\"628.79\" y1=\"386.4\" x2=\"685.78\" y2=\"386.4\"/>\n      <line class=\"st0\" x1=\"703.24\" y1=\"424.51\" x2=\"789.79\" y2=\"424.51\"/>\n      <line class=\"st2\" x1=\"729.59\" y1=\"467.25\" x2=\"789.79\" y2=\"467.25\"/>\n      <line class=\"st2\" x1=\"728.11\" y1=\"509.28\" x2=\"789.79\" y2=\"509.28\"/>\n      <polygon class=\"st0\" points=\"610.27,434.36 557.08,434.36 557.08,492.3 603.86,492.3 603.86,449.8 610.27,443.38 \"/>\n      <line class=\"st0\" x1=\"528.11\" y1=\"323.23\" x2=\"577.5\" y2=\"323.23\"/>\n      <polygon class=\"st0\" points=\"585.36,362.17 585.36,323.23 559.93,323.23 559.93,375.47 568.57,375.47 568.57,362.17 \"/>\n      <polyline class=\"st2\" points=\"622.5,500.14 659.9,500.14 659.9,479.12 \"/>\n      <polyline class=\"st0\" points=\"689.11,510.11 667.02,510.11 667.02,543.95 \"/>\n      <polyline class=\"st0\" points=\"654.2,500.49 654.2,522.22 622.14,522.22 \"/>\n      <line class=\"st0\" x1=\"667.74\" y1=\"526.14\" x2=\"689.46\" y2=\"526.14\"/>\n      <line class=\"st0\" x1=\"654.2\" y1=\"516.52\" x2=\"654.2\" y2=\"532.55\"/>\n      <polygon class=\"st0\" points=\"684.94,449.32 643.52,449.32 643.52,456.44 686.73,456.44 686.73,451.11 \"/>\n      <line class=\"st0\" x1=\"727.93\" y1=\"402.18\" x2=\"703\" y2=\"402.18\"/>\n      <line class=\"st0\" x1=\"790.26\" y1=\"503.34\" x2=\"823.39\" y2=\"503.34\"/>\n      <line class=\"st0\" x1=\"790.26\" y1=\"527.92\" x2=\"823.39\" y2=\"527.92\"/>\n      <line class=\"st0\" x1=\"812.35\" y1=\"470.57\" x2=\"812.35\" y2=\"503.34\"/>\n      <line class=\"st2\" x1=\"835.85\" y1=\"502.99\" x2=\"855.48\" y2=\"502.99\"/>\n      <line class=\"st2\" x1=\"835.85\" y1=\"533.62\" x2=\"855.48\" y2=\"533.62\"/>\n      <line class=\"st2\" x1=\"835.85\" y1=\"554.28\" x2=\"855.48\" y2=\"554.28\"/>\n      <line class=\"st2\" x1=\"835.85\" y1=\"573.51\" x2=\"855.98\" y2=\"573.51\"/>\n      <polygon class=\"st0\" points=\"809.74,566.15 809.74,551.19 783.73,551.19 783.73,615.66 815.43,615.66 815.43,566.15 \"/>\n      <polygon class=\"st0\" points=\"703.24,305.42 703.24,342.7 723.3,342.7 723.3,363.48 910.53,363.48 910.53,305.42 \"/>\n      <line class=\"st0\" x1=\"887.5\" y1=\"305.3\" x2=\"887.5\" y2=\"363.36\"/>\n      <line class=\"st0\" x1=\"870.4\" y1=\"305.3\" x2=\"870.4\" y2=\"363.36\"/>\n      <line class=\"st0\" x1=\"853.31\" y1=\"305.3\" x2=\"853.31\" y2=\"363.36\"/>\n      <line class=\"st2\" x1=\"910.65\" y1=\"320.62\" x2=\"852.95\" y2=\"320.62\"/>\n      <polygon class=\"st0\" points=\"847.61,220.65 847.61,232.05 828.85,250.81 809.14,250.81 788.6,250.81 769.84,232.05 769.84,220.65  703.24,220.65 703.24,305.07 910.3,305.07 910.3,220.65 \"/>\n      <polyline class=\"st2\" points=\"750.84,219.7 750.84,233.95 744.67,240.12 702.88,240.12 \"/>\n      <polyline class=\"st0\" points=\"769.84,232.05 757.49,244.39 761.05,247.96 749.66,259.35 749.66,273.36 702.88,273.36 \"/>\n      <polyline class=\"st2\" points=\"780.77,243.44 768.65,255.55 768.65,270.99 764.14,270.99 764.14,305.66 \"/>\n      <line class=\"st2\" x1=\"809.14\" y1=\"250.81\" x2=\"809.14\" y2=\"304.71\"/>\n      <polyline class=\"st2\" points=\"867.55,219.7 867.55,233.95 873.73,240.12 910.42,240.12 \"/>\n      <polyline class=\"st2\" points=\"848.56,232.05 860.91,244.39 857.34,247.96 868.74,259.35 868.74,273.36 910.42,273.36 \"/>\n      <polyline class=\"st2\" points=\"837.63,243.44 849.75,255.55 849.75,270.99 854.26,270.99 854.26,305.66 \"/>\n      <line class=\"st2\" x1=\"809.26\" y1=\"250.81\" x2=\"809.26\" y2=\"304.71\"/>\n      <polygon class=\"st0\" points=\"847.61,202.84 847.61,191.44 828.85,172.68 809.14,172.68 788.6,172.68 769.84,191.44 769.84,202.84  703.24,202.84 703.24,118.42 910.3,118.42 910.3,202.84 \"/>\n      <polyline class=\"st0\" points=\"750.84,201.84 750.84,188.95 744.67,183.37 702.88,183.37 \"/>\n      <polyline class=\"st0\" points=\"769.84,191.44 757.49,179.09 761.05,175.53 749.66,164.13 749.66,150.12 702.88,150.12 \"/>\n      <polyline class=\"st2\" points=\"780.77,180.04 768.65,167.93 768.65,152.5 764.14,152.5 764.14,117.83 \"/>\n      <line class=\"st2\" x1=\"809.14\" y1=\"172.68\" x2=\"809.14\" y2=\"118.78\"/>\n      <polyline class=\"st2\" points=\"867.55,203.79 867.55,189.54 873.73,183.37 910.42,183.37 \"/>\n      <polyline class=\"st2\" points=\"848.56,191.44 860.91,179.09 857.34,175.53 868.74,164.13 868.74,150.12 910.42,150.12 \"/>\n      <polyline class=\"st2\" points=\"837.63,180.04 849.75,167.93 849.75,152.5 854.26,152.5 854.26,117.83 \"/>\n      <line class=\"st2\" x1=\"809.26\" y1=\"172.68\" x2=\"809.26\" y2=\"118.78\"/>\n      <polygon class=\"st0\" points=\"522.77,220.65 522.77,232.05 504.01,250.81 484.3,250.81 463.76,250.81 445,232.05 445,220.65  378.39,220.65 378.39,305.07 585.46,305.07 585.46,220.65 \"/>\n      <polyline class=\"st2\" points=\"426,219.7 426,233.95 419.83,240.12 378.04,240.12 \"/>\n      <polyline class=\"st2\" points=\"445,232.05 432.65,244.39 436.21,247.96 424.82,259.35 424.82,273.36 378.04,273.36 \"/>\n      <polyline class=\"st2\" points=\"455.92,243.44 443.81,255.55 443.81,270.99 439.3,270.99 439.3,305.66 \"/>\n      <line class=\"st2\" x1=\"484.3\" y1=\"250.81\" x2=\"484.3\" y2=\"304.71\"/>\n      <polyline class=\"st2\" points=\"542.71,219.7 542.71,233.95 548.89,240.12 585.58,240.12 \"/>\n      <polyline class=\"st2\" points=\"523.72,232.05 536.06,244.39 532.5,247.96 543.9,259.35 543.9,273.36 585.58,273.36 \"/>\n      <polyline class=\"st2\" points=\"512.79,243.44 524.9,255.55 524.9,270.99 529.42,270.99 529.42,305.66 \"/>\n      <line class=\"st2\" x1=\"484.42\" y1=\"250.81\" x2=\"484.42\" y2=\"304.71\"/>\n      <polygon class=\"st0\" points=\"522.77,202.84 522.77,191.44 504.01,172.68 484.3,172.68 463.76,172.68 445,191.44 445,202.84  378.39,202.84 378.39,118.42 585.46,118.42 585.46,202.84 \"/>\n      <polyline class=\"st2\" points=\"426,203.79 426,189.54 419.83,183.37 378.04,183.37 \"/>\n      <polyline class=\"st2\" points=\"445,191.44 432.65,179.09 436.21,175.53 424.82,164.13 424.82,150.12 378.04,150.12 \"/>\n      <polyline class=\"st2\" points=\"455.92,180.04 443.81,167.93 443.81,152.5 439.3,152.5 439.3,117.83 \"/>\n      <line class=\"st2\" x1=\"484.3\" y1=\"172.68\" x2=\"484.3\" y2=\"118.78\"/>\n      <polyline class=\"st2\" points=\"542.71,203.79 542.71,189.54 548.89,183.37 585.58,183.37 \"/>\n      <polyline class=\"st2\" points=\"523.72,191.44 536.06,179.09 532.5,175.53 543.9,164.13 543.9,150.12 585.58,150.12 \"/>\n      <polyline class=\"st2\" points=\"512.79,180.04 524.9,167.93 524.9,152.5 529.42,152.5 529.42,117.83 \"/>\n      <line class=\"st2\" x1=\"484.42\" y1=\"172.68\" x2=\"484.42\" y2=\"118.78\"/>\n      <line class=\"st0\" x1=\"645.3\" y1=\"258.29\" x2=\"645.3\" y2=\"219.82\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"234.78\" x2=\"610.03\" y2=\"234.78\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"188.47\" x2=\"610.03\" y2=\"188.47\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"174.23\" x2=\"610.03\" y2=\"174.23\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"136.47\" x2=\"610.03\" y2=\"136.47\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"261.49\" x2=\"610.03\" y2=\"261.49\"/>\n      <line class=\"st0\" x1=\"584.74\" y1=\"282.51\" x2=\"610.03\" y2=\"282.51\"/>\n      <rect x=\"628.32\" y=\"169.83\" class=\"st0\" width=\"24.93\" height=\"33.01\"/>\n      <rect x=\"659.9\" y=\"130.65\" class=\"st0\" width=\"43.46\" height=\"39.18\"/>\n      <line class=\"st0\" x1=\"680.32\" y1=\"129.94\" x2=\"680.32\" y2=\"169.36\"/>\n      <line class=\"st0\" x1=\"658.95\" y1=\"149.17\" x2=\"679.61\" y2=\"149.17\"/>\n      <line class=\"st0\" x1=\"680.56\" y1=\"154.4\" x2=\"702.64\" y2=\"154.4\"/>\n      <line class=\"st0\" x1=\"647.55\" y1=\"169.83\" x2=\"664.41\" y2=\"169.83\"/>\n      <line class=\"st0\" x1=\"671.77\" y1=\"190.97\" x2=\"671.77\" y2=\"169.83\"/>\n      <polygon class=\"st0\" points=\"639.57,118.3 628.32,129.55 628.32,202.84 653.25,202.84 653.25,188.35 671.77,188.35 671.77,202.84  703.36,202.84 703.36,118.3 \"/>\n      <rect x=\"928.11\" y=\"204.15\" class=\"st0\" width=\"26.36\" height=\"23.86\"/>\n      <rect x=\"928.11\" y=\"183.49\" class=\"st0\" width=\"37.76\" height=\"20.66\"/>\n      <rect x=\"928.11\" y=\"245.7\" class=\"st0\" width=\"37.76\" height=\"61.98\"/>\n      <rect x=\"928.11\" y=\"307.44\" class=\"st0\" width=\"65.3\" height=\"33.96\"/>\n      <rect x=\"928.11\" y=\"369.18\" class=\"st0\" width=\"65.3\" height=\"33.95\"/>\n      <rect x=\"928.11\" y=\"402.9\" class=\"st0\" width=\"65.3\" height=\"51.53\"/>\n      <rect x=\"928.11\" y=\"471.76\" class=\"st0\" width=\"65.3\" height=\"56.51\"/>\n      <polygon class=\"st0\" points=\"1014.44,528.4 928.11,528.4 928.11,620.17 1006.22,620.17 1006.22,584.91 1014.44,584.91 \"/>\n      <rect x=\"977.97\" y=\"620.29\" class=\"st0\" width=\"27.9\" height=\"25.17\"/>\n      <rect x=\"993.29\" y=\"471.76\" class=\"st1\" width=\"21.13\" height=\"56.51\"/>\n      <rect x=\"1014.3\" y=\"471.76\" class=\"st0\" width=\"25.05\" height=\"38.7\"/>\n      <rect x=\"928.11\" y=\"341.16\" class=\"st0\" width=\"21.61\" height=\"28.26\"/>\n      <rect x=\"966.1\" y=\"245.7\" class=\"st0\" width=\"27.31\" height=\"61.98\"/>\n      <rect x=\"993.17\" y=\"245.7\" class=\"st0\" width=\"31.1\" height=\"27.78\"/>\n      <rect x=\"928.11\" y=\"147.51\" class=\"st0\" width=\"73.73\" height=\"35.97\"/>\n      <rect x=\"965.86\" y=\"183.49\" class=\"st0\" width=\"35.97\" height=\"20.66\"/>\n      <rect x=\"945.56\" y=\"159.27\" class=\"st0\" width=\"19.95\" height=\"24.22\"/>\n      <rect x=\"965.51\" y=\"159.27\" class=\"st0\" width=\"19.95\" height=\"24.22\"/>\n      <rect x=\"954.46\" y=\"204.15\" class=\"st0\" width=\"26.36\" height=\"23.86\"/>\n      <rect x=\"980.82\" y=\"204.15\" class=\"st0\" width=\"21.02\" height=\"23.86\"/>\n      <line class=\"st0\" x1=\"905.67\" y1=\"183.49\" x2=\"977.97\" y2=\"183.49\"/>\n\n      <g>\n       <path class=\"st0\" d=\"M1039.12,147.51v80.73h50.76c4.6-17.23,20.31-29.92,39-29.92c18.68,0,34.39,12.69,38.99,29.92h50.29v-80.73 \tH1039.12z\"/>\n       <polyline class=\"st0\" points=\"1080.56,228.01 1080.56,218.39 1071.65,209.49 1039.24,209.49 \t\"/>\n       <polyline class=\"st0\" points=\"1095.87,215.54 1085.18,204.86 1088.39,201.65 1077.88,191.14 1077.88,177.79 1038.52,177.79 \t\"/>\n       <polyline class=\"st0\" points=\"1107.27,203.79 1095.16,191.68 1095.16,184.56 1089.99,179.39 1089.99,147.87 \t\"/>\n       <line class=\"st0\" x1=\"1128.64\" y1=\"197.38\" x2=\"1128.64\" y2=\"147.87\"/>\n       <polyline class=\"st0\" points=\"1176.72,228.01 1176.72,218.39 1185.63,209.49 1218.04,209.49 \t\"/>\n       <polyline class=\"st0\" points=\"1161.41,215.54 1172.09,204.86 1168.89,201.65 1179.39,191.14 1179.39,177.79 1218.75,177.79 \t\"/>\n       <polyline class=\"st0\" points=\"1150.01,203.79 1162.12,191.68 1162.12,184.56 1167.28,179.39 1167.28,147.87 \t\"/>\n       <line class=\"st0\" x1=\"1128.64\" y1=\"197.38\" x2=\"1128.64\" y2=\"147.87\"/>\n      </g>\n      <g>\n       <path class=\"st0\" d=\"M1039.12,326.55v-80.73h50.76c4.6,17.23,20.31,29.92,39,29.92c18.68,0,34.39-12.69,38.99-29.92h50.29v80.73 \tH1039.12z\"/>\n       <polyline class=\"st0\" points=\"1080.56,246.06 1080.56,255.67 1071.65,264.58 1039.24,264.58 \t\"/>\n       <polyline class=\"st0\" points=\"1095.87,258.52 1085.18,269.21 1088.39,272.41 1077.88,282.92 1077.88,296.28 1038.52,296.28 \t\"/>\n       <polyline class=\"st0\" points=\"1107.27,270.28 1095.16,282.39 1095.16,289.51 1089.99,294.67 1089.99,326.2 \t\"/>\n       <line class=\"st0\" x1=\"1128.64\" y1=\"276.69\" x2=\"1128.64\" y2=\"326.2\"/>\n       <polyline class=\"st0\" points=\"1176.72,246.06 1176.72,255.67 1185.63,264.58 1218.04,264.58 \t\"/>\n       <polyline class=\"st0\" points=\"1161.41,258.52 1172.09,269.21 1168.89,272.41 1179.39,282.92 1179.39,296.28 1218.75,296.28 \t\"/>\n       <polyline class=\"st0\" points=\"1150.01,270.28 1162.12,282.39 1162.12,289.51 1167.28,294.67 1167.28,326.2 \t\"/>\n       <line class=\"st0\" x1=\"1128.64\" y1=\"276.69\" x2=\"1128.64\" y2=\"326.2\"/>\n      </g>\n      <path class=\"st0\" d=\"M1138.83,240.74c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.92 c2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L1138.83,240.74z\"/>\n      <path class=\"st0\" d=\"M1138.83,233.24c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.44-10,8.04l-6.09-2.92 c2.11-6.78,8.43-11.7,15.9-11.7c7.56,0,13.93,5.04,15.96,11.93L1138.83,233.24z\"/>\n      <path class=\"st0\" d=\"M818.26,216.52c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.92 c2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L818.26,216.52z\"/>\n      <path class=\"st0\" d=\"M818.26,209.02c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.44-10,8.04l-6.09-2.92 c2.11-6.78,8.43-11.7,15.9-11.7c7.56,0,13.93,5.04,15.96,11.93L818.26,209.02z\"/>\n      <path class=\"st0\" d=\"M493.9,216.52c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.92 c2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L493.9,216.52z\"/>\n      <path class=\"st0\" d=\"M493.9,209.02c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.44-10,8.04l-6.09-2.92 c2.11-6.78,8.43-11.7,15.9-11.7c7.56,0,13.93,5.04,15.96,11.93L493.9,209.02z\"/>\n      <g>\n        <g>\n          <path class=\"st0\" d=\"M1321.22,147.51v80.73h50.76c4.6-17.23,20.31-29.92,38.99-29.92c18.68,0,34.39,12.69,39,29.92h50.29v-80.73 \t\tH1321.22z\"/>\n         \t<polyline class=\"st0\" points=\"1362.65,228.01 1362.65,218.39 1353.75,209.49 1321.34,209.49 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1377.97,215.54 1367.28,204.86 1370.49,201.65 1359.98,191.14 1359.98,177.79 1320.62,177.79 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1389.37,203.79 1377.26,191.68 1377.26,184.56 1372.09,179.39 1372.09,147.87 \t\t\"/>\n         \t<line class=\"st0\" x1=\"1410.74\" y1=\"197.38\" x2=\"1410.74\" y2=\"147.87\"/>\n         \t<polyline class=\"st0\" points=\"1458.82,228.01 1458.82,218.39 1467.73,209.49 1500.14,209.49 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1443.51,215.54 1454.19,204.86 1450.99,201.65 1461.49,191.14 1461.49,177.79 1500.85,177.79 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1432.11,203.79 1444.22,191.68 1444.22,184.56 1449.38,179.39 1449.38,147.87 \t\t\"/>\n         \t<line class=\"st0\" x1=\"1410.74\" y1=\"197.38\" x2=\"1410.74\" y2=\"147.87\"/>\n        </g>\n        <g>\n          <path class=\"st0\" d=\"M1321.22,326.55v-80.73h50.76c4.6,17.23,20.31,29.92,38.99,29.92c18.68,0,34.39-12.69,39-29.92h50.29v80.73 \t\tH1321.22z\"/>\n         \t<polyline class=\"st0\" points=\"1362.65,246.06 1362.65,255.67 1353.75,264.58 1321.34,264.58 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1377.97,258.52 1367.28,269.21 1370.49,272.41 1359.98,282.92 1359.98,296.28 1320.62,296.28 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1389.37,270.28 1377.26,282.39 1377.26,289.51 1372.09,294.67 1372.09,326.2 \t\t\"/>\n         \t<line class=\"st0\" x1=\"1410.74\" y1=\"276.69\" x2=\"1410.74\" y2=\"326.2\"/>\n         \t<polyline class=\"st0\" points=\"1458.82,246.06 1458.82,255.67 1467.73,264.58 1500.14,264.58 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1443.51,258.52 1454.19,269.21 1450.99,272.41 1461.49,282.92 1461.49,296.28 1500.85,296.28 \t\t\"/>\n         \t<polyline class=\"st0\" points=\"1432.11,270.28 1444.22,282.39 1444.22,289.51 1449.38,294.67 1449.38,326.2 \t\t\"/>\n         \t<line class=\"st0\" x1=\"1410.74\" y1=\"276.69\" x2=\"1410.74\" y2=\"326.2\"/>\n        </g>\n        <path class=\"st0\" d=\"M1420.93,240.74c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.92 \tc2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L1420.93,240.74z\"/>\n        <path class=\"st0\" d=\"M1420.93,233.24c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.44-10,8.04l-6.09-2.92 \tc2.11-6.78,8.43-11.7,15.9-11.7c7.56,0,13.93,5.04,15.96,11.93L1420.93,233.24z\"/>\n      </g>\n      <path class=\"st0\" d=\"M1039.12,373.57v80.91h50.76c4.6-17.27,20.31-29.98,39-29.98c18.68,0,34.39,12.72,38.99,29.98h50.29v-80.91 H1039.12z\"/>\n      <polyline class=\"st0\" points=\"1080.56,453.48 1080.56,444.23 1071.65,435.68 1039.24,435.68 \"/>\n      <polyline class=\"st0\" points=\"1095.87,441.74 1085.18,431.04 1088.39,427.82 1077.88,417.29 1077.88,403.91 1038.52,403.91 \"/>\n      <polyline class=\"st0\" points=\"1107.27,429.97 1095.16,417.83 1095.16,410.69 1089.99,405.52 1089.99,373.93 \"/>\n      <line class=\"st0\" x1=\"1128.64\" y1=\"423.54\" x2=\"1128.64\" y2=\"373.93\"/>\n      <polyline class=\"st0\" points=\"1176.72,453.48 1176.72,444.23 1185.63,435.68 1218.04,435.68 \"/>\n      <polyline class=\"st0\" points=\"1161.41,441.74 1172.09,431.04 1168.89,427.82 1179.39,417.29 1179.39,403.91 1218.75,403.91 \"/>\n      <polyline class=\"st0\" points=\"1150.01,429.97 1162.12,417.83 1162.12,410.69 1167.28,405.52 1167.28,373.93 \"/>\n      <line class=\"st0\" x1=\"1128.64\" y1=\"423.54\" x2=\"1128.64\" y2=\"373.93\"/>\n      <path class=\"st0\" d=\"M1039.12,552.61v-80.82h50.76c4.6,17.25,20.31,29.95,39,29.95c18.68,0,34.39-12.71,38.99-29.95h50.29v80.82 H1039.12z\"/>\n      <polyline class=\"st0\" points=\"1080.56,472.76 1080.56,482 1071.65,490.57 1039.24,490.57 \"/>\n      <polyline class=\"st0\" points=\"1095.87,484.51 1085.18,495.2 1088.39,498.41 1077.88,508.93 1077.88,522.3 1038.52,522.3 \"/>\n      <polyline class=\"st0\" points=\"1107.27,496.27 1095.16,508.4 1095.16,515.53 1089.99,520.7 1089.99,552.26 \"/>\n      <line class=\"st0\" x1=\"1128.64\" y1=\"502.69\" x2=\"1128.64\" y2=\"552.26\"/>\n      <polyline class=\"st0\" points=\"1176.72,472.73 1176.72,481.99 1185.63,490.57 1218.04,490.57 \"/>\n      <polyline class=\"st0\" points=\"1161.41,484.51 1172.09,495.2 1168.89,498.41 1179.39,508.93 1179.39,522.3 1218.75,522.3 \"/>\n      <polyline class=\"st0\" points=\"1150.01,496.27 1162.12,508.4 1162.12,515.53 1167.28,520.7 1167.28,552.26 \"/>\n      <line class=\"st0\" x1=\"1128.64\" y1=\"502.69\" x2=\"1128.64\" y2=\"552.26\"/>\n      <path class=\"st0\" d=\"M1138.83,466.8c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.93 c2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L1138.83,466.8z\"/>\n      <path class=\"st0\" d=\"M1138.83,459.3c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.45-10,8.04l-6.09-2.93 c2.11-6.78,8.43-11.71,15.9-11.71c7.56,0,13.93,5.04,15.96,11.94L1138.83,459.3z\"/>\n      <path class=\"st0\" d=\"M1321.22,373.57v80.91h50.76c4.6-17.27,20.31-29.98,38.99-29.98c18.68,0,34.39,12.72,39,29.98h50.29v-80.91 H1321.22z\"/>\n      <polyline class=\"st0\" points=\"1362.65,453.51 1362.65,444.25 1353.75,435.68 1321.34,435.68 \"/>\n      <polyline class=\"st0\" points=\"1377.97,441.74 1367.28,431.04 1370.49,427.82 1359.98,417.29 1359.98,403.91 1320.62,403.91 \"/>\n      <polyline class=\"st0\" points=\"1389.37,429.97 1377.26,417.83 1377.26,410.69 1372.09,405.52 1372.09,373.93 \"/>\n      <line class=\"st0\" x1=\"1410.74\" y1=\"423.54\" x2=\"1410.74\" y2=\"373.93\"/>\n      <polyline class=\"st0\" points=\"1458.82,453.48 1458.82,444.23 1467.73,435.68 1500.14,435.68 \"/>\n      <polyline class=\"st0\" points=\"1443.51,441.74 1454.19,431.04 1450.99,427.82 1461.49,417.29 1461.49,403.91 1500.85,403.91 \"/>\n      <polyline class=\"st0\" points=\"1432.11,429.97 1444.22,417.83 1444.22,410.69 1449.38,405.52 1449.38,373.93 \"/>\n      <line class=\"st0\" x1=\"1410.74\" y1=\"423.54\" x2=\"1410.74\" y2=\"373.93\"/>\n      <path class=\"st0\" d=\"M1321.22,552.61v-80.73h50.76c4.6,17.23,20.31,29.92,38.99,29.92c18.68,0,34.39-12.69,39-29.92h50.29v80.73 H1321.22z\"/>\n      <polyline class=\"st0\" points=\"1362.65,472.85 1362.65,482.08 1353.75,490.63 1321.34,490.63 \"/>\n      <polyline class=\"st0\" points=\"1377.97,484.58 1367.28,495.27 1370.49,498.47 1359.98,508.98 1359.98,522.34 1320.62,522.34 \"/>\n      <polyline class=\"st0\" points=\"1389.37,496.33 1377.26,508.44 1377.26,515.57 1372.09,520.73 1372.09,552.26 \"/>\n      <line class=\"st0\" x1=\"1410.74\" y1=\"502.75\" x2=\"1410.74\" y2=\"552.26\"/>\n      <polyline class=\"st0\" points=\"1458.82,472.85 1458.82,482.08 1467.73,490.63 1500.14,490.63 \"/>\n      <polyline class=\"st0\" points=\"1443.51,484.58 1454.19,495.27 1450.99,498.47 1461.49,508.98 1461.49,522.34 1500.85,522.34 \"/>\n      <polyline class=\"st0\" points=\"1432.11,496.33 1444.22,508.44 1444.22,515.57 1449.38,520.73 1449.38,552.26 \"/>\n      <line class=\"st0\" x1=\"1410.74\" y1=\"502.75\" x2=\"1410.74\" y2=\"552.26\"/>\n      <path class=\"st0\" d=\"M1420.93,466.8c-1.12,4.45-5.13,7.75-9.92,7.75c-4.9,0-8.99-3.44-10-8.04l-6.09,2.93 c2.11,6.78,8.43,11.7,15.9,11.7c7.56,0,13.93-5.04,15.96-11.94L1420.93,466.8z\"/>\n      <path class=\"st0\" d=\"M1420.93,459.3c-1.12-4.45-5.13-7.75-9.92-7.75c-4.9,0-8.99,3.45-10,8.04l-6.09-2.93 c2.11-6.78,8.43-11.71,15.9-11.71c7.56,0,13.93,5.04,15.96,11.94L1420.93,459.3z\"/>\n      <rect x=\"1267.91\" y=\"190.25\" class=\"st0\" width=\"53.43\" height=\"37.93\"/>\n      <rect x=\"1283.58\" y=\"245.82\" class=\"st0\" width=\"37.76\" height=\"37.76\"/>\n      <rect x=\"1218.04\" y=\"245.82\" class=\"st0\" width=\"47.69\" height=\"37.76\"/>\n      <line class=\"st0\" x1=\"1305.66\" y1=\"190.97\" x2=\"1305.66\" y2=\"228.01\"/>\n      <line class=\"st0\" x1=\"1237.28\" y1=\"282.86\" x2=\"1237.28\" y2=\"245.93\"/>\n      <line class=\"st0\" x1=\"1283.58\" y1=\"268.26\" x2=\"1320.98\" y2=\"268.26\"/>\n      <rect x=\"1283.58\" y=\"416.79\" class=\"st0\" width=\"37.76\" height=\"37.75\"/>\n      <line class=\"st0\" x1=\"1283.58\" y1=\"432.1\" x2=\"1320.98\" y2=\"432.1\"/>\n      <line class=\"st0\" x1=\"1237.63\" y1=\"269.68\" x2=\"1265.06\" y2=\"269.68\"/>\n      <line class=\"st0\" x1=\"1258.65\" y1=\"269.33\" x2=\"1258.65\" y2=\"245.82\"/>\n      <rect x=\"1218.04\" y=\"416.79\" class=\"st0\" width=\"47.73\" height=\"37.75\"/>\n      <line class=\"st0\" x1=\"1237.28\" y1=\"417.5\" x2=\"1237.28\" y2=\"455.97\"/>\n      <line class=\"st0\" x1=\"1237.63\" y1=\"430.68\" x2=\"1265.06\" y2=\"430.68\"/>\n      <line class=\"st0\" x1=\"1258.65\" y1=\"431.04\" x2=\"1258.65\" y2=\"454.54\"/>\n      <polygon class=\"st0\" points=\"1218.04,190.25 1218.04,228.23 1236.21,228.23 1236.21,202.08 1247.6,202.08 1247.6,228.23  1267.91,228.23 1267.91,190.25 \"/>\n      <line class=\"st2\" x1=\"1217.69\" y1=\"212.1\" x2=\"1235.73\" y2=\"212.1\"/>\n      <line class=\"st2\" x1=\"1247.84\" y1=\"212.1\" x2=\"1267.55\" y2=\"212.1\"/>\n      <line class=\"st0\" x1=\"1242.14\" y1=\"200.94\" x2=\"1242.14\" y2=\"190.49\"/>\n      <rect x=\"1267.91\" y=\"471.85\" class=\"st0\" width=\"53.43\" height=\"37.54\"/>\n      <line class=\"st0\" x1=\"1305.66\" y1=\"508.68\" x2=\"1305.66\" y2=\"471.64\"/>\n      <polygon class=\"st0\" points=\"1218.04,509.4 1218.04,471.85 1236.21,471.85 1236.21,497.71 1247.6,497.71 1247.6,471.85  1267.91,471.85 1267.91,509.4 \"/>\n      <line class=\"st2\" x1=\"1217.69\" y1=\"487.55\" x2=\"1235.73\" y2=\"487.55\"/>\n      <line class=\"st2\" x1=\"1247.84\" y1=\"487.55\" x2=\"1267.55\" y2=\"487.55\"/>\n      <line class=\"st0\" x1=\"1242.14\" y1=\"498.71\" x2=\"1242.14\" y2=\"509.16\"/>\n      <line class=\"st0\" x1=\"1283.57\" y1=\"272.8\" x2=\"1283.57\" y2=\"430.94\"/>\n      <line class=\"st0\" x1=\"1265.75\" y1=\"272.8\" x2=\"1265.75\" y2=\"436.17\"/>\n      <line class=\"st0\" x1=\"927.99\" y1=\"427\" x2=\"992.58\" y2=\"427\"/>\n      <line class=\"st0\" x1=\"972.63\" y1=\"427.71\" x2=\"972.63\" y2=\"454.78\"/>\n      <line class=\"st0\" x1=\"948.17\" y1=\"402.78\" x2=\"948.17\" y2=\"427.95\"/>\n      <line class=\"st0\" x1=\"967.88\" y1=\"402.78\" x2=\"967.88\" y2=\"427.95\"/>\n      <line class=\"st0\" x1=\"966.93\" y1=\"471.64\" x2=\"966.93\" y2=\"527.92\"/>\n      <polyline class=\"st0\" points=\"992.29,485.89 980.11,485.89 980.11,528.99 \"/>\n      <line class=\"st0\" x1=\"980.11\" y1=\"492.3\" x2=\"966.58\" y2=\"492.3\"/>\n      <line class=\"st0\" x1=\"980.11\" y1=\"507.62\" x2=\"992.93\" y2=\"507.62\"/>\n      <polyline class=\"st0\" points=\"956.25,528.27 956.25,570.3 928.98,570.3 \"/>\n      <polygon class=\"st0\" points=\"928.11,620.29 928.11,633.35 944.13,633.35 944.13,648.31 928.11,648.31 928.11,661.85 978.09,661.85  978.09,620.29 \"/>\n      <line class=\"st0\" x1=\"944.49\" y1=\"640.47\" x2=\"977.97\" y2=\"640.47\"/>\n      <polygon class=\"st0\" points=\"855.8,515.1 855.8,587.4 885.01,587.4 885.01,615.54 903.53,615.54 903.53,515.1 \"/>\n      <polygon class=\"st0\" points=\"1076.76,585.03 1005.76,585.03 1005.76,645.46 977.97,645.46 977.97,661.84 1076.64,661.84  1076.64,649.02 1076.76,649.02 \"/>\n      <rect x=\"1076.64\" y=\"597.02\" class=\"st0\" width=\"86.2\" height=\"59.84\"/>\n      <rect x=\"931.79\" y=\"679.65\" class=\"st0\" width=\"49.63\" height=\"114.04\"/>\n      <polygon class=\"st0\" points=\"910.18,679.64 910.18,633.35 791.69,633.35 791.69,738.22 931.79,738.22 931.79,679.64 \"/>\n      <polygon class=\"st0\" points=\"707.27,551.07 707.27,562.82 699.79,562.82 699.79,632.99 773.88,632.99 773.88,615.54 783.85,615.54  783.85,551.07 \"/>\n      <rect x=\"699.79\" y=\"562.82\" class=\"st2\" width=\"19.59\" height=\"19.59\"/>\n      <line class=\"st0\" x1=\"732.92\" y1=\"551.07\" x2=\"732.92\" y2=\"632.99\"/>\n      <line class=\"st2\" x1=\"773.88\" y1=\"620.17\" x2=\"773.88\" y2=\"551.07\"/>\n      <polyline class=\"st0\" points=\"733.91,610.2 751.44,610.2 751.44,633.35 \"/>\n      <line class=\"st0\" x1=\"733.27\" y1=\"590.96\" x2=\"774.23\" y2=\"590.96\"/>\n      <line class=\"st0\" x1=\"733.27\" y1=\"571.73\" x2=\"783.14\" y2=\"571.73\"/>\n      <line class=\"st2\" x1=\"715.46\" y1=\"562.82\" x2=\"732.92\" y2=\"562.82\"/>\n      <line class=\"st2\" x1=\"774.23\" y1=\"585.98\" x2=\"783.14\" y2=\"585.98\"/>\n      <line class=\"st0\" x1=\"748.94\" y1=\"551.43\" x2=\"748.94\" y2=\"571.37\"/>\n      <rect x=\"709.05\" y=\"632.99\" class=\"st0\" width=\"22.08\" height=\"56.28\"/>\n      <rect x=\"731.13\" y=\"632.99\" class=\"st0\" width=\"42.74\" height=\"56.28\"/>\n      <line class=\"st0\" x1=\"730.42\" y1=\"662.91\" x2=\"774.23\" y2=\"662.91\"/>\n      <line class=\"st0\" x1=\"751.44\" y1=\"626.94\" x2=\"751.44\" y2=\"662.91\"/>\n      <rect x=\"556.6\" y=\"561.16\" class=\"st0\" width=\"125.85\" height=\"31.34\"/>\n      <rect x=\"534.97\" y=\"561.16\" class=\"st0\" width=\"21.56\" height=\"22.46\"/>\n      <rect x=\"513.6\" y=\"561.16\" class=\"st0\" width=\"21.56\" height=\"22.46\"/>\n      <rect x=\"492.22\" y=\"561.16\" class=\"st0\" width=\"21.56\" height=\"22.46\"/>\n      <rect x=\"596.97\" y=\"610.08\" class=\"st0\" width=\"85.48\" height=\"78.36\"/>\n      <rect x=\"568.95\" y=\"610.08\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"568.95\" y=\"633.59\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"568.95\" y=\"657.09\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"568.95\" y=\"680.6\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"420.3\" y=\"592.03\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"420.3\" y=\"556.89\" class=\"st0\" width=\"47.49\" height=\"20.66\"/>\n      <rect x=\"420.3\" y=\"577.55\" class=\"st0\" width=\"20.18\" height=\"14.48\"/>\n      <rect x=\"493.69\" y=\"620.13\" transform=\"matrix(1 -2.034928e-03 2.034928e-03 1 -1.2886 1.0279)\" class=\"st0\" width=\"21.57\" height=\"27.24\"/>\n      <rect x=\"515.9\" y=\"620.13\" transform=\"matrix(1 -2.034928e-03 2.034928e-03 1 -1.2886 1.0731)\" class=\"st0\" width=\"21.57\" height=\"27.24\"/>\n      <rect x=\"489.4\" y=\"722.51\" class=\"st0\" width=\"22.2\" height=\"38.23\"/>\n      <rect x=\"511.84\" y=\"722.51\" class=\"st0\" width=\"20.06\" height=\"38.23\"/>\n      <rect x=\"420.3\" y=\"615.54\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"420.3\" y=\"639.05\" class=\"st0\" width=\"28.02\" height=\"23.51\"/>\n      <rect x=\"420.3\" y=\"662.56\" class=\"st0\" width=\"28.02\" height=\"161.02\"/>\n      <line class=\"st0\" x1=\"622.62\" y1=\"560.69\" x2=\"622.62\" y2=\"591.56\"/>\n      <line class=\"st0\" x1=\"637.34\" y1=\"560.69\" x2=\"637.34\" y2=\"591.56\"/>\n      <line class=\"st0\" x1=\"621.2\" y1=\"688.91\" x2=\"621.2\" y2=\"610.08\"/>\n      <line class=\"st0\" x1=\"596.02\" y1=\"667.07\" x2=\"620.24\" y2=\"667.07\"/>\n      <line class=\"st0\" x1=\"621.2\" y1=\"659.47\" x2=\"682.93\" y2=\"659.47\"/>\n      <line class=\"st0\" x1=\"377.56\" y1=\"556.89\" x2=\"403.09\" y2=\"556.89\"/>\n      <line class=\"st0\" x1=\"467.8\" y1=\"556.89\" x2=\"467.8\" y2=\"561.16\"/>\n      <line class=\"st0\" x1=\"587.95\" y1=\"592.51\" x2=\"587.95\" y2=\"609.6\"/>\n      <rect x=\"885.01\" y=\"381.17\" class=\"st0\" width=\"25.17\" height=\"26.12\"/>\n      <line class=\"st2\" x1=\"994.24\" y1=\"228.01\" x2=\"1050.99\" y2=\"228.01\"/>\n      <line class=\"st2\" x1=\"994.24\" y1=\"245.82\" x2=\"1050.99\" y2=\"245.82\"/>\n      <rect x=\"1500.27\" y=\"449.24\" class=\"st1\" width=\"23.15\" height=\"55.21\"/>\n      <line class=\"st2\" x1=\"983.32\" y1=\"454.43\" x2=\"1052.07\" y2=\"454.43\"/>\n      <line class=\"st2\" x1=\"1027.25\" y1=\"679.42\" x2=\"1027.25\" y2=\"661.84\"/>\n      <line class=\"st2\" x1=\"610.27\" y1=\"436.73\" x2=\"610.27\" y2=\"398.74\"/>\n\n\n\n\n      <g>\n       <line class=\"st1\" x1=\"358.57\" y1=\"493.37\" x2=\"383.14\" y2=\"493.37\"/>\n       <line class=\"st1\" x1=\"358.57\" y1=\"498.89\" x2=\"383.14\" y2=\"498.89\"/>\n       <line class=\"st1\" x1=\"358.57\" y1=\"504.41\" x2=\"383.14\" y2=\"504.41\"/>\n       <line class=\"st1\" x1=\"358.57\" y1=\"509.93\" x2=\"383.14\" y2=\"509.93\"/>\n       <line class=\"st1\" x1=\"358.57\" y1=\"515.45\" x2=\"383.14\" y2=\"515.45\"/>\n       <line class=\"st2\" x1=\"370.5\" y1=\"493.37\" x2=\"370.5\" y2=\"516.16\"/>\n      </g>\n      <g>\n       <line class=\"st1\" x1=\"585.58\" y1=\"324.53\" x2=\"610.15\" y2=\"324.53\"/>\n       <line class=\"st1\" x1=\"585.58\" y1=\"330.06\" x2=\"610.15\" y2=\"330.06\"/>\n       <line class=\"st1\" x1=\"585.58\" y1=\"335.58\" x2=\"610.15\" y2=\"335.58\"/>\n       <line class=\"st1\" x1=\"585.58\" y1=\"341.1\" x2=\"610.15\" y2=\"341.1\"/>\n       <line class=\"st1\" x1=\"585.58\" y1=\"346.62\" x2=\"610.15\" y2=\"346.62\"/>\n       <line class=\"st2\" x1=\"597.51\" y1=\"324.53\" x2=\"597.51\" y2=\"347.33\"/>\n      </g>\n      <g>\n       <line class=\"st1\" x1=\"993.29\" y1=\"489.57\" x2=\"1014.54\" y2=\"489.57\"/>\n       <line class=\"st1\" x1=\"993.29\" y1=\"495.09\" x2=\"1014.54\" y2=\"495.09\"/>\n       <line class=\"st1\" x1=\"993.29\" y1=\"500.61\" x2=\"1014.54\" y2=\"500.61\"/>\n       <line class=\"st1\" x1=\"993.29\" y1=\"506.13\" x2=\"1014.54\" y2=\"506.13\"/>\n       <line class=\"st1\" x1=\"993.29\" y1=\"511.65\" x2=\"1014.54\" y2=\"511.65\"/>\n       <line class=\"st2\" x1=\"1003.6\" y1=\"489.57\" x2=\"1003.6\" y2=\"512.37\"/>\n      </g>\n      <g>\n       <line class=\"st1\" x1=\"1500.68\" y1=\"466.12\" x2=\"1523.47\" y2=\"466.12\"/>\n       <line class=\"st1\" x1=\"1500.68\" y1=\"471.64\" x2=\"1523.47\" y2=\"471.64\"/>\n       <line class=\"st1\" x1=\"1500.68\" y1=\"477.16\" x2=\"1523.47\" y2=\"477.16\"/>\n       <line class=\"st1\" x1=\"1500.68\" y1=\"482.68\" x2=\"1523.47\" y2=\"482.68\"/>\n       <line class=\"st1\" x1=\"1500.68\" y1=\"488.2\" x2=\"1523.47\" y2=\"488.2\"/>\n       <line class=\"st2\" x1=\"1511.74\" y1=\"466.12\" x2=\"1511.74\" y2=\"488.92\"/>\n      </g>\n      <line class=\"st0\" x1=\"358.57\" y1=\"666.42\" x2=\"401.78\" y2=\"666.42\"/>\n      <line class=\"st0\" x1=\"358.57\" y1=\"687.79\" x2=\"401.78\" y2=\"687.79\"/>\n      <polyline class=\"st0\" points=\"376.61,666.89 376.61,635.55 402.73,635.55 \"/>\n      <line class=\"st0\" x1=\"375.66\" y1=\"640.77\" x2=\"359.04\" y2=\"640.77\"/>\n      <rect x=\"504.25\" y=\"660.72\" class=\"st0\" width=\"22.08\" height=\"50.58\"/>\n      <rect x=\"526.33\" y=\"660.72\" class=\"st0\" width=\"24.79\" height=\"42.74\"/>\n      <polygon class=\"st0\" points=\"474.07,660.72 474.07,674.97 465.68,674.97 465.68,711.3 504.25,711.3 504.25,660.72 \"/>\n      <line class=\"st0\" x1=\"526.33\" y1=\"682.8\" x2=\"547.35\" y2=\"682.8\"/>\n      <rect x=\"465.97\" y=\"725.63\" class=\"st0\" width=\"7.12\" height=\"35.46\"/>\n      <rect x=\"476.4\" y=\"603.96\" class=\"st0\" width=\"7.12\" height=\"43.57\"/>\n      <rect x=\"545.92\" y=\"603.96\" class=\"st0\" width=\"7.12\" height=\"43.57\"/>\n      <rect x=\"493.71\" y=\"600.55\" class=\"st0\" width=\"43.57\" height=\"7.12\"/>\n      <rect x=\"465.97\" y=\"778.16\" class=\"st0\" width=\"85.15\" height=\"27.34\"/>\n      <rect x=\"493.78\" y=\"805.39\" class=\"st0\" width=\"74.72\" height=\"94.17\"/>\n      <rect x=\"493.78\" y=\"899.64\" class=\"st0\" width=\"81.67\" height=\"64.81\"/>\n      <rect x=\"589.18\" y=\"899.64\" class=\"st0\" width=\"69.7\" height=\"64.81\"/>\n      <rect x=\"589.18\" y=\"850.59\" class=\"st0\" width=\"56.95\" height=\"48.98\"/>\n      <rect x=\"472.53\" y=\"829.54\" class=\"st0\" width=\"21.25\" height=\"70.02\"/>\n      <rect x=\"543.99\" y=\"725.63\" class=\"st0\" width=\"7.12\" height=\"35.46\"/>\n      <line class=\"st0\" x1=\"402.73\" y1=\"574.88\" x2=\"402.73\" y2=\"556.71\"/>\n      <rect x=\"657.28\" y=\"705.84\" class=\"st0\" width=\"74.07\" height=\"32.29\"/>\n      <rect x=\"678.14\" y=\"751.42\" class=\"st0\" width=\"28.1\" height=\"43.11\"/>\n      <rect x=\"657.49\" y=\"751.42\" class=\"st0\" width=\"6.47\" height=\"43.11\"/>\n      <rect x=\"724.7\" y=\"751.42\" class=\"st0\" width=\"6.47\" height=\"43.11\"/>\n      <rect x=\"748.65\" y=\"705.84\" class=\"st0\" width=\"25.4\" height=\"126.92\"/>\n      <rect x=\"657.49\" y=\"812.83\" class=\"st0\" width=\"73.68\" height=\"19.93\"/>\n      <rect x=\"701.52\" y=\"832.77\" class=\"st0\" width=\"23.85\" height=\"19.83\"/>\n      <rect x=\"738.6\" y=\"832.66\" class=\"st0\" width=\"25.4\" height=\"19.93\"/>\n      <line class=\"st2\" x1=\"697.18\" y1=\"738.37\" x2=\"697.18\" y2=\"705.84\"/>\n      <line class=\"st2\" x1=\"748.74\" y1=\"727.77\" x2=\"773.9\" y2=\"727.77\"/>\n      <line class=\"st2\" x1=\"748.74\" y1=\"748.63\" x2=\"773.65\" y2=\"748.63\"/>\n      <line class=\"st2\" x1=\"748.74\" y1=\"769.49\" x2=\"773.73\" y2=\"769.49\"/>\n      <line class=\"st2\" x1=\"748.74\" y1=\"790.35\" x2=\"773.82\" y2=\"790.35\"/>\n      <line class=\"st2\" x1=\"748.74\" y1=\"811.2\" x2=\"773.73\" y2=\"811.2\"/>\n      <rect x=\"614.42\" y=\"705.84\" class=\"st0\" width=\"25.4\" height=\"126.92\"/>\n      <line class=\"st2\" x1=\"614.51\" y1=\"727.77\" x2=\"639.69\" y2=\"727.77\"/>\n      <line class=\"st2\" x1=\"614.51\" y1=\"748.63\" x2=\"639.44\" y2=\"748.63\"/>\n      <line class=\"st2\" x1=\"614.51\" y1=\"769.49\" x2=\"639.32\" y2=\"769.49\"/>\n      <line class=\"st2\" x1=\"614.51\" y1=\"790.35\" x2=\"639.57\" y2=\"790.35\"/>\n      <line class=\"st2\" x1=\"614.51\" y1=\"811.2\" x2=\"639.57\" y2=\"811.2\"/>\n      <rect x=\"996.73\" y=\"679.65\" class=\"st0\" width=\"25.7\" height=\"58.64\"/>\n      <rect x=\"1022.61\" y=\"679.65\" class=\"st0\" width=\"51.58\" height=\"46.28\"/>\n      <rect x=\"1096\" y=\"679.65\" class=\"st0\" width=\"51.58\" height=\"30.83\"/>\n      <rect x=\"1096\" y=\"710.17\" class=\"st0\" width=\"51.58\" height=\"62.12\"/>\n      <rect x=\"1022.61\" y=\"772.35\" class=\"st0\" width=\"124.97\" height=\"142.84\"/>\n      <rect x=\"924.5\" y=\"793.6\" class=\"st0\" width=\"97.93\" height=\"167.18\"/>\n      <rect x=\"1022.61\" y=\"915.27\" class=\"st0\" width=\"124.97\" height=\"45.51\"/>\n      <rect x=\"1022.61\" y=\"726\" class=\"st0\" width=\"51.58\" height=\"46.28\"/>\n      <rect x=\"727.1\" y=\"305.42\" class=\"st0\" width=\"85.13\" height=\"21.37\"/>\n      <rect x=\"723.18\" y=\"337.48\" class=\"st0\" width=\"24.22\" height=\"26\"/>\n      <rect x=\"793.35\" y=\"337.48\" class=\"st0\" width=\"15.32\" height=\"26\"/>\n      <line class=\"st2\" x1=\"740.75\" y1=\"325.96\" x2=\"740.75\" y2=\"306.01\"/>\n      <line class=\"st2\" x1=\"764.62\" y1=\"325.96\" x2=\"764.62\" y2=\"306.01\"/>\n      <line class=\"st2\" x1=\"783.14\" y1=\"325.96\" x2=\"783.14\" y2=\"306.01\"/>\n      <line class=\"st2\" x1=\"798.45\" y1=\"325.96\" x2=\"798.45\" y2=\"306.01\"/>\n      <rect x=\"568.95\" y=\"721.45\" class=\"st0\" width=\"28.02\" height=\"111.34\"/>\n      <line class=\"st2\" x1=\"614.37\" y1=\"735.64\" x2=\"614.37\" y2=\"780.54\"/>\n\n      <rect x=\"791.69\" y=\"738.35\" class=\"st0\" width=\"73.36\" height=\"32.43\"/>\n      <rect x=\"791.69\" y=\"751.09\" class=\"st0\" width=\"45.16\" height=\"32.83\"/>\n      <rect x=\"791.28\" y=\"849.97\" class=\"st0\" width=\"45.58\" height=\"20.47\"/>\n      <rect x=\"791.28\" y=\"870.63\" class=\"st0\" width=\"57.16\" height=\"25.88\"/>\n      <rect x=\"836.86\" y=\"810.96\" class=\"st0\" width=\"11.59\" height=\"69.72\"/>\n      <rect x=\"773.9\" y=\"927.22\" class=\"st0\" width=\"32.83\" height=\"35.15\"/>\n      <rect x=\"773.9\" y=\"911.38\" class=\"st0\" width=\"22.4\" height=\"15.84\"/>\n      <rect x=\"849.99\" y=\"911.38\" class=\"st0\" width=\"22.01\" height=\"15.84\"/>\n      <rect x=\"659.18\" y=\"884.34\" class=\"st0\" width=\"95.79\" height=\"79.95\"/>\n      <rect x=\"806.54\" y=\"927.22\" class=\"st0\" width=\"32.83\" height=\"35.15\"/>\n      <rect x=\"839.37\" y=\"927.22\" class=\"st0\" width=\"32.63\" height=\"35.15\"/>\n      <rect x=\"791.28\" y=\"829.69\" class=\"st0\" width=\"45.58\" height=\"20.47\"/>\n      <rect x=\"791.28\" y=\"799.37\" class=\"st0\" width=\"45.58\" height=\"30.51\"/>\n      <rect x=\"872.07\" y=\"810.96\" class=\"st0\" width=\"52.43\" height=\"22.4\"/>\n      <rect x=\"893.64\" y=\"738.35\" class=\"st0\" width=\"31.67\" height=\"32.43\"/>\n      <line class=\"st2\" x1=\"872.01\" y1=\"935.33\" x2=\"872.01\" y2=\"833.74\"/>\n      <line class=\"st2\" x1=\"493.48\" y1=\"805.16\" x2=\"493.48\" y2=\"778.23\"/>\n      <line class=\"st2\" x1=\"520.13\" y1=\"805.16\" x2=\"520.13\" y2=\"778.16\"/>\n      <line class=\"st2\" x1=\"568.8\" y1=\"805.55\" x2=\"596.61\" y2=\"805.55\"/>\n      <line class=\"st2\" x1=\"568.8\" y1=\"785.46\" x2=\"596.61\" y2=\"785.46\"/>\n      <line class=\"st2\" x1=\"568.8\" y1=\"763.45\" x2=\"596.61\" y2=\"763.45\"/>\n      <line class=\"st2\" x1=\"568.8\" y1=\"741.43\" x2=\"596.61\" y2=\"741.43\"/>\n      <line class=\"st2\" x1=\"390.35\" y1=\"823.32\" x2=\"436.31\" y2=\"823.32\"/>\n      <line class=\"st2\" x1=\"531.33\" y1=\"899.41\" x2=\"531.33\" y2=\"805.55\"/>\n      <line class=\"st2\" x1=\"493.48\" y1=\"852.67\" x2=\"568.41\" y2=\"852.67\"/>\n      <line class=\"st2\" x1=\"472.23\" y1=\"863.49\" x2=\"493.79\" y2=\"863.49\"/>\n      <line class=\"st2\" x1=\"574.98\" y1=\"948.85\" x2=\"588.88\" y2=\"948.85\"/>\n      <line class=\"st2\" x1=\"774.28\" y1=\"933.4\" x2=\"754.97\" y2=\"933.4\"/>\n      <line class=\"st2\" x1=\"844.2\" y1=\"810.96\" x2=\"889\" y2=\"810.96\"/>\n      <line class=\"st2\" x1=\"675.02\" y1=\"831.81\" x2=\"675.02\" y2=\"813.66\"/>\n      <line class=\"st2\" x1=\"695.1\" y1=\"831.81\" x2=\"695.1\" y2=\"813.66\"/>\n      <line class=\"st2\" x1=\"710.17\" y1=\"831.81\" x2=\"710.17\" y2=\"813.66\"/>\n      <line class=\"st2\" x1=\"724.84\" y1=\"831.81\" x2=\"724.84\" y2=\"813.66\"/>\n      <line class=\"st2\" x1=\"725.23\" y1=\"844.56\" x2=\"738.35\" y2=\"844.56\"/>\n      <line class=\"st2\" x1=\"745.32\" y1=\"885.12\" x2=\"745.32\" y2=\"853.44\"/>\n      <polyline class=\"st2\" points=\"763.94,852.26 763.94,862.77 773.91,862.77 773.91,913.37 \"/>\n      <line class=\"st2\" x1=\"848.06\" y1=\"789.33\" x2=\"924.15\" y2=\"789.33\"/>\n      <line class=\"st2\" x1=\"924.49\" y1=\"788.31\" x2=\"924.49\" y2=\"823.31\"/>\n      <line class=\"st2\" x1=\"1052.39\" y1=\"771.94\" x2=\"1103.37\" y2=\"771.94\"/>\n      <line class=\"st2\" x1=\"278.82\" y1=\"171.27\" x2=\"278.82\" y2=\"183.27\"/>\n    </g>\n\n    <!--<g id=\"zoneIndicators\"></g>\n    <g id=\"textLabels\"></g>\n    <g id=\"alarmsGroup\">\n      <g id=\"alarmsGroupHigh\"></g>\n      <g id=\"alarmsGroupMedium\"></g>\n      <g id=\"alarmsGroupLow\"></g>\n    </g>-->\n\n  </g>\n</svg>\n",
+    "blackRiverFallsMap": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   version=\"1.1\"\n   viewBox=\"0 0 1000.0 228.0\"\n>\n  <defs>\n  <style\n     type=\"text/css\">\n    .stairwell\n    {\n      fill: #eae8ea;\n      stroke: black;\n      stroke-width:2;\n    }\n\n    .door\n    {\n      fill: #eae8ea;\n      stroke: black;\n      stroke-width:2;\n    }\n\n    .doorFill, .door\n    {\n      fill: #dceaef;\n    }\n\n    .room, .reception\n    {\n      fill: #eae8ea;\n      stroke: black;\n      stroke-width: 2;\n    }\n\n    .cover\n    {\n      fill: #dceaef;\n    }\n\n    .wall\n    {\n      fill:none;\n      stroke: black;\n      stroke-width: 2;\n    }\n\n\n    #floorPlanGroup\n    {\n      stroke: black;\n      stroke-width:2;\n    }\n\n    .st0, .st1 { fill: #eae8ea; } /* Rooms.  */\n    .st2 { fill: none; } /* Some complex rooms */\n\n    /*.st0 { fill:#4584ba; }  Old rooms color. */\n    /*.st1 { fill: #DDD; }  Stairs old */\n\n    .legendText\n    {\n      font-family : 'Tahoma-Bold';\n      fill:black;\n      font-size: 20px;\n    }\n\n    #zoneIndicators\n    {\n      fill: black;\n    }\n\n    .floorErrorClass\n    {\n      animation-name: floorError;\n      animation-duration: 1s;\n      animation-timing-function: step-start;\n      animation-iteration-count: infinite;\n    }\n\n    @keyframes floorError\n    {\n      0%   { stroke: red; }\n      50%  { stroke: black; }\n      100% { stroke: red; }\n    }\n\n    #alarmsGroupHigh,\n    #alarmsGroupMedium,\n    #alarmsGroupLow\n    {\n      animation-timing-function: step-start;\n      animation-iteration-count: infinite;\n    }\n\n    #alarmsGroupHigh\n    {\n      animation-duration: 0.5s;\n      animation-name: alarmHigh;\n    }\n\n    #alarmsGroupMedium\n    {\n      animation-duration: 1s;\n      animation-name: alarmMedium;\n    }\n\n    #alarmsGroupLow\n    {\n      animation-duration: 1s;\n      animation-name: alarmLow;\n    }\n\n    @keyframes alarmHigh\n    {\n      0%   { fill: red; }\n      50%  { fill: black; }\n      100% { fill: red; }\n    }\n\n    @keyframes alarmMedium\n    {\n      0%   { fill: yellow; }\n      50%  { fill: black; }\n      100% { fill: yellow; }\n    }\n\n    @keyframes alarmLow\n    {\n      0%   { fill: cyan; }\n      50%  { fill: black; }\n      100% { fill: cyan; }\n    }\n\n    /*\n    ** .error\n    ** {\n    **   animation-name: zoneError;\n    ** }\n    **\n    ** @keyframes zoneError\n    ** {\n    **   0%   { fill: red; }\n    **   50%  { fill: black; }\n    **   100% { fill: red; }\n    ** }\n    */\n\n    .highlight\n    {\n      fill: cyan;\n    }\n\n  </style>\n  </defs>\n  <g id=\"zoomArea\">\n    <rect\n       class=\"stairwell\"\n       x=\"925.24298\"\n       y=\"25.691359\"\n       width=\"73.717194\"\n       height=\"40.990116\" />\n    <line\n       class=\"stairwell\"\n       x1=\"970.38208\"\n       y1=\"25.701767\"\n       x2=\"970.38208\"\n       y2=\"66.587914\" />\n    <path\n       class=\"stairwell\"\n       d=\"M 941.1683,66.587908\" />\n    <path\n       class=\"stairwell\"\n       d=\"M 941.1683,25.701772\" />\n    <line\n       class=\"stairwell\"\n       x1=\"946.21271\"\n       y1=\"25.732962\"\n       x2=\"946.21271\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"951.25708\"\n       y1=\"25.701767\"\n       x2=\"951.25708\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"956.04095\"\n       y1=\"25.764154\"\n       x2=\"956.04095\"\n       y2=\"66.639893\" />\n    <line\n       class=\"stairwell\"\n       x1=\"960.55389\"\n       y1=\"25.732962\"\n       x2=\"960.55389\"\n       y2=\"66.650299\" />\n    <line\n       class=\"stairwell\"\n       x1=\"965.32727\"\n       y1=\"25.784971\"\n       x2=\"965.32727\"\n       y2=\"66.671082\" />\n    <line\n       class=\"stairwell\"\n       x1=\"975.15558\"\n       y1=\"25.732962\"\n       x2=\"975.15558\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"979.6684\"\n       y1=\"25.74337\"\n       x2=\"979.6684\"\n       y2=\"66.619102\" />\n    <line\n       class=\"stairwell\"\n       x1=\"984.71277\"\n       y1=\"25.722584\"\n       x2=\"984.71277\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"984.98376\"\n       y1=\"46.914303\"\n       x2=\"945.74365\"\n       y2=\"46.914303\" />\n    <line\n       y2=\"171.03889\"\n       x2=\"423.07394\"\n       y1=\"171.03889\"\n       x1=\"416.73715\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"731.59,510.21 731.59,506.5 719.45,506.5 719.5,523.75 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 421.36466,185.53412 c 0.61492,0.11438 1.36533,0.13518 2.00109,0.12478 6.9517,-0.12478 13.16341,-7.65315 13.22595,-16.12777\"\n       class=\"door\"\n       />\n    <line\n       y2=\"170.01985\"\n       x2=\"421.89621\"\n       y1=\"186.76112\"\n       x1=\"421.89621\"\n       class=\"door\"\n       />\n    <line\n       y2=\"171.01808\"\n       x2=\"449.92184\"\n       y1=\"171.01808\"\n       x1=\"456.2482\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"733.43,510.12 733.5,514 745.76,514 745.71,496.5 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 451.62071,156.52285 c -0.61492,-0.11438 -1.36533,-0.13518 -2.00109,-0.12478 -6.9517,0.12478 -13.16341,7.65315 -13.22595,16.12777\"\n       class=\"door\"\n       />\n    <line\n       y2=\"172.05791\"\n       x2=\"451.0892\"\n       y1=\"155.39984\"\n       x1=\"451.0892\"\n       class=\"door\"\n       />\n    <line\n       y2=\"98.261139\"\n       x2=\"650.20795\"\n       y1=\"104.57291\"\n       x1=\"650.20795\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"937.71,428.26 934,428.26 934,440.41 951.25,440.36 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 664.73665,99.956068 c 0.11465,-0.6135 0.13549,-1.362178 0.12507,-2.006873 -0.12507,-6.935669 -7.67084,-13.133059 -16.16504,-13.195449\"\n       class=\"door\"\n       />\n    <line\n       y2=\"99.425743\"\n       x2=\"649.19696\"\n       y1=\"99.425743\"\n       x1=\"665.96649\"\n       class=\"door\"\n       />\n    <line\n       y2=\"71.475128\"\n       x2=\"650.18707\"\n       y1=\"65.163345\"\n       x1=\"650.18707\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"937.62,426.42 941.51,426.36 941.51,414.09 924,414.14 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 635.65833,69.780187 c -0.11464,0.6135 -0.13549,1.362178 -0.12506,2.006873 0.12506,6.935669 7.67084,13.133059 16.16504,13.195449\"\n       class=\"door\"\n       />\n    <line\n       y2=\"70.310486\"\n       x2=\"651.22931\"\n       y1=\"70.310486\"\n       x1=\"634.53271\"\n       class=\"door\"\n       />\n    <line\n       y2=\"98.261139\"\n       x2=\"244.37254\"\n       y1=\"104.57291\"\n       x1=\"244.37254\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"544.61,428.26 544.61,440.41 561.87,440.36 548.33,428.26 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 258.90127,99.956068 c 0.11465,-0.6135 0.13549,-1.362178 0.12507,-2.006873 -0.12507,-6.935669 -7.67084,-13.133059 -16.16504,-13.195449\"\n       class=\"door\"\n       />\n    <line\n       y2=\"99.425743\"\n       x2=\"243.3616\"\n       y1=\"99.425743\"\n       x1=\"260.1311\"\n       class=\"door\"\n       />\n    <line\n       y2=\"71.475128\"\n       x2=\"244.36211\"\n       y1=\"65.163345\"\n       x1=\"244.36211\"\n       class=\"door\"\n       />\n    <polygon\n       points=\"552.12,426.36 552.12,414.09 534.61,414.14 548.24,426.42 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 229.83338,69.780187 c -0.11465,0.6135 -0.13549,1.362178 -0.12507,2.006873 0.12507,6.935669 7.67084,13.133059 16.16504,13.195449\"\n       class=\"door\"\n       />\n    <line\n       y2=\"70.310486\"\n       x2=\"245.39391\"\n       y1=\"70.310486\"\n       x1=\"228.70773\"\n       class=\"door\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"83.378693\"\n       transform=\"scale(-1)\"\n       y=\"-168.68242\"\n       x=\"-926.08301\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"85.421471\"\n       transform=\"scale(-1)\"\n       y=\"-168.68242\"\n       x=\"-797.97546\"\n       class=\"room\"\n       />\n    <line\n       class=\"door\"\n       x1=\"880.29144\"\n       y1=\"103.03396\"\n       x2=\"876.19543\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"866.36725\"\n       y1=\"103.03396\"\n       x2=\"861.95862\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1154.55,441.57 1154.51,455.09 1144.59,444.8 1144.59,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 877.59204,114.98162 c -0.51069,0.0936 -1.12561,0.11438 -1.65715,0.10398 -5.73228,-0.10398 -10.83923,-6.1038 -10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"877.1543\"\n       y1=\"116.09422\"\n       x2=\"877.1543\"\n       y2=\"102.00453\" />\n    <line\n       class=\"door\"\n       x1=\"927.68176\"\n       y1=\"66.681488\"\n       x2=\"931.77783\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"941.59558\"\n       y1=\"66.681488\"\n       x2=\"946.00421\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1207.71,413 1207.75,399.3 1217.68,409.73 1217.68,413 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 930.37076,54.577865 c 0.51069,-0.09358 1.12561,-0.114381 1.65715,-0.103983 5.73228,0.103983 10.83923,6.186992 10.89134,13.257839\" />\n    <line\n       class=\"door\"\n       x1=\"930.80847\"\n       y1=\"53.454845\"\n       x2=\"930.80847\"\n       y2=\"67.731728\" />\n    <rect\n       class=\"stairwell\"\n       x=\"1.0422329\"\n       y=\"25.691359\"\n       width=\"73.717194\"\n       height=\"40.990116\" />\n    <line\n       class=\"stairwell\"\n       x1=\"29.620295\"\n       y1=\"25.701767\"\n       x2=\"29.620295\"\n       y2=\"66.587914\" />\n    <path\n       class=\"stairwell\"\n       d=\"M 58.82367,66.587908\" />\n    <path\n       class=\"stairwell\"\n       d=\"M 58.82367,25.701772\" />\n    <line\n       class=\"stairwell\"\n       x1=\"53.779263\"\n       y1=\"25.732962\"\n       x2=\"53.779263\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"48.734856\"\n       y1=\"25.701767\"\n       x2=\"48.734856\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"43.961411\"\n       y1=\"25.764154\"\n       x2=\"43.961411\"\n       y2=\"66.639893\" />\n    <line\n       class=\"stairwell\"\n       x1=\"39.448551\"\n       y1=\"25.732962\"\n       x2=\"39.448551\"\n       y2=\"66.650299\" />\n    <line\n       class=\"stairwell\"\n       x1=\"34.664703\"\n       y1=\"25.784971\"\n       x2=\"34.664703\"\n       y2=\"66.671082\" />\n    <line\n       class=\"stairwell\"\n       x1=\"24.836414\"\n       y1=\"25.732962\"\n       x2=\"24.836414\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"20.323557\"\n       y1=\"25.74337\"\n       x2=\"20.323557\"\n       y2=\"66.619102\" />\n    <line\n       class=\"stairwell\"\n       x1=\"15.279149\"\n       y1=\"25.722584\"\n       x2=\"15.279149\"\n       y2=\"66.681488\" />\n    <line\n       class=\"stairwell\"\n       x1=\"15.018591\"\n       y1=\"46.914303\"\n       x2=\"54.248249\"\n       y2=\"46.914303\" />\n    <line\n       class=\"door\"\n       x1=\"72.32061\"\n       y1=\"66.681488\"\n       x2=\"68.224609\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"58.396351\"\n       y1=\"66.681488\"\n       x2=\"53.987694\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"379.28,399.3 369.36,409.73 369.36,413 379.32,413 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"M 69.621212,54.577865 C 69.110517,54.484281 68.495599,54.463484 67.96406,54.473882 62.231775,54.577865 57.124829,60.660874 57.072718,67.731721\" />\n    <line\n       class=\"door\"\n       x1=\"69.183479\"\n       y1=\"53.454845\"\n       x2=\"69.183479\"\n       y2=\"67.731728\" />\n    <rect\n       height=\"5.0431776\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-146.88216\"\n       x=\"-851.82385\"\n       class=\"room\"\n       />\n    <rect\n       height=\"30.882967\"\n       width=\"44.732666\"\n       transform=\"scale(-1)\"\n       y=\"-168.674\"\n       x=\"-842.71826\"\n       class=\"room\"\n       />\n    <rect\n       height=\"38.796078\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-141.84181\"\n       x=\"-851.82385\"\n       class=\"room\"\n       />\n    <rect\n       height=\"5.0431776\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-129.88121\"\n       x=\"-797.97839\"\n       class=\"room\"\n       />\n    <rect\n       height=\"38.796078\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-168.67464\"\n       x=\"-797.97839\"\n       class=\"room\"\n       />\n    <rect\n       height=\"38.796078\"\n       width=\"30.193508\"\n       transform=\"scale(-1)\"\n       y=\"-141.84181\"\n       x=\"-956.28064\"\n       class=\"room\"\n       />\n    <rect\n       height=\"75.148544\"\n       width=\"48.244995\"\n       transform=\"scale(-1)\"\n       y=\"-141.84169\"\n       x=\"-998.95312\"\n       class=\"room\"\n       />\n    <line\n       class=\"room\"\n       x1=\"842.71887\"\n       y1=\"166.92114\"\n       x2=\"842.71887\"\n       y2=\"162.83463\" />\n    <line\n       class=\"room\"\n       x1=\"842.71887\"\n       y1=\"153.0394\"\n       x2=\"842.71887\"\n       y2=\"148.64095\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1119.17,502.34 1132.69,502.3 1122.4,492.37 1119.17,492.37 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 854.68375,164.23839 c 0.0938,-0.50952 0.11464,-1.12302 0.10422,-1.65333 -0.10422,-5.71907 -6.11791,-10.81424 -13.1113,-10.86623\" />\n    <line\n       class=\"room\"\n       x1=\"855.79895\"\n       y1=\"163.80165\"\n       x2=\"841.67664\"\n       y2=\"163.80165\" />\n    <rect\n       height=\"34.751133\"\n       width=\"44.732666\"\n       y=\"103.03397\"\n       x=\"797.97583\"\n       class=\"room\"\n       />\n    <line\n       class=\"room\"\n       x1=\"797.97583\"\n       y1=\"104.79128\"\n       x2=\"797.97583\"\n       y2=\"108.8778\" />\n    <line\n       class=\"room\"\n       x1=\"797.97583\"\n       y1=\"118.68343\"\n       x2=\"797.97583\"\n       y2=\"123.08189\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1082.6,450.28 1069.08,450.32 1079.37,460.24 1082.6,460.24 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 786.01097,107.48444 c -0.0938,0.50952 -0.11465,1.12302 -0.10423,1.65333 0.10423,5.71907 6.11792,10.81424 13.1113,10.86623\" />\n    <line\n       class=\"room\"\n       x1=\"784.89575\"\n       y1=\"107.92117\"\n       x2=\"799.01807\"\n       y2=\"107.92117\" />\n    <line\n       class=\"door\"\n       x1=\"757.59973\"\n       y1=\"103.03396\"\n       x2=\"761.70605\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"771.52399\"\n       y1=\"103.03396\"\n       x2=\"775.93262\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1044.53,441.57 1044.57,455.09 1054.5,444.8 1054.5,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 760.29906,114.98162 c 0.5107,0.0936 1.12561,0.11438 1.65715,0.10398 5.73229,-0.10398 10.83923,-6.1038 10.89135,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"760.73676\"\n       y1=\"116.09422\"\n       x2=\"760.73676\"\n       y2=\"102.00453\" />\n    <rect\n       height=\"65.644501\"\n       width=\"83.378693\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-925.2439\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"85.421471\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-797.13635\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"41.866524\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-711.70984\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"43.888462\"\n       transform=\"scale(-1)\"\n       y=\"-168.68242\"\n       x=\"-712.56165\"\n       class=\"room\"\n       />\n    <rect\n       height=\"39.773514\"\n       width=\"35.904953\"\n       transform=\"scale(-1)\"\n       y=\"-142.81667\"\n       x=\"-668.67145\"\n       class=\"room\"\n       />\n    <rect\n       height=\"34.314404\"\n       width=\"35.904953\"\n       transform=\"scale(-1)\"\n       y=\"-177.13393\"\n       x=\"-668.67145\"\n       class=\"room\"\n       />\n    <rect\n       height=\"41.59322\"\n       width=\"46.087574\"\n       transform=\"scale(-1)\"\n       y=\"-171.01756\"\n       x=\"-596.02185\"\n       class=\"room\"\n       />\n    <rect\n       height=\"55.942879\"\n       width=\"48.317951\"\n       transform=\"scale(-1)\"\n       y=\"-226.95894\"\n       x=\"-549.92542\"\n       class=\"room\"\n       />\n    <rect\n       height=\"11.562915\"\n       width=\"46.087574\"\n       transform=\"scale(-1)\"\n       y=\"-182.57716\"\n       x=\"-596.02185\"\n       class=\"room\"\n       />\n    <rect\n       height=\"9.7952032\"\n       width=\"46.087574\"\n       transform=\"scale(-1)\"\n       y=\"-226.959\"\n       x=\"-596.02185\"\n       class=\"room\"\n       />\n    <rect\n       height=\"41.59322\"\n       width=\"12.256668\"\n       transform=\"scale(-1)\"\n       y=\"-171.01756\"\n       x=\"-526.71185\"\n       class=\"room\"\n       />\n    <rect\n       height=\"41.59322\"\n       width=\"29.620281\"\n       transform=\"scale(-1)\"\n       y=\"-171.01756\"\n       x=\"-514.44531\"\n       class=\"room\"\n       />\n    <rect\n       height=\"41.59322\"\n       width=\"29.318033\"\n       transform=\"scale(-1)\"\n       y=\"-171.01756\"\n       x=\"-484.83289\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"84.181213\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-669.84583\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"85.89048\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-500.50665\"\n       class=\"room\"\n       />\n    <rect\n       height=\"22.657907\"\n       width=\"25.430502\"\n       transform=\"scale(-1)\"\n       y=\"-66.691597\"\n       x=\"-669.85095\"\n       class=\"room\"\n       />\n    <line\n       class=\"door\"\n       x1=\"879.4472\"\n       y1=\"66.681488\"\n       x2=\"875.34082\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"865.52295\"\n       y1=\"66.681488\"\n       x2=\"861.11432\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1153.74,412.96 1153.7,399.44 1143.77,409.73 1143.77,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 876.74783,54.744238 c -0.51069,-0.09359 -1.12561,-0.114381 -1.65715,-0.103983 -5.73228,0.103983 -10.83923,6.103805 -10.89134,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"876.31006\"\n       y1=\"53.63163\"\n       x2=\"876.31006\"\n       y2=\"67.721321\" />\n    <line\n       class=\"door\"\n       x1=\"699.14081\"\n       y1=\"66.681488\"\n       x2=\"695.03442\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"685.21655\"\n       y1=\"66.681488\"\n       x2=\"680.80792\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"980.74,412.96 980.7,399.44 970.77,409.73 970.77,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 696.4414,54.744238 c -0.51069,-0.09359 -1.12561,-0.114381 -1.65715,-0.103983 -5.73228,0.103983 -10.83923,6.103805 -10.89134,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"696.00366\"\n       y1=\"53.63163\"\n       x2=\"696.00366\"\n       y2=\"67.721321\" />\n    <rect\n       height=\"5.0431776\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-27.884594\"\n       x=\"-850.98486\"\n       class=\"room\"\n       />\n    <rect\n       height=\"30.882967\"\n       width=\"44.732666\"\n       transform=\"scale(-1)\"\n       y=\"-31.932659\"\n       x=\"-841.8689\"\n       class=\"room\"\n       />\n    <rect\n       height=\"38.796078\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-66.688454\"\n       x=\"-850.98486\"\n       class=\"room\"\n       />\n    <rect\n       height=\"5.0431776\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-44.896099\"\n       x=\"-797.12915\"\n       class=\"room\"\n       />\n    <rect\n       height=\"38.796078\"\n       width=\"9.119545\"\n       transform=\"scale(-1)\"\n       y=\"-39.845226\"\n       x=\"-797.12915\"\n       class=\"room\"\n       />\n    <line\n       class=\"room\"\n       x1=\"841.86432\"\n       y1=\"2.7943025\"\n       x2=\"841.86432\"\n       y2=\"6.8912373\" />\n    <line\n       class=\"room\"\n       x1=\"841.86432\"\n       y1=\"16.686455\"\n       x2=\"841.86432\"\n       y2=\"21.084917\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1118.35,352.19 1131.88,352.23 1121.58,362.16 1118.35,362.16 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 853.83954,5.4874674 c 0.0938,0.5095169 0.11464,1.1230169 0.10422,1.6533305 -0.10422,5.7190681 -6.11791,10.8142371 -13.1113,10.8662291\" />\n    <line\n       class=\"room\"\n       x1=\"854.94427\"\n       y1=\"5.9242024\"\n       x2=\"840.83252\"\n       y2=\"5.9242024\" />\n    <rect\n       height=\"34.751133\"\n       width=\"44.732666\"\n       y=\"31.930328\"\n       x=\"797.13159\"\n       class=\"room\"\n       />\n    <line\n       class=\"room\"\n       x1=\"797.13159\"\n       y1=\"64.934586\"\n       x2=\"797.13159\"\n       y2=\"60.848057\" />\n    <line\n       class=\"room\"\n       x1=\"797.13159\"\n       y1=\"51.042431\"\n       x2=\"797.13159\"\n       y2=\"46.64397\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1081.79,404.25 1068.27,404.21 1078.56,394.29 1081.79,394.29 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 785.15634,62.241416 c -0.0938,-0.509517 -0.11465,-1.123017 -0.10423,-1.65333 0.10423,-5.719068 6.11791,-10.814238 13.1113,-10.866229\" />\n    <line\n       class=\"room\"\n       x1=\"784.05164\"\n       y1=\"61.804684\"\n       x2=\"798.17383\"\n       y2=\"61.804684\" />\n    <line\n       class=\"door\"\n       x1=\"756.75543\"\n       y1=\"66.681488\"\n       x2=\"760.8515\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"770.67969\"\n       y1=\"66.681488\"\n       x2=\"775.08832\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"1043.72,412.96 1043.76,399.44 1053.68,409.73 1053.68,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 759.45485,54.744238 c 0.5107,-0.09359 1.12562,-0.114381 1.65715,-0.103983 5.73229,0.103983 10.83923,6.103805 10.89135,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"759.89258\"\n       y1=\"53.63163\"\n       x2=\"759.89258\"\n       y2=\"67.721321\" />\n    <line\n       class=\"room\"\n       x1=\"585.67279\"\n       y1=\"45.063408\"\n       x2=\"585.67279\"\n       y2=\"49.149963\" />\n    <line\n       class=\"room\"\n       x1=\"585.67279\"\n       y1=\"58.955559\"\n       x2=\"585.67279\"\n       y2=\"63.354019\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"878.9,392.84 865.38,392.88 875.67,402.8 878.9,402.8 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 573.69754,47.756577 c -0.0938,0.509517 -0.11465,1.123017 -0.10422,1.653331 0.10422,5.719067 6.11791,10.814237 13.1113,10.866228\" />\n    <line\n       class=\"room\"\n       x1=\"572.59277\"\n       y1=\"48.193306\"\n       x2=\"586.71503\"\n       y2=\"48.193306\" />\n    <line\n       class=\"door\"\n       x1=\"668.66583\"\n       y1=\"103.03396\"\n       x2=\"672.7619\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"682.59015\"\n       y1=\"103.03396\"\n       x2=\"686.99878\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"959.2,441.57 959.24,455.09 969.16,444.8 969.16,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 671.36526,114.98162 c 0.5107,0.0936 1.12561,0.11438 1.65715,0.10398 5.73229,-0.10398 10.83923,-6.1038 10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"671.80298\"\n       y1=\"116.09422\"\n       x2=\"671.80298\"\n       y2=\"102.00453\" />\n    <rect\n       height=\"67.994514\"\n       width=\"51.038185\"\n       transform=\"scale(-1)\"\n       y=\"-171.03984\"\n       x=\"-381.48883\"\n       class=\"room\"\n       />\n    <rect\n       height=\"67.994514\"\n       width=\"85.723717\"\n       transform=\"scale(-1)\"\n       y=\"-171.03984\"\n       x=\"-330.45203\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"567.71,476.99 583.43,461.27 583.43,444.74 548.59,444.74 548.59,476.99 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <line\n       class=\"door\"\n       x1=\"355.18283\"\n       y1=\"103.03396\"\n       x2=\"351.08685\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"341.26898\"\n       y1=\"103.03396\"\n       x2=\"336.86035\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"650.73,441.57 650.68,455.09 640.76,444.8 640.76,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 352.49386,114.98162 c -0.51069,0.0936 -1.12561,0.11438 -1.65715,0.10398 -5.73229,-0.10398 -10.83923,-6.1038 -10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"352.05612\"\n       y1=\"116.09422\"\n       x2=\"352.05612\"\n       y2=\"102.00453\" />\n    <line\n       class=\"door\"\n       x1=\"281.0383\"\n       y1=\"103.03396\"\n       x2=\"285.13428\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"294.96252\"\n       y1=\"103.03396\"\n       x2=\"299.37122\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"587.28,441.57 587.32,455.09 597.24,444.8 597.24,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 283.7377,114.98162 c 0.5107,0.0936 1.12562,0.11438 1.65715,0.10398 5.73229,-0.10398 10.83923,-6.1038 10.89135,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"284.17545\"\n       y1=\"116.09422\"\n       x2=\"284.17545\"\n       y2=\"102.00453\" />\n    <line\n       class=\"door\"\n       x1=\"514.44653\"\n       y1=\"129.42487\"\n       x2=\"510.35059\"\n       y2=\"129.42487\" />\n    <line\n       class=\"door\"\n       x1=\"500.53278\"\n       y1=\"129.42487\"\n       x2=\"496.11365\"\n       y2=\"129.42487\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"803.54,466.94 803.49,480.46 793.57,470.17 793.57,466.94 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 511.75759,141.37252 c -0.51069,0.0936 -1.12561,0.11438 -1.65715,0.10398 -5.73229,-0.10398 -10.83923,-6.1038 -10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"511.31985\"\n       y1=\"142.47475\"\n       x2=\"511.31985\"\n       y2=\"128.39543\" />\n    <line\n       class=\"door\"\n       x1=\"549.74701\"\n       y1=\"171.01808\"\n       x2=\"545.65106\"\n       y2=\"171.01808\" />\n    <line\n       class=\"door\"\n       x1=\"535.82275\"\n       y1=\"171.01808\"\n       x2=\"531.41406\"\n       y2=\"171.01808\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"837.4,506.94 837.36,520.46 827.44,510.17 827.44,506.94 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 547.04762,182.96574 c -0.51069,0.0936 -1.12561,0.11438 -1.65715,0.10398 -5.73228,-0.10398 -10.83923,-6.1038 -10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"546.60986\"\n       y1=\"184.06793\"\n       x2=\"546.60986\"\n       y2=\"169.97826\" />\n    <line\n       class=\"door\"\n       x1=\"632.40656\"\n       y1=\"174.32474\"\n       x2=\"626.76813\"\n       y2=\"174.32474\" />\n    <line\n       class=\"door\"\n       x1=\"616.9502\"\n       y1=\"174.32474\"\n       x2=\"612.53113\"\n       y2=\"174.32474\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"915.24,510.12 915.19,523.64 905.27,513.35 905.27,510.12 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 628.1751,186.262 c -0.5107,0.0936 -1.12562,0.11438 -1.65716,0.10398 -5.73228,-0.10398 -10.83923,-6.1038 -10.89134,-13.08106\" />\n    <line\n       class=\"door\"\n       x1=\"627.73737\"\n       y1=\"187.37459\"\n       x2=\"627.73737\"\n       y2=\"173.2849\" />\n    <line\n       class=\"door\"\n       x1=\"596.24103\"\n       y1=\"174.32474\"\n       x2=\"602.23389\"\n       y2=\"174.32474\" />\n    <line\n       class=\"door\"\n       x1=\"612.06213\"\n       y1=\"174.32474\"\n       x2=\"616.47083\"\n       y2=\"174.32474\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"891.53,510.12 891.57,523.64 901.49,513.35 901.49,510.12 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 600.83731,186.262 c 0.51069,0.0936 1.12561,0.11438 1.65715,0.10398 5.73228,-0.10398 10.83923,-6.1038 10.89134,-13.08106\" />\n    <line\n       class=\"door\"\n       x1=\"601.27502\"\n       y1=\"187.37459\"\n       x2=\"601.27502\"\n       y2=\"173.2849\" />\n    <line\n       class=\"door\"\n       x1=\"462.57455\"\n       y1=\"129.42487\"\n       x2=\"466.67053\"\n       y2=\"129.42487\" />\n    <line\n       class=\"door\"\n       x1=\"476.48843\"\n       y1=\"129.42487\"\n       x2=\"480.9075\"\n       y2=\"129.42487\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"761.45,466.94 761.5,480.46 771.42,470.17 771.42,466.94 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 465.26355,141.37252 c 0.51069,0.0936 1.12561,0.11438 1.65715,0.10398 5.73228,-0.10398 10.83923,-6.1038 10.89134,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"465.70126\"\n       y1=\"142.47475\"\n       x2=\"465.70126\"\n       y2=\"128.39543\" />\n    <line\n       class=\"door\"\n       x1=\"632.76093\"\n       y1=\"171.76675\"\n       x2=\"632.76093\"\n       y2=\"167.68024\" />\n    <line\n       class=\"door\"\n       x1=\"632.76093\"\n       y1=\"157.87463\"\n       x2=\"632.76093\"\n       y2=\"153.47615\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"917.73,506.99 931.25,506.95 920.96,497.03 917.73,497.03 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 644.73619,169.0736 c 0.0938,-0.50952 0.11465,-1.12302 0.10422,-1.65333 -0.10422,-5.71907 -6.11791,-10.81424 -13.1113,-10.86623\" />\n    <line\n       class=\"door\"\n       x1=\"645.85138\"\n       y1=\"168.63686\"\n       x2=\"631.72906\"\n       y2=\"168.63686\" />\n    <line\n       class=\"door\"\n       x1=\"632.76093\"\n       y1=\"103.03396\"\n       x2=\"632.76093\"\n       y2=\"107.13089\" />\n    <line\n       class=\"door\"\n       x1=\"632.76093\"\n       y1=\"116.92611\"\n       x2=\"632.76093\"\n       y2=\"121.32457\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"917.73,448.59 931.25,448.63 920.96,458.56 917.73,458.56 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 644.73619,105.72713 c 0.0938,0.50951 0.11465,1.12301 0.10422,1.65333 -0.10422,5.71907 -6.11791,10.81424 -13.1113,10.86623\" />\n    <line\n       class=\"door\"\n       x1=\"645.85138\"\n       y1=\"106.16386\"\n       x2=\"631.72906\"\n       y2=\"106.16386\" />\n    <rect\n       height=\"36.976372\"\n       width=\"35.904953\"\n       y=\"103.03397\"\n       x=\"381.48877\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"364.25,482.18 385.51,482.18 385.51,444.74 364.25,444.74 364.25,409.78 314.78,409.78 314.78,482.18 350.21,482.18 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <rect\n       height=\"31.018143\"\n       width=\"35.904953\"\n       y=\"140.02072\"\n       x=\"381.48877\"\n       class=\"room\"\n       />\n    <line\n       class=\"door\"\n       x1=\"417.39377\"\n       y1=\"148.8593\"\n       x2=\"417.39377\"\n       y2=\"152.88344\" />\n    <line\n       class=\"door\"\n       x1=\"417.39377\"\n       y1=\"162.53307\"\n       x2=\"417.39377\"\n       y2=\"166.86917\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"717.43,492.6 703.91,492.64 714.2,502.41 717.43,502.41 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 405.41849,151.51086 c -0.0938,0.49912 -0.11465,1.10222 -0.10423,1.62214 0.10423,5.63588 6.11792,10.64786 13.1113,10.69986\" />\n    <line\n       class=\"door\"\n       x1=\"404.31375\"\n       y1=\"151.93718\"\n       x2=\"418.42557\"\n       y2=\"151.93718\" />\n    <line\n       class=\"room\"\n       x1=\"416.88309\"\n       y1=\"103.03396\"\n       x2=\"412.78711\"\n       y2=\"103.03396\" />\n    <line\n       class=\"room\"\n       x1=\"402.9588\"\n       y1=\"103.03396\"\n       x2=\"398.55017\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"709.92,447.92 709.88,434.4 699.96,444.69 699.96,447.92 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 414.18367,91.096712 c -0.51069,-0.09358 -1.12561,-0.114381 -1.65715,-0.103983 -5.73228,0.103983 -10.83923,6.103805 -10.89134,13.081071\" />\n    <line\n       class=\"room\"\n       x1=\"413.74594\"\n       y1=\"89.984093\"\n       x2=\"413.74594\"\n       y2=\"104.07378\" />\n    <line\n       class=\"room\"\n       x1=\"266.32196\"\n       y1=\"134.89438\"\n       x2=\"269.21942\"\n       y2=\"132.00365\" />\n    <line\n       class=\"room\"\n       x1=\"276.17108\"\n       y1=\"125.07838\"\n       x2=\"279.28735\"\n       y2=\"121.96929\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"569.79,470.42 579.38,479.95 579.12,465.66 576.83,463.37 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 276.70263,141.44531 c 0.42731,-0.29116 0.87547,-0.71749 1.24025,-1.09183 3.98134,-4.11773 3.34557,-11.95805 -1.56335,-16.93884\" />\n    <line\n       class=\"room\"\n       x1=\"277.79697\"\n       y1=\"141.91324\"\n       x2=\"267.81235\"\n       y2=\"131.95164\" />\n    <rect\n       height=\"67.994514\"\n       width=\"84.243752\"\n       transform=\"scale(-1)\"\n       y=\"-171.03984\"\n       x=\"-244.72481\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"486.87,476.99 502.6,461.27 502.6,444.74 467.76,444.74 467.76,476.99 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <line\n       class=\"door\"\n       x1=\"196.79457\"\n       y1=\"103.03396\"\n       x2=\"200.89055\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"210.7084\"\n       y1=\"103.03396\"\n       x2=\"215.12746\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"506.49,455.09 516.41,444.8 516.41,441.57 506.45,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 199.49395,114.98162 c 0.5107,0.0936 1.12562,0.11438 1.65715,0.10398 5.73229,-0.10398 10.83923,-6.1038 10.89135,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"199.93167\"\n       y1=\"116.09422\"\n       x2=\"199.93167\"\n       y2=\"102.00453\" />\n    <line\n       class=\"room\"\n       x1=\"182.07823\"\n       y1=\"134.89438\"\n       x2=\"184.97565\"\n       y2=\"132.00365\" />\n    <line\n       class=\"room\"\n       x1=\"191.91693\"\n       y1=\"125.07838\"\n       x2=\"195.04362\"\n       y2=\"121.96929\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"488.95,470.42 498.54,479.95 498.28,465.66 496,463.37 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 192.44845,141.44531 c 0.42732,-0.29116 0.87548,-0.71749 1.24026,-1.09183 3.98133,-4.11773 3.34557,-11.95805 -1.56335,-16.93884\" />\n    <line\n       class=\"room\"\n       x1=\"193.54282\"\n       y1=\"141.91324\"\n       x2=\"183.5582\"\n       y2=\"131.95164\" />\n    <rect\n       height=\"67.994514\"\n       width=\"85.723717\"\n       y=\"103.03397\"\n       x=\"74.759407\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"448.64,476.99 432.92,461.27 432.92,444.74 467.76,444.74 467.76,476.99 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <line\n       class=\"door\"\n       x1=\"124.17174\"\n       y1=\"103.03396\"\n       x2=\"120.06533\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"110.24748\"\n       y1=\"103.03396\"\n       x2=\"105.83882\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"429.03,455.09 419.1,444.8 419.1,441.57 429.07,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 121.47234,114.98162 c -0.5107,0.0936 -1.12561,0.11438 -1.65715,0.10398 -5.73229,-0.10398 -10.83923,-6.1038 -10.89135,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"121.03461\"\n       y1=\"116.09422\"\n       x2=\"121.03461\"\n       y2=\"102.00453\" />\n    <line\n       class=\"door\"\n       x1=\"74.144516\"\n       y1=\"103.03396\"\n       x2=\"70.038116\"\n       y2=\"103.03396\" />\n    <line\n       class=\"door\"\n       x1=\"60.220261\"\n       y1=\"103.03396\"\n       x2=\"55.8116\"\n       y2=\"103.03396\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"381.03,455.09 371.1,444.8 371.1,441.57 381.07,441.57 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 71.445121,114.98162 c -0.510695,0.0936 -1.125613,0.11438 -1.657152,0.10398 -5.732285,-0.10398 -10.839231,-6.1038 -10.891342,-13.08107\" />\n    <line\n       class=\"door\"\n       x1=\"71.007385\"\n       y1=\"116.09422\"\n       x2=\"71.007385\"\n       y2=\"102.00453\" />\n    <line\n       class=\"room\"\n       x1=\"138.87764\"\n       y1=\"134.89438\"\n       x2=\"135.98022\"\n       y2=\"132.00365\" />\n    <line\n       class=\"room\"\n       x1=\"129.03896\"\n       y1=\"125.07838\"\n       x2=\"125.92268\"\n       y2=\"121.96929\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"446.56,470.42 436.97,479.95 437.23,465.66 439.52,463.37 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 128.50742,141.44531 c -0.42732,-0.29116 -0.87548,-0.71749 -1.24026,-1.09183 -3.98134,-4.11773 -3.34557,-11.95805 1.56335,-16.93884\" />\n    <line\n       class=\"room\"\n       x1=\"127.41307\"\n       y1=\"141.91324\"\n       x2=\"137.39766\"\n       y2=\"131.95164\" />\n    <rect\n       height=\"65.644501\"\n       width=\"84.16037\"\n       transform=\"scale(-1)\"\n       y=\"-66.685829\"\n       x=\"-414.61243\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"649.96,377.53 665.68,393.26 665.68,409.78 630.84,409.78 630.84,377.53 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <line\n       class=\"door\"\n       x1=\"366.76202\"\n       y1=\"66.681488\"\n       x2=\"370.858\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"380.68625\"\n       y1=\"66.681488\"\n       x2=\"385.09494\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"669.53,412.96 669.57,399.44 679.49,409.73 679.49,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 369.46142,54.744238 c 0.5107,-0.09359 1.12562,-0.114381 1.65716,-0.103983 5.73228,0.103983 10.83923,6.103805 10.89134,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"369.89917\"\n       y1=\"53.63163\"\n       x2=\"369.89917\"\n       y2=\"67.721321\" />\n    <line\n       class=\"room\"\n       x1=\"352.04568\"\n       y1=\"34.821102\"\n       x2=\"354.94315\"\n       y2=\"37.71183\" />\n    <line\n       class=\"room\"\n       x1=\"361.89481\"\n       y1=\"44.64748\"\n       x2=\"365.01108\"\n       y2=\"47.756565\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"652.04,384.11 661.63,374.58 661.37,388.87 659.08,391.16 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 362.42635,28.280552 c 0.42731,0.291152 0.87547,0.717483 1.24026,1.091822 3.98133,4.117729 3.34557,11.958051 -1.56336,16.938839\" />\n    <line\n       class=\"room\"\n       x1=\"363.52069\"\n       y1=\"27.812622\"\n       x2=\"353.53607\"\n       y2=\"37.763809\" />\n    <rect\n       height=\"65.644501\"\n       width=\"85.723717\"\n       y=\"1.0473946\"\n       x=\"244.72694\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"58.021149\"\n       y=\"1.0473946\"\n       x=\"186.70576\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"68.401794\"\n       y=\"1.0473946\"\n       x=\"118.35606\"\n       class=\"room\"\n       />\n    <rect\n       height=\"65.644501\"\n       width=\"43.596634\"\n       y=\"1.0473946\"\n       x=\"74.759407\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"611.37,377.53 595.35,393.26 595.35,409.78 630.84,409.78 630.84,377.53 \"\n       class=\"room\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\"\n       />\n    <line\n       class=\"door\"\n       x1=\"293.46173\"\n       y1=\"66.681488\"\n       x2=\"289.29279\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"279.28735\"\n       y1=\"66.681488\"\n       x2=\"274.79535\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"591.43,412.96 591.39,399.44 581.28,409.73 581.28,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 290.72067,54.744238 c -0.52112,-0.09359 -1.14646,-0.114381 -1.68842,-0.103983 -5.83651,0.103983 -11.03725,6.103805 -11.09979,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"290.27249\"\n       y1=\"53.63163\"\n       x2=\"290.27249\"\n       y2=\"67.721321\" />\n    <line\n       class=\"door\"\n       x1=\"199.82748\"\n       y1=\"66.681488\"\n       x2=\"204.00682\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"214.01227\"\n       y1=\"66.681488\"\n       x2=\"218.50429\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"509.48,399.44 519.58,409.73 519.58,412.96 509.43,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 202.57896,54.744238 c 0.52112,-0.09359 1.14646,-0.114381 1.68842,-0.103983 5.83651,0.103983 11.03726,6.103805 11.09979,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"203.02711\"\n       y1=\"53.63163\"\n       x2=\"203.02711\"\n       y2=\"67.721321\" />\n    <line\n       class=\"door\"\n       x1=\"78.667809\"\n       y1=\"66.681488\"\n       x2=\"82.847145\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"92.852592\"\n       y1=\"66.681488\"\n       x2=\"97.34462\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"393.23,399.44 403.33,409.73 403.33,412.96 393.18,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 81.419297,54.744238 c 0.521117,-0.09359 1.146457,-0.114381 1.688419,-0.103983 5.836508,0.103983 11.037255,6.103805 11.099789,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"81.867447\"\n       y1=\"53.63163\"\n       x2=\"81.867447\"\n       y2=\"67.721321\" />\n    <line\n       class=\"room\"\n       x1=\"308.44904\"\n       y1=\"34.821102\"\n       x2=\"305.49957\"\n       y2=\"37.71183\" />\n    <line\n       class=\"room\"\n       x1=\"298.42276\"\n       y1=\"44.64748\"\n       x2=\"295.25439\"\n       y2=\"47.756565\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"609.25,384.11 599.48,374.58 599.75,388.87 602.07,391.16 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"room\"\n       d=\"m 297.89124,28.280552 c -0.43774,0.291152 -0.8859,0.717483 -1.26111,1.091822 -4.05429,4.117729 -3.4081,11.958051 1.59462,16.938839\" />\n    <line\n       class=\"room\"\n       x1=\"296.77606\"\n       y1=\"27.812622\"\n       x2=\"306.93787\"\n       y2=\"37.763809\" />\n    <line\n       class=\"door\"\n       x1=\"596.02222\"\n       y1=\"137.50436\"\n       x2=\"596.02222\"\n       y2=\"141.5909\" />\n    <line\n       class=\"door\"\n       x1=\"596.02222\"\n       y1=\"151.39648\"\n       x2=\"596.02222\"\n       y2=\"155.79498\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"888.83,481.74 875.31,481.78 885.6,491.7 888.83,491.7 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 584.04692,140.19751 c -0.0938,0.50952 -0.11464,1.12302 -0.10422,1.65333 0.10422,5.71907 6.11791,10.81424 13.1113,10.86623\" />\n    <line\n       class=\"door\"\n       x1=\"582.94214\"\n       y1=\"140.63423\"\n       x2=\"597.06445\"\n       y2=\"140.63423\" />\n    <line\n       y2=\"159.74632\"\n       x2=\"526.71368\"\n       y1=\"164.32156\"\n       x1=\"526.71368\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"821.05,490.96 816.44,490.96 816.44,499.21 828.56,499.18 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 536.37515,160.97332 c 0.073,-0.44713 0.0938,-0.98784 0.0834,-1.44536 -0.0834,-5.02238 -5.10694,-9.50405 -10.74543,-9.54565\"\n       class=\"room\"\n       />\n    <line\n       y2=\"160.59898\"\n       x2=\"525.67145\"\n       y1=\"160.59898\"\n       x1=\"537.49036\"\n       class=\"room\"\n       />\n    <line\n       y2=\"140.23909\"\n       x2=\"526.71368\"\n       y1=\"135.66385\"\n       x1=\"526.71368\"\n       class=\"room\"\n       />\n    <polygon\n       points=\"821.08,488.84 816.44,488.84 816.44,480.59 828.62,480.62 \"\n       class=\"doorFill\"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       d=\"m 536.37515,139.0017 c 0.073,0.44713 0.0938,0.98784 0.0834,1.44537 -0.0834,5.02238 -5.10694,9.50405 -10.74543,9.54564\"\n       class=\"room\"\n       />\n    <line\n       y2=\"139.38646\"\n       x2=\"525.67145\"\n       y1=\"139.38646\"\n       x1=\"537.49036\"\n       class=\"room\"\n       />\n    <line\n       y2=\"1.0473946\"\n       x2=\"493.95618\"\n       y1=\"1.0473946\"\n       x1=\"588.01776\"\n       class=\"wall\"\n       />\n    <rect\n       height=\"4\"\n       width=\"25.024033\"\n       transform=\"scale(-1)\"\n       y=\"-69.081917\"\n       x=\"-470.5304\"\n       class=\"cover\"\n       />\n    <rect\n       height=\"22.481136\"\n       width=\"25.534725\"\n       y=\"44.200348\"\n       x=\"161.17104\"\n       class=\"room\"\n       />\n    <line\n       class=\"door\"\n       x1=\"157.06464\"\n       y1=\"66.681488\"\n       x2=\"152.88527\"\n       y2=\"66.681488\" />\n    <line\n       class=\"door\"\n       x1=\"142.87981\"\n       y1=\"66.681488\"\n       x2=\"138.38779\"\n       y2=\"66.681488\" />\n    <polygon\n       class=\"doorFill\"\n       points=\"460.52,399.44 450.41,409.73 450.41,412.96 460.56,412.96 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <path\n       class=\"door\"\n       d=\"m 154.31312,54.744238 c -0.52111,-0.09359 -1.14646,-0.114381 -1.68842,-0.103983 -5.83651,0.103983 -11.03725,6.103805 -11.09979,13.081068\" />\n    <line\n       class=\"door\"\n       x1=\"153.86496\"\n       y1=\"53.63163\"\n       x2=\"153.86496\"\n       y2=\"67.721321\" />\n    <rect\n       class=\"stairwell\"\n       x=\"553.28021\"\n       y=\"186.61554\"\n       width=\"39.396435\"\n       height=\"26.578068\" />\n    <line\n       class=\"wall\"\n       x1=\"592.5932\"\n       y1=\"186.66751\"\n       x2=\"553.37396\"\n       y2=\"213.08965\" />\n    <line\n       class=\"wall\"\n       x1=\"553.3844\"\n       y1=\"186.70915\"\n       x2=\"592.57245\"\n       y2=\"213.06883\" />\n    <polygon\n       class=\"room\"\n       points=\"882.43,525.11 882.43,530.7 885.64,530.7 885.64,523.84 885.65,523.84 885.65,521.28 884.8,521.28 870.41,521.24 845.68,521.29 843.22,521.28 842.28,521.27 841.43,521.27 841.43,521.8 841.42,554.49 885.64,554.49 885.64,545 882.43,545 882.43,550.68 844.64,550.68 844.64,525.11 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <rect\n       height=\"11.562915\"\n       width=\"46.087574\"\n       y=\"171.01807\"\n       x=\"455.51868\"\n       class=\"room\"\n       />\n    <rect\n       height=\"9.7952032\"\n       width=\"46.087574\"\n       y=\"217.15533\"\n       x=\"455.51868\"\n       class=\"room\"\n       />\n    <rect\n       class=\"stairwell\"\n       x=\"458.86423\"\n       y=\"186.61554\"\n       width=\"39.396435\"\n       height=\"26.578068\" />\n    <line\n       class=\"wall\"\n       x1=\"458.9476\"\n       y1=\"186.66751\"\n       x2=\"498.16687\"\n       y2=\"213.08965\" />\n    <line\n       class=\"wall\"\n       x1=\"498.146\"\n       y1=\"186.70915\"\n       x2=\"458.95804\"\n       y2=\"213.06883\" />\n    <polygon\n       class=\"room\"\n       points=\"754.06,525.11 754.06,530.7 750.84,530.7 750.84,523.84 750.84,521.28 751.68,521.28 766.08,521.24 790.81,521.29 793.27,521.28 794.21,521.27 795.06,521.27 795.06,521.8 795.06,554.49 750.84,554.49 750.84,545 754.06,545 754.06,550.68 791.85,550.68 791.85,525.11 \"\n       transform=\"matrix(1.0422337,0,0,1.0398305,-327.03209,-359.42025)\" />\n    <rect\n       height=\"11.354949\"\n       width=\"26.57696\"\n       transform=\"scale(-1)\"\n       y=\"-38.487652\"\n       x=\"-556.35614\"\n       class=\"room\"\n       />\n    <rect\n       height=\"8.9321432\"\n       width=\"34.65427\"\n       transform=\"scale(-1)\"\n       y=\"-9.9731855\"\n       x=\"-560.38965\"\n       class=\"room\"\n       />\n    <rect\n       height=\"36.39407\"\n       width=\"9.6823502\"\n       transform=\"scale(-1)\"\n       y=\"-42.733685\"\n       x=\"-585.67236\"\n       class=\"room\"\n       />\n    <rect\n       height=\"36.39407\"\n       width=\"9.6823502\"\n       transform=\"scale(-1)\"\n       y=\"-42.733685\"\n       x=\"-510.1944\"\n       class=\"room\"\n       />\n    <path\n       class=\"reception\"\n       d=\"m 563.45237,82.41411 c 1.50082,0 2.72023,-1.2166 2.72023,-2.71395 0,-0.0104 0,-10.62706 0,-10.62706 h -3.99176 v 7.19562 1.05023 1.279 h -1.20898 -0.99013 -10.14093 v 3.81616 c 0,0 13.60114,0 13.61157,0 z\" />\n    <path\n       class=\"reception\"\n       d=\"m 522.35709,82.41411 c -1.50081,0 -2.72022,-1.2166 -2.72022,-2.71395 0,-0.0104 0,-10.62706 0,-10.62706 h 3.99175 v 7.19562 1.05023 1.279 h 1.20899 0.99012 10.14094 v 3.81616 c 0,0 -13.60116,0 -13.61158,0 z\" />\n    <rect\n       class=\"reception\"\n       x=\"-562.16998\"\n       y=\"-78.602638\"\n       transform=\"scale(-1)\"\n       width=\"38.520954\"\n       height=\"8.4538212\" />\n    <rect\n       class=\"reception\"\n       x=\"-558.00903\"\n       y=\"-48.62254\"\n       transform=\"scale(-1)\"\n       width=\"29.985064\"\n       height=\"10.138347\" />\n    <g style=\"visibility: hidden;\">\n      <path\n         d=\"m 272.40861,85.25285 c 0,3.52503 2.86615,6.37416 6.3889,6.37416 3.53317,0 6.38889,-2.85952 6.38889,-6.37416 0,-3.52502 -2.86614,-6.37415 -6.38889,-6.37415 -3.53318,0 -6.3889,2.85953 -6.3889,6.37415 z\" />\n      <path\n         d=\"m 760.1844,85.25285 c 0,3.52503 2.8661,6.37416 6.3888,6.37416 3.5332,0 6.389,-2.85952 6.389,-6.37416 0,-3.52502 -2.8662,-6.37415 -6.389,-6.37415 -3.5331,0 -6.3888,2.85953 -6.3888,6.37415 z\" />\n      <path\n         d=\"m 536.69823,52.10305 c 0,3.52504 2.86615,6.37417 6.38889,6.37417 3.53317,0 6.3889,-2.85953 6.3889,-6.37417 0,-3.52502 -2.86615,-6.37415 -6.3889,-6.37415 -3.53316,-0.0104 -6.38889,2.84913 -6.38889,6.37415 z\" />\n      <path\n         d=\"m 56.95806,68.00207 c 0,3.52502 2.86615,6.37416 6.3889,6.37416 3.53317,0 6.3889,-2.85954 6.3889,-6.37416 0,-3.52502 -2.86615,-6.37417 -6.3889,-6.37417 -3.53317,0 -6.3889,2.84915 -6.3889,6.37417 z\" />\n      <path\n         d=\"m 930.2561,68.00207 c 0,3.52502 2.8661,6.37416 6.3888,6.37416 3.5333,0 6.389,-2.85954 6.389,-6.37416 0,-3.52502 -2.8661,-6.37417 -6.389,-6.37417 -3.5331,0 -6.3888,2.84915 -6.3888,6.37417 z\" />\n      <path\n         d=\"m 607.87237,174.32474 c 0,3.52502 2.86614,6.37415 6.38889,6.37415 3.53317,0 6.38889,-2.85953 6.38889,-6.37415 0,-3.52503 -2.86614,-6.37417 -6.38889,-6.37417 -3.52275,-0.0104 -6.38889,2.84914 -6.38889,6.37417 z\" />\n      <path\n         d=\"m 429.99434,170.01984 c 0,3.52502 2.86615,6.37416 6.3889,6.37416 3.53318,0 6.38889,-2.85954 6.38889,-6.37416 0,-3.52502 -2.86614,-6.37417 -6.38889,-6.37417 -3.53317,0 -6.3889,2.85954 -6.3889,6.37417 z\" />\n    </g>\n  </g>\n</svg>\n",
+    "beaconIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <rect x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n    <circle fill=\"white\" cx=\"15.59\" cy=\"15.59\" r=\"12.88\">\n      <animate\n        id=\"animationStroke\"\n        attributeName=\"fill\"\n        values=\"black;white\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n    </circle>\n\n    <path d=\"M15.6,29.47A13.88,13.88,0,1,1,29.47,15.6,13.89,13.89,0,0,1,15.6,29.47Zm0-25.75A11.88,11.88,0,1,0,27.47,15.6,11.88,11.88,0,0,0,15.6,3.72Z\" />\n\n    <g>\n      <path d=\"M13.4,25.06a.77.77,0,0,1-.25,0,9.75,9.75,0,0,1-7-6.94,1,1,0,0,1,1.94-.51,7.75,7.75,0,0,0,5.54,5.52,1,1,0,0,1-.25,2Z\" />\n      <path d=\"M17.88,25a1,1,0,0,1-.26-2A7.76,7.76,0,0,0,20.41,9.5a1,1,0,1,1,1.24-1.56A9.75,9.75,0,0,1,18.14,25,.78.78,0,0,1,17.88,25Z\" />\n      <path d=\"M7.09,14.57l-.23,0a1,1,0,0,1-.75-1.21A9.78,9.78,0,0,1,17.12,6a1,1,0,1,1-.31,2A7.78,7.78,0,0,0,8.06,13.8,1,1,0,0,1,7.09,14.57Z\" />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"rotate\"\n\n        from=\"0 15.595 15.595\"\n        to=\"360 15.595 15.595\"\n\n        begin=\"indefinite\"\n        dur=\"5s\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <g>\n      <path d=\"M19.94,12.2a3,3,0,0,0-4.34.6,3,3,0,0,0-4.33-.6c-1.36,1-.89,3.27.6,5.06a23.82,23.82,0,0,0,3.73,3.41,24.26,24.26,0,0,0,3.74-3.41C20.82,15.47,21.29,13.24,19.94,12.2Z\" />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"translate\"\n        values=\"\n          -7.7975 -7.7975;\n          0 0 ;\n          -7.7975 -7.7975;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0;\n          0 0\"\n\n        begin=\"indefinite\"\n        dur=\"1.0s\"\n        repeatCount=\"indefinite\"\n      />\n\n      <animateTransform\n        attributeName=\"transform\"\n        type=\"scale\"\n        additive=\"sum\"\n        values=\"\n          1.5;\n          1;\n          1.5;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1;\n          1\"\n\n        begin=\"indefinite\"\n        dur=\"1.0s\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <animate\n      id=\"animationFill\"\n      attributeName=\"fill\"\n      values=\"red;black\"\n      dur=\"1.0s\"\n      calcMode=\"discrete\"\n      begin=\"indefinite\"\n      repeatCount=\"indefinite\"\n    />\n\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n  </g>\n</svg>\n",
+    "stairsIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <rect x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n    <g fill=\"white\">\n      <polygon points=\"4.16 4.39 4.16 9.53 12.03 14.22 18.54 14.22 18.54 8.33 11.35 8.33 11.35 4.39 4.16 4.39\" />\n      <polygon points=\"20.38 13.1 20.38 16.15 13.18 16.15 13.18 20.47 3.72 20.47 3.72 26.8 9.37 26.8 23.07 19.28 27.85 19.28 27.85 13.1 20.38 13.1\" />\n      <animate\n        id=\"animationStroke\"\n        attributeName=\"fill\"\n        values=\"black;white\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n    </g>\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n\n    <animate\n      id=\"animationFill\"\n      attributeName=\"fill\"\n      values=\"red;black\"\n      dur=\"1.0s\"\n      calcMode=\"discrete\"\n      begin=\"indefinite\"\n      repeatCount=\"indefinite\"\n    />\n\n  </g>\n</svg>",
+    "zoneType1Icon": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"-1 -1 22 22\"\n  version=\"1.1\"\n>\n  <defs>\n    <filter id=\"blurFilter\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n      <feGaussianBlur stdDeviation=\"0.5\" />\n    </filter>\n  </defs>\n  <g id=\"layer1\">\n    <rect\n       style=\"fill:inherit;fill-opacity:1;stroke:black;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\n       id=\"box\"\n       width=\"20\"\n       height=\"20\"\n       x=\"0\"\n       y=\"0\"\n       rx=\"5\"\n    />\n    <g id=\"labelGroup\">\n      <text\n         y=\"17.5\"\n         x=\"3\"\n         style=\"font-style:normal;font-weight:normal;font-size:6mm;fill:white;\"\n      >B</text>\n\n      <text\n         y=\"17.75\"\n         x=\"3.25\"\n         id=\"blur\"\n         style=\"font-style:normal;font-weight:normal;font-size:6mm;fill:white;filter:url(#blurFilter)\"\n      >B</text>\n\n    </g>\n  </g>\n</svg>\n",
+    "doubleDoorIcon": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  viewBox=\"0 0 31.19 31.19\"\n>\n  <g>\n    <g>\n      <rect fill=\"inherit\" x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n\n\n      <rect fill=\"white\" x=\"3.51\" y=\"3.51\" width=\"24.17\" height=\"24.17\">\n        <animate\n          id=\"animationStroke\"\n          attributeName=\"fill\"\n          values=\"black;white\"\n          dur=\"1.0s\"\n          calcMode=\"discrete\"\n          begin=\"0s\"\n          repeatCount=\"indefinite\"\n        />\n\n      </rect>\n\n      <polygon fill=\"inherit\" points=\"3.51 3.51 8.36 7.27 8.36 22.01 3.51 27.68 14.77 28.68 14.77 2.51 3.51 3.51\" />\n      <rect fill=\"inherit\" x=\"3.11\" y=\"14.83\" width=\"24.94\" height=\"1.73\" transform=\"translate(31.18 0.01) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"17.14\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(35.08 -3.89) rotate(90)\" />\n\n      <animate\n        attributeName=\"visibility\"\n        values=\"visible;visible;visible;hidden\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        repeatCount=\"indefinite\"\n        begin=\"indefinite\"\n      />\n\n      <animate\n        id=\"animationFill\"\n        attributeName=\"fill\"\n        values=\"red;black\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        begin=\"indefinite\"\n        repeatCount=\"indefinite\"\n      />\n\n    </g>\n\n    <g>\n      <!--<rect fill=\"green\" width=\"31.19\" height=\"31.19\" rx=\"5.59\" />-->\n      <rect fill=\"inherit\" x=\"1\" y=\"1\" width=\"29.19\" height=\"29.19\" rx=\"5.59\" />\n\n      <rect fill=\"white\" x=\"3.51\" y=\"3.51\" width=\"24.17\" height=\"24.17\" />\n      <rect fill=\"inherit\" x=\"3.11\" y=\"14.78\" width=\"24.94\" height=\"1.63\" transform=\"translate(31.18 0.01) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"9.31\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(27.24 3.94) rotate(90)\" />\n      <rect fill=\"inherit\" x=\"17.14\" y=\"14.78\" width=\"4.68\" height=\"1.63\" transform=\"translate(35.08 -3.89) rotate(90)\" />\n\n      <animate\n        attributeName=\"visibility\"\n        values=\"hidden;hidden;hidden;visible\"\n        dur=\"1.0s\"\n        calcMode=\"discrete\"\n        repeatCount=\"indefinite\"\n        begin=\"indefinite\"\n      />\n\n    </g>\n\n    <rect fill=\"none\" stroke=\"black\" stroke-width=\"2\" x=\"1.5\" y=\"1.5\" width=\"28.19\" height=\"28.19\" rx=\"4.25\" />\n  </g>\n\n</svg>"
+  }
+}

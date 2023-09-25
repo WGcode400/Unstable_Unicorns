@@ -1,0 +1,97 @@
+<template id="tagEditPopoutTemplate">
+  <div id="tagEditPopout"></div>
+</template>
+
+<template id="tagEditTemplate">
+  <div id="tagEdit" class="w2ui-form-box" style="width: 100%; height: 100%">
+    <div class="w2ui-page page-0" style="top: 30px; bottom: 58px;">
+      <div class="w2ui-column-container" style="display: flex;">
+        <div class="w2ui-column col-0">
+          <input name="recid" id="recid" type="hidden" />
+
+          <div class="w2ui-field w2ui-span6" style="">
+            <label>Tag Id</label>
+            <div>
+              <input name="tag" class="w2ui-input" size="4" maxlength="4" tabindex="1" id="tag" type="text" />
+            </div>
+          </div>
+
+          <div class="w2ui-field w2ui-span6 w2ui-required" style="">
+            <label>First Name</label>
+            <div>
+              <input name="first" class="w2ui-input" size="40" maxlength="40" tabindex="2" id="first" type="text" />
+            </div>
+          </div>
+
+          <div class="w2ui-field w2ui-span6" style="">
+            <label>Middle Name</label>
+            <div>
+              <input name="middle" class="w2ui-input" size="40" maxlength="40" tabindex="3" id="middle" type="text" />
+            </div>
+          </div>
+          <div class="w2ui-field w2ui-span6 w2ui-required" style="">
+            <label>Last Name</label>
+            <div>
+              <input name="last" class="w2ui-input" size="40" maxlength="40" tabindex="4" id="last" type="text" />
+            </div>
+          </div>
+          <div class="w2ui-field w2ui-span6 w2ui-required" style="">
+            <label>room</label>
+            <div>
+              <input name="room" class="w2ui-input w2field" tabindex="5" id="room" style="box-sizing: border-box;" type="text" />
+            </div>
+          </div>
+          <div class="w2ui-field w2ui-span6" style="">
+            <label>Notes</label>
+            <div>
+              <textarea name="notes" class="w2ui-input" style="min-width: 300px; height: 90px" tabindex="6" id="notes"></textarea>
+            </div>
+          </div>
+
+          <!-- $$$
+          <div class="w2ui-field w2ui-span6" style="">
+            <label>Date</label>
+            <div>
+              <input name="addDate" class="w2ui-input w2field" size="25" readonly="" tabindex="7" id="addDate" placeholder="m/d/yyyy" style="box-sizing: border-box;" type="text" />
+            </div>
+          </div>
+          -->
+
+          <div class="w2ui-field w2ui-span6" style="">
+            <label>Photo file</label>
+            <div>
+              <div class="w2ui-field-helper w2ui-list" style="margin: 0px; width: 300px; box-sizing: border-box; height: 26px; overflow: hidden;">
+                <div class="w2ui-enum-placeholder" style="padding-top: 4px;padding-left: 4px; box-sizing: border-box; line-height: 15px; font-size: 11px; font-family: MS Shell Dlg \32 ; ">Attach files by dragging and dropping or Click to Select</div>
+                <div style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;">
+                  <input class="file-input" style="width: 100%; height: 100%; opacity: 0;" name="attachment" multiple="" tabindex="-1" type="file" />
+                </div>
+                <div style="position: absolute; padding: 0px; margin: 0px; display: inline-block" class="w2ui-multi-items">
+                  <ul>
+                    <li style="padding-left: 0px; padding-right: 0px; opacity: 1;" class="nomouse"></li>
+                  </ul>
+                </div>
+              </div>
+              <input name="photo" class="w2ui-input w2field" size="40" tabindex="7" id="photo" placeholder="Attach files by dragging and dropping or Click to Select" style="background-color: transparent; border-color: transparent; outline: medium none; z-index: -1; height: 28px; box-sizing: border-box;" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="w2ui-column col-1" style="width: 100%">
+          <div class="w2ui-field w2ui-span6" style="width: 100%">
+            <p style="text-align: center">
+              <img
+                id="patientPicture"
+                alt="Patient picture"
+                src=""
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w2ui-buttons" style="">
+      <button name="Reset" class="w2ui-btn " style="">Reset</button>
+      <button name="Save" class="w2ui-btn w2ui-btn-blue" style="">Save</button>
+      <button name="Delete" class="w2ui-btn " style="">Delete</button>
+    </div>
+  </div>
+</template>

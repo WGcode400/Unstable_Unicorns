@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+	viewBox="0 0 612 792"
+	style="enable-background:new 0 0 612 792;"
+	xml:space="preserve"
+>
+<style type="text/css">
+	.st0{fill:#eae8ea;stroke:#000000;stroke-width:6;}
+	.st1{fill:#dceaef;stroke:#000000;stroke-width:6;}
+	.st2{fill:#dceaef;}
+	.st3{fill:#dceaef;}
+</style>
+<g id="zoomArea">
+	<polygon class="st0" points="592.43,544.74 74.61,544.74 74.61,323.3 2.76,323.3 2.76,246.46 592.43,246.46 	"/>
+
+	<!-- Top left door -->
+	<g>
+		<line class="st1" x1="11.76" y1="323.23" x2="26.07" y2="323.23"/>
+		<line class="st1" x1="53.02" y1="323.23" x2="69.55" y2="323.23"/>
+		<polygon class="st2" points="26.42,293.71 53.16,317.9 53.16,332.77 26.31,332.77 		"/>
+		<path class="st1" d="M22.23,290.04c1.4-0.26,3.08-0.31,4.54-0.28c15.72,0.28,29.75,17.53,29.9,36.92"/>
+		<line class="st1" x1="23.43" y1="286.18" x2="23.43" y2="326.79"/>
+	</g>
+
+	<!-- Bottom right door -->
+	<g>
+		<line class="st1" x1="592.43" y1="544.74" x2="592.43" y2="530.28"/>
+		<line class="st1" x1="592.43" y1="503.05" x2="592.43" y2="486.34"/>
+		<polygon class="st3" points="563.22,529.92 587.16,502.91 601.88,502.91 601.88,530.04 		"/>
+		<path class="st0" d="M559.59,534.16c-0.26-1.41-0.3-3.11-0.28-4.58c0.28-15.89,17.35-30.06,36.54-30.21"/>
+		<line class="st1" x1="555.77" y1="532.95" x2="595.96" y2="532.95"/>
+	</g>
+</g>
+</svg>

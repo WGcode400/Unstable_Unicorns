@@ -1,0 +1,36 @@
+
+<!-- Basic template for example 1. -->
+<template id="debugTemplate">
+  <div id="{id}">
+    <h3>{title}</h3>
+    <p>{name}</p>
+    <p>{location}</p>
+  </div>
+
+</template>
+
+
+<!-- Basic template for example 2. -->
+<template id="recordTemplate">
+  <div id="record_{id}">
+    <img src="data:image/png;base64,{photo}" alt="Photo" />
+    <section>
+      <h1>{first} {last}</h1>
+      <div>
+        <p>{address}</p>
+        <p>{city}, {state}</p>
+        <p>{workPhone}</p>
+      </div>
+    </section>
+    <!--
+    <div> <h2>Address:</h2> <p>{address}, {city}, {state}</p>   </div>
+
+    <h1>{first} {middle} {last}</h1>
+    <div> <h2>Address:</h2> <p>{address}</p>   </div>
+    <div> <h2>City:   </h2> <p>{city}</p>      </div>
+    <div> <h2>State:  </h2> <p>{state}</p>     </div>
+    <div> <h2>Notes:  </h2> <p>{notes}</p>     </div>
+    -->
+  </div>
+
+</template>

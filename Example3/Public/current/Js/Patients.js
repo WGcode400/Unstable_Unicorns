@@ -1,0 +1,9 @@
+﻿
+class Patients
+{
+    constructor() {
+
+    }
+
+}
+
